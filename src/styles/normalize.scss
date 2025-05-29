@@ -1,0 +1,15 @@
+@use './vars.scss' as *;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $light-bg-color;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
