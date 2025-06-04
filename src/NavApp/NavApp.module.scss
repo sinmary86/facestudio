@@ -1,0 +1,53 @@
+@use '../styles/vars.scss' as *;
+
+.navbarCustom {
+  font-family: $font-title !important;
+  color: $dark-text-color !important;
+  background-color: $light-bg-color;
+  padding: $gap-16 $gap-64;
+}
+
+:global(.navbar-toggler) {
+  border: none !important;
+  box-shadow: none !important;
+  color: $dark-text-color !important;
+}
+
+.offcanvas {
+    background-color: $light-bg-color !important;
+     padding-left: $gap-16;
+  }
+
+:global(.dropdown-menu) {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+:global(.dropdown-item),
+:global(.nav-link) {
+  transition: transform 0.2s ease, color 0.2s ease;
+  color: $dark-text-color !important;
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: transparent !important; 
+  }
+
+  &:active,
+  &.active {
+    background-color: transparent !important;
+  }
+}
+
+.navLinks {
+  font-family: $font-title !important;
+  color: $dark-text-color !important;
+}
+
+@media (max-width: 768px) {
+
+.navbarCustom {
+  padding: $gap-16 $gap-16;
+}
+}
