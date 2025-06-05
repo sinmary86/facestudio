@@ -22,8 +22,6 @@ export const ActualCard = () =>  {
       <Card.Body className={styles.actualBody}>
         <Card.Title className={styles.title}>{actual.title}</Card.Title>
         <Card.Text className={styles.text}>{actual.text} </Card.Text>
-        {/* <Card.Title >{actual.title}</Card.Title>
-        <Card.Text >{actual.text} </Card.Text> */}
        </Card.Body >
     </Card>
     ))}
