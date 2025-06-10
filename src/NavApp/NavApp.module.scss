@@ -25,7 +25,8 @@
 }
 
 :global(.dropdown-item),
-:global(.nav-link) {
+:global(.nav-link),
+:global(.custom-nav-link) {
   transition: transform 0.2s ease, color 0.2s ease;
   color: $dark-text-color !important;
 

@@ -1,18 +1,18 @@
-import { AccordionList } from "./Accordion/AccordionList";
-import { NavApp } from "./NavApp/NavApp";
-import { ActualCard } from "./Actual/ActualCard";
+import { BrowserRouter } from "react-router-dom";
+import { routes } from "./routes";
+import { useRoutes } from "react-router-dom";
+import { Suspense } from "react";
 
+const AppRoutes = () => {
+  return <Suspense fallback={<div>Chargement...</div>}>{useRoutes(routes)}</Suspense>;
+};
 
 function App() {
- 
-
   return (
-    <>
-      <NavApp />
-      <ActualCard/>
-      <AccordionList />
-    </>
-  )
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

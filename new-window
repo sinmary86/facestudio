@@ -1,0 +1,8 @@
+import { ActualCard } from "@/widgets/CounterpartyEditor";
+
+
+const MainPage = () => {
+    return <ActualCard />
+}
+
+export default MainPage;
