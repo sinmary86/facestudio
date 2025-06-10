@@ -1,11 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { routes } from "./routes";
-import { useRoutes } from "react-router-dom";
-import { Suspense } from "react";
-
-const AppRoutes = () => {
-  return <Suspense fallback={<div>Chargement...</div>}>{useRoutes(routes)}</Suspense>;
-};
+import { AppRoutes } from "./AppRoutes";
 
 function App() {
   return (
