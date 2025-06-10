@@ -3,10 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 import styles from './NavApp.module.scss';
 
-//TODO - добавить навигацию вместо action 
 //TODO - нужно ли заменить brand на лого 
+//TODO - а нужен ли нам Copie de Services - сейчас ведет на главную
 
 export const NavApp = () => {
   return (
@@ -14,7 +15,7 @@ export const NavApp = () => {
     
     <Navbar expand={false} className={styles.navbarCustom}>
           <Container fluid>
-            <Navbar.Brand href="#">NK Facestudio</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/">NK Facestudio</Navbar.Brand>
 
             <Navbar.Toggle aria-controls="offcanvasNavbar" className={styles.toggler} />
             <Navbar.Offcanvas
@@ -27,21 +28,24 @@ export const NavApp = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className={`justify-content-end flex-grow-1 pe-3 ${styles.navLinks}`}>
-                  <Nav.Link href="#action1">Accueil</Nav.Link>
-                  <Nav.Link href="#action2">A propos</Nav.Link>
+                  <Nav.Link as={Link} to="/">Accueil</Nav.Link>
+                  <Nav.Link as={Link} to="/a-propos">A propos</Nav.Link>
                   <NavDropdown
-                    title="Services"
-                    id="offcanvasNavbarDropdown"
-                    className={styles.dropdown}
-                  >
-                    <NavDropdown.Item href="#action3">Accompagnement Individuel</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">Cours en Groupe</NavDropdown.Item>
-                    <NavDropdown.Item href="#action5">Offres pour les Entreprises</NavDropdown.Item>
-                    <NavDropdown.Item href="#action6">Ateliers & Formations</NavDropdown.Item>
+                          title={
+                            <Link to="/services" className="custom-nav-link"> 
+                              Services
+                            </Link>
+                          }
+                          id="offcanvasNavbarDropdown"
+                        >
+                    <NavDropdown.Item  as={Link} to="/services/accompagnement-individuel">Accompagnement Individuel</NavDropdown.Item>
+                    <NavDropdown.Item  as={Link} to="/services/cours-en-groupe">Cours en Groupe</NavDropdown.Item>
+                    <NavDropdown.Item  as={Link} to="/services/offres-entreprises">Offres pour les Entreprises</NavDropdown.Item>
+                    <NavDropdown.Item  as={Link} to="/services/ateliers-formations">Ateliers & Formations</NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#action7">Copie de Services</Nav.Link>
-                  <Nav.Link href="#action8">FAQ</Nav.Link>
-                  <Nav.Link href="#action9">Contact</Nav.Link>
+                  <Nav.Link as={Link} to="/">Copie de Services</Nav.Link>
+                  <Nav.Link as={Link} to="/faq">FAQ</Nav.Link>
+                  <Nav.Link as={Link} to="/contacts">Contact</Nav.Link>
                 </Nav>
                
 
