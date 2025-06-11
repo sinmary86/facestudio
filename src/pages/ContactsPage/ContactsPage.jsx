@@ -1,3 +1,4 @@
+import { ContactForm } from "../../ContactForm/ContactForm";
 
 
 const ContactsPage = () => {
@@ -5,7 +6,7 @@ const ContactsPage = () => {
         <div>
 
          
-            <h3>CONTACTS</h3>
+            <ContactForm />
 
         </div> 
      )
