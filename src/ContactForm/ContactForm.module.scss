@@ -1,0 +1,38 @@
+@use '../styles/vars.scss' as *;
+@use '../styles/mixins.scss' as *;
+
+
+.formContainer {
+  padding: $gap-64;
+  color: $dark-text-color;
+
+  label {
+    font-weight: 600;
+    font-family: $font-title;
+  }
+
+  input,
+  select,
+  textarea {
+    border: 1px solid $dark-text-color;
+    transition: border-color 0.3s ease;
+    font-family: $font-text;
+
+    &:focus {
+      border-color: $dark-text-color;
+      box-shadow: 0 0 0 0.2rem rgba($dark-text-color, 0.25);
+    }
+  }
+
+  .form-check-input {
+    margin-top: 0.4rem;
+  }
+
+  .form-check-label {
+    font-size: 1.95rem;
+  }
+
+  .btn {
+    @include soft-button();
+  }
+}

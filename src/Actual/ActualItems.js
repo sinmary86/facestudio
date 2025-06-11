@@ -21,6 +21,4 @@ export const actualItems = [
     text: 'Lisse les rides et ravive l’éclat et redonne le volume au visage', 
     image: actualAntiAge,
     }, 
-
 ];
-
