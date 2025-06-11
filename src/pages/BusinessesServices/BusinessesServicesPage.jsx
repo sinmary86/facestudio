@@ -1,8 +1,13 @@
+import { PageBanner } from "../../PageBanner/PageBanner";
+import backgroundImg from '../../assets/wom_ touch_face.jpg';
+
 const BusinessesServicesPage = () => {
      return (
         <div>
-
-          <h3>Offres pour les Entreprises</h3>
+            <PageBanner
+                background={backgroundImg}
+                title="Offres pour les Entreprises"
+                />
 
         </div> 
      )

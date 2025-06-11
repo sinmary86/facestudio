@@ -1,9 +1,14 @@
+import { PageBanner } from "../../PageBanner/PageBanner";
+import backgroundImg from '../../assets/wom_ touch_face.jpg';
+
 const GroupServicesPage = () => {
      return (
         <div>
 
-         
-            <h3>Cours en Groupe</h3>
+          <PageBanner
+                background={backgroundImg}
+                title="Cours en Groupe"
+                />
 
         </div> 
      )

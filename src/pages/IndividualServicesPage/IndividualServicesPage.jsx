@@ -1,7 +1,13 @@
+import { PageBanner } from "../../PageBanner/PageBanner";
+import backgroundImg from '../../assets/wom_ touch_face.jpg';
+
 const IndividualServicesPage = () => {
      return (
         <div>
-            <h3>Accompagnement Individuel</h3>
+            <PageBanner
+                background={backgroundImg}
+                title="Accompagnement Individuel"
+                />
         </div> 
      )
 }
