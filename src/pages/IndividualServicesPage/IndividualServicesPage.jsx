@@ -1,3 +1,4 @@
+import { IndividualServiceCard } from "../../IndividualServices/IndividualServiceCard";
 import { PageBanner } from "../../PageBanner/PageBanner";
 import backgroundImg from '../../assets/wom_ touch_face.jpg';
 
@@ -8,6 +9,7 @@ const IndividualServicesPage = () => {
                 background={backgroundImg}
                 title="Accompagnement Individuel"
                 />
+                <IndividualServiceCard/>
         </div> 
      )
 }
