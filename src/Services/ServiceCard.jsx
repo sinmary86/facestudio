@@ -26,7 +26,7 @@ export const ServiceCard =()=> {
       <Card.Body className={styles.serviceBody}>
         <Card.Title className={styles.title}>{service.title}</Card.Title>
         <Card.Text className={styles.text}>{service.text} </Card.Text>
-        <Button a href="/indinidualServicePage" className={styles.button}>En savoir plus</Button>
+        <Button href="/indinidualServicePage" className={styles.button}>En savoir plus</Button>
        </Card.Body >
     </Card>
     ))}
