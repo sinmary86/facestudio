@@ -9,7 +9,6 @@ import { LazyWorkshopsServicesPage } from "./pages/WorkshopsServicesPage/Worksho
 import Layout from "./Layout";
 import { LazyContactsPage } from "./pages/ContactsPage/ContactsPage.lazy";
 
-// Copie de Services - как у клиента в образце  здесь нет!!!
 
 export const routes = [
 
