@@ -4,13 +4,12 @@
   font-family: $font-title !important;
   color: $dark-text-color !important;
   background-color: $light-bg-color;
-  padding: $gap-16 $gap-64;
 }
 
 :global(.navbar-toggler) {
   border: none !important;
   box-shadow: none !important;
-  color: $dark-text-color !important;
+  padding-right: 0;
 }
 
 .offcanvas {
@@ -44,11 +43,4 @@
 .navLinks {
   font-family: $font-title !important;
   color: $dark-text-color !important;
-}
-
-@media (max-width: 768px) {
-
-.navbarCustom {
-  padding: $gap-16 $gap-16;
-}
 }
