@@ -18,6 +18,10 @@
     background: rgba(0, 0, 0, 0.5); // затемнение фона
     z-index: 1;
   }
+
+   @media (max-width: 768px) {
+   height: 40vh;
+  }
 }
 
 .title {
@@ -27,5 +31,6 @@
   font-family: $font-header;
   font-weight: bold;
   text-align: center;
-  padding: $gap-64;
+  text-transform: uppercase;
+  width: 80%;
 }

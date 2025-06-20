@@ -4,18 +4,19 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 import styles from './NavApp.module.scss';
+import { Container } from 'react-bootstrap';
 
 //TODO - нужно ли заменить brand на лого 
 
 export const NavApp = () => {
-  return (
-    <>
-    
+  return (   
     <Navbar expand={false} className={styles.navbarCustom}>
+
+      <Container>
           
             <Navbar.Brand as={Link} to="/">NK Facestudio</Navbar.Brand>
 
-            <Navbar.Toggle aria-controls="offcanvasNavbar" className={styles.toggler} />
+            <Navbar.Toggle aria-controls="offcanvasNavbar" />
             <Navbar.Offcanvas
               id="offcanvasNavbar"
               aria-labelledby="offcanvasNavbarLabel"
@@ -39,7 +40,7 @@ export const NavApp = () => {
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
+            </Container>
         </Navbar>
-    </>
   );
 };

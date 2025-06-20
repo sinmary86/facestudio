@@ -10,7 +10,7 @@ export const AboutFeatures = () => (
         <Col key={index} md={6} lg={3} className="d-flex flex-column justify-content-center align-items-center text-center gap-2"> 
            <Icon size={45} strokeWidth={1} className="mb-2" />
            <h5 className={styles.subTitle}>{ title }</h5>
-           <p className="mb-0 text-muted w-75">{description}</p>
+           <p className="mb-0 text-muted">{description}</p>
         </Col>
       
     ))}
