@@ -3,7 +3,7 @@ import { aboutFeatures } from "./AboutFeaturesData";
 import styles from "./AboutFeatures.module.scss";
 
 export const AboutFeatures = () => (
-  <Container className="mt-5">
+  <Container className="mt-5 mb-5">
     <Row  >
     {aboutFeatures.map(({ icon: Icon, title, description }, index) => (
       
