@@ -1,5 +1,6 @@
 import { AboutContent } from "../../AboutContent/AboutContent";
 import { AboutFeatures } from "../../AboutFeatures/AboutFeatures";
+import { FooterApp } from "../../Footer/FooterApp";
 import { PageBanner } from "../../PageBanner/PageBanner";
 import backgroundImg from '../../assets/two_wom_doc_pat.jpg';
 
@@ -14,6 +15,7 @@ const AboutPage = () => {
 
             <AboutContent />
             <AboutFeatures />
+            <FooterApp />
 
         </div> 
      )
