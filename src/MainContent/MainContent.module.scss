@@ -1,0 +1,22 @@
+@use '../styles/vars.scss' as *;
+
+
+// .custom-gap-col {
+//   padding: 1rem;  // отступы со всех сторон
+// }
+
+p {
+ font-size: $font-size-18;
+  line-height: 1.6;
+  
+}
+
+p, ul{
+ font-family: $font-title;
+}
+
+.custom-gap-col {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+

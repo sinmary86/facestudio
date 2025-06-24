@@ -8,7 +8,7 @@ export const AccordionList = () => {
       {AccordionItems.map((item, index) => (
         <Accordion.Item eventKey={index.toString()} key={index} className={styles.accordionItem}>
           <Accordion.Header className={styles.accordionTitle}>{item.title}</Accordion.Header>
-          <Accordion.Body className={styles.accordionBody}>{item.content}</Accordion.Body>
+          <Accordion.Body  >{item.content}</Accordion.Body>
         </Accordion.Item>
       ))}
     </Accordion>
