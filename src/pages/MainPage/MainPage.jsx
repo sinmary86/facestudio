@@ -2,6 +2,7 @@ import { ActualCard } from "../../Actual/ActualCard";
 import { MainCard } from "../../MainCard/MainCard";
 import { MainContent } from "../../MainContent/MainContent";
 import { PageBanner } from "../../PageBanner/PageBanner";
+import { ServiceCard } from "../../Services/ServiceCard";
 
 import backgroundImg from '../../assets/wom_ touch_face.jpg';
 
@@ -18,6 +19,8 @@ const MainPage = () => {
              {/* <ActualCard /> */}
         <MainContent/>
         <MainCard/>
+        <ServiceCard/>
+      
        
         </div>
     )

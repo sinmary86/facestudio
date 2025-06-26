@@ -48,9 +48,8 @@
   }
 }
 .title {
- font-size:  $font-size-22;
+ font-size:  $font-size-20;
  font-weight: bold;
- color: $light-text-color;
  margin-bottom: 1.5rem;
 
   @media (max-width: 480px) {
@@ -58,10 +57,10 @@
   }
 }
 
-.text,
-.textTwo,
-.listItem {
+.text {
   font-size: $font-size-16;
+  font-family: $font-text;
+ font-weight: bold;
 
    @media (max-width: 768px) {
    font-size: font-size-14;
@@ -70,17 +69,6 @@
  @media (max-width: 480px) {
    font-size: font-size-12;
  }
-
-}
-
-.text {
- font-family: $font-text;
- font-weight: bold;
-}
-
-.textTwo {
- font-family: $font-title;
- color: $dark-text-color; 
 }
 
 .listItem {

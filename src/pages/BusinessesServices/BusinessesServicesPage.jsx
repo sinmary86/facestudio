@@ -9,7 +9,7 @@ const BusinessesServicesPage = () => {
         <div>
             <PageBanner
                 background={backgroundImg}
-                title="Offres pour les Entreprises"
+                title="INTERVENTIONS EN ENTREPRISE – Visage détendu, posture assurée"
                 />
 <BusinessServicesCard/>
         </div> 

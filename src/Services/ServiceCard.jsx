@@ -2,21 +2,24 @@ import { serviceItems } from './ServiceItems';
 import styles from './Service.module.scss';
 import { Container, Card, Button } from 'react-bootstrap';
 import { serviceContent } from './ServiceContent';
+import { Link} from 'react-router-dom';
 
 
  // заменить картинки  Servise Items в разделах 'Accompagnement individuel',  и Offres pour les Entreprises
  // кнопка на разном уровне из за текста 
  // цвет заголовка оставляем ? 
+ // удалить компонент ServiceContent
 
 export const ServiceCard =()=> {
+ 
 
     return (
 
   <section className = {styles.section}>
 <Container>
      <div className={styles.content}>
-    <h2>{serviceContent.title}</h2>
-    <p>{serviceContent.description}</p>
+    <h2 className="mb-5" >Nos services</h2>
+    {/* <p>{serviceContent.description}</p> */}
    
    <div className={styles.cardsWrapper}>
     
@@ -26,7 +29,7 @@ export const ServiceCard =()=> {
       <Card.Body className={styles.serviceBody}>
         <Card.Title className={styles.title}>{service.title}</Card.Title>
         <Card.Text className={styles.text}>{service.text} </Card.Text>
-        <Button href="/indinidualServicePage" className={styles.button}>En savoir plus</Button>
+        <Button  as={Link} to={service.link} className={styles.button} >En savoir plus</Button>
        </Card.Body >
     </Card>
     ))}

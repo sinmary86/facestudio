@@ -1,25 +1,27 @@
 
-export const businessServicesItems = {
-      
-             
-                
-                title: "Un entraînement collectif pour booster les résultats et la motivation !",
-                text: "En petit groupe, bénéficiez d’un programme structuré et évolutif selon votre niveau :",
-                textOne: "2 niveaux disponibles: ",
-                sort: [
-                    "Groupe Basique : Initiation aux fondamentaux du Face Fitness.",
-                    "Groupe Avancé : Exercices approfondis et travail plus ciblé."
-                ],
-    
-        textTwo: "Pourquoi choisir un groupe ? ",
-        concerns: [
-          "Dynamique motivante et interactive.",
-          "Coût plus accessible qu’un accompagnement individuel.",
-           "Exercices adaptés avec corrections en direct.",
-            ],
-        discription: "",
-        period: " 6 séances de XX minutes.",
-        
-        price: "90 € par personne.",
-           conclusion: "Réservez votre place dès maintenant, les groupes sont limités à 6 personnes !"
-              }
+export const businessServicesItems = [
+
+    {
+    title: "Atelier Équilibre mentale",
+    text: "Relâcher les tensions, apaiser les traits, libérer la respiration : une vraie pause régénérante.",
+    period: "1 h",
+    reason:" Idéal pour la QVCT, la prévention du stress ou les fins de journée.",
+    price: "Sur devis selon durée et nombre de participants"
+    } ,
+
+     {
+    title: "Atelier Regain d’Énergie",
+    text: "Réactiver le tonus et la concentration grâce à des techniques faciales dynamiques et ludiques.",
+    period: "1 h",
+    reason:"Parfait en début de journée ou après la pause déjeuner.",
+    price: "Sur devis selon durée et nombre de participants"
+    } ,
+
+    {
+    title: "Atelier Posture Assurée & Visage Convaincant",
+    text: "Préparer ses prises de parole avec l’assurance, une posture ouverte et un visage qui inspire confiance.",
+    period: "1 h",
+    reason:"Pour visios, rendez-vous client, interventions publiques.",
+    price: "Sur devis selon durée et nombre de participants"
+    } 
+]
