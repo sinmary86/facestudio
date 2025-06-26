@@ -1,6 +1,7 @@
 
 import serviceGroup from '../assets/service-group.jpg';
 import serviceAtelier from '../Assets/service-atelier.jpg'
+import individualMain from '../Assets/individualMain.jpg'
 
  // заменить картинки в разделе   'Accompagnement individuel',  и Offres pour les Entreprises
  // кнопка на разном уровне из за текста 
@@ -9,22 +10,26 @@ import serviceAtelier from '../Assets/service-atelier.jpg'
 export const serviceItems = [
     {
   title: 'Accompagnement individuel', 
-  image: serviceGroup,
+  image: individualMain,
+   link: "/services/accompagnement-individuel"
     }, 
 
     {
     title: 'Cours en Groupe', 
     image: serviceGroup,
+     link: "/services/cours-en-groupe"
     }, 
 
     {
     title: 'Offres pour les Entreprises', 
-    image: serviceAtelier
+    image: serviceAtelier,
+     link: "/services/offres-entreprises"
     }, 
 
     {
     title: 'Ateliers et Formations', 
-    image: serviceAtelier
+    image: serviceAtelier,
+     link: "/services/ateliers-formations"
     }
 
 ]

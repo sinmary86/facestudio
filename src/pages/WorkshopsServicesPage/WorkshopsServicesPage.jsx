@@ -1,4 +1,5 @@
 import { PageBanner } from "../../PageBanner/PageBanner";
+import { WorkShopServicesCard } from "../../WorkShopServices/WorkShopServicesCard";
 import backgroundImg from '../../assets/wom_ touch_face.jpg';
 
 
@@ -10,7 +11,7 @@ const WorkshopsServicesPage = () => {
               background={backgroundImg}
               title="Ateliers & Formations"
               />
-
+<WorkShopServicesCard/>
         </div> 
      )
 }

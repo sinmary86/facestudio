@@ -24,17 +24,17 @@
 
   .title {
     font-family: $font-text;
-    font-size:  $font-size-22;
+    font-size:  $font-size-20;
     font-weight: bold;
-    color: $light-text-color;
-     margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+
 
      @media (max-width: 480px) {
     font-size: font-size-18;
   }
   }
 
-   .text, .textTwo, .textOne,.listItem  {
+   .text {
     font-size:  $font-size-16;
     font-family: $font-text;
    
@@ -43,11 +43,5 @@
   }
     }
     
-.textOne, .textTwo {
-    font-weight: bold;
-      }
 
-.listItem {
-  border: none;
-}
 

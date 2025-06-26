@@ -1,6 +1,7 @@
 
 import individualProgramm  from '../Assets/individualProgramm.jpg';
-import onlineProgramm  from '../Assets/onlineProgramm.jpg'
+import Mimique from '../Assets/individualMimique.jpg';
+import ParZone from '../Assets/individualParZone.jpg';
 
 
 
@@ -8,71 +9,53 @@ export const individualServiceItems = [
      {
   id : 1, 
     image: individualProgramm,
-    title: "Programme Individuel – 10 Séances Personnalisées",
-    text: "Un accompagnement sur-mesure pour transformer votre visage en profondeur !",
-    textTwo: "Vous avez des préoccupations spécifique: ",
-    concerns: [
-
-      "Rides et ridules ?",
-      "Perte de fermeté et relâchement ?",
-      "Asymétrie faciale ou crispations ?"
-    ],
-    discription: "Ce programme vous offre un suivi 100% personnalisé, en prenant en compte la structure unique de votre visage et vos objectifs",
-    period: "10 séances individuelles d’environ XX minutes (en présentiel ou en visio)",
+    title: "Programme VIP – Transformation du Visage",
+    discription: "Un accompagnement sur-mesure pour rééquilibrer, lisser et revitaliser l’ensemble de votre visage.",
+    text: "Idéal pour retrouver des traits détendus, harmonieux et dynamiques.",
     details: [
-      "Séance 1 : Analyse complète du visage et définition de votre programme.",
-      "Séances 2 à 9 : Exercices personnalisés selon votre évolution.",
-      "Séance 10 : Bilan final et conseils pour maintenir les résultats.",
-      "Inclus : Relaxation et auto-massage dans chaque séance pour maximiser l’efficacité."
+      "Analyse du tonus facial + plan de travail global",
+      "Vidéos d’exercices entre chaque séance",
+      "Suivi privé via WhatsApp ou e-mail"
     ],
+       period: "10 séances personnalisées (1h chacune)",
     price: "600 €",
-    priceDetails: "— paiement en plusieurs fois possible",
-    conclusion: "Transformez votre visage en 10 séances avec un programme adapté à vos besoins !"
-    
+    priceDetails: "(paiement possible en 2x/3x)",
+   
   },
   {
-    id : 2, 
-      image: onlineProgramm,
-      title: "Programme de Suivi Face Fitness en Ligne – 1 Mois",
-      text: "Un accompagnement individuel pour sculpter votre visage à distance !",
-      concerns: [
-      
-      ],
-      discription: "Un suivi exclusif pour celles et ceux qui souhaitent améliorer leur visage avec un programme personnalisé, sans contrainte de déplacement",
-      period: "1 mois – 4 séances en visio.",
+  id : 2, 
+     image: Mimique,
+     title: "Correction Mimique – Travail par zone",
+     concerns: [
+        "Front & ride du lion",
+        "Regard et contour des yeux"
+        ],
+      discription: "Un protocole ciblé pour corriger les mimiques nocives et atténuer les rides d’expression.",
+      text: "Chaque module comprend :",
       details: [
-        "Bilan facial et définition de votre programme.",
-        "Exercices personnalisés adaptés à votre visage.",
-        "Support & vidéos explicatives entre les séances.",
-       
+       "Analyse du tonus local et décryptage mimique",
+       "Plan d’exercices personnalisés + routine vidéo",
+       "Conseils à intégrer au quotidien",            
       ],
-      price: "360 €",
-      priceDetails: "— paiement en plusieurs fois possible",
-      conclusion: "Transformez votre visage en 4 semaines, où que vous soyez!"
-      
+      period: "4 séances individuelles (1h chacune)",
+      price: "240 €",
+      priceDetails: "par zone",          
     },
     {
-      id : 3, 
-        image: onlineProgramm,
-        title: "Programme de Suivi Face Fitness en Ligne – 1 Mois",
-        text: "Un accompagnement individuel pour sculpter votre visage à distance !",
-        concerns: [
-        
+  id : 3, 
+     image: ParZone,
+     title: "Séance Ciblée par Zone",
+     discription: "Une séance unique pour travailler une zone précise du visage et apprendre les bons gestes dès maintenant. ",
+     text: "Idéal pour :",
+     details: [
+          "Un premier bilan ciblé",
+          "Corriger une expression nocive",
+          "Adopter un exercice simple et efficace",       
         ],
-        discription: "Un suivi exclusif pour celles et ceux qui souhaitent améliorer leur visage avec un programme personnalisé, sans contrainte de déplacement",
-        period: "1 mois – 4 séances en visio.",
-        details: [
-          "Bilan facial et définition de votre programme.",
-          "Exercices personnalisés adaptés à votre visage.",
-          "Support & vidéos explicatives entre les séances.",
-         
-        ],
-        price: "300 €",
-        priceDetails: "— paiement en plusieurs fois possible",
-        conclusion: "Transformez votre visage en 4 semaines, où que vous soyez!"
-        
+      period: "1 mois – 4 séances en visio.",
+      price: "60 €",
+      priceDetails: "Peut être transformée en programme “Correction Mimique” ensuite",             
       },
  
-
 ];
   
