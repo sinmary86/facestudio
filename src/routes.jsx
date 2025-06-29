@@ -10,6 +10,7 @@ import { LazyContactsPage } from "./pages/ContactsPage/ContactsPage.lazy";
 import { LazyLegalMentionsPage } from "./pages/LegalMentionsPage/LegalMentionsPage.lazy";
 import { LazyLegalConditionsPage } from "./pages/LegalConditionsPage/LegalConditionsPage.lazy";
 import { LazyLegalPolicyPage } from "./pages/LegalPolicyPage/LegalPolicyPage.lazy";
+import { LazyErrorPage } from "./pages/ErrorPage/ErrorPage.lazy";
 
 
 export const routes = [
@@ -29,6 +30,7 @@ export const routes = [
       { path: "mentions-legales", element: <LazyLegalMentionsPage /> },
       { path: "conditions-generales-de-vente", element: <LazyLegalConditionsPage /> },
       { path: "politique-de-confidentialite", element: <LazyLegalPolicyPage /> },
+      { path: "*", element: <LazyErrorPage /> },
     ],
   },
 ];
