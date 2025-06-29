@@ -1,0 +1,50 @@
+@use '../styles/vars.scss' as *;
+
+.error {
+  font-size: 200px;
+  font-weight: 200;
+  font-family: $font-header;
+  line-height: 1; // убираем лишние отступы у цифр
+ 
+
+  span {
+    display: flex; // используем flex, чтобы картинка центрировалась внутри
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 100px;
+
+    span {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    font-size: 70px;
+
+    span {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+
+ p {
+    font-size: $font-size-18;
+    line-height: 1.6;
+
+    @media (max-width: 768px) {
+      font-size: $font-size-16;
+    }
+  }
