@@ -9,9 +9,12 @@ export const MainContent =()=> {
 
       <Container className="py-5 text-center text-md-start">
         <Row className="gx-4"> {/* gx-4 = горизонтальный gap 1.5rem */}
-       <Col md={6} className={styles['custom-gap-col']}>
-            <blockquote className="fs-4 fst-italic">
-              Je suis Natalia, coach en Face Fitness et Face Yoga. J’aide mes clientes à tonifier et rajeunir leur visage grâce à des exercices naturels et efficaces. Découvrez une approche complète qui allie musculation faciale, relaxation et auto-massage pour des résultats visibles en quelques semaines.
+    <Col 
+  md={6}
+  className={styles['custom-gap-col']}
+  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+           <blockquote className="fs-4 fst-italic" style={{ textAlign: 'center' }}>
+              Je suis Natalia, coach en Face Fitness et Face Yoga. J’aide les femmes à raffermir et rajeunir leur visage grâce à des exercices naturels et efficaces.
             </blockquote>
           </Col>
           <Col md={6} className={styles['custom-gap-col']}>
