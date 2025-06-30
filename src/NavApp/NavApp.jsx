@@ -10,7 +10,7 @@ import { Container } from 'react-bootstrap';
 
 export const NavApp = () => {
   return (   
-    <Navbar expand={false} className={styles.navbarCustom}>
+    <Navbar expand={false} sticky="top" className={styles.navbarCustom}>
 
       <Container>
           

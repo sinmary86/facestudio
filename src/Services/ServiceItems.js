@@ -1,35 +1,37 @@
 
 import serviceGroup from '../assets/service-group.jpg';
-import serviceAtelier from '../Assets/service-atelier.jpg'
-import individualMain from '../Assets/individualMain.jpg'
+import serviceAtelier from '../Assets/service-atelier.jpg';
+import individualMain from '../Assets/individualMain.jpg';
+import groupService from '../Assets/groupServices.jpg';
 
- // заменить картинки в разделе   'Accompagnement individuel',  и Offres pour les Entreprises
- // кнопка на разном уровне из за текста 
- // цвет заголовка оставляем ? 
+// цвет заголовка оставляем ? 
 
 export const serviceItems = [
-    {
-  title: 'Accompagnement individuel', 
-  image: individualMain,
-  link: "/services/accompagnement-individuel"
-    }, 
+  {
+    title: 'Accompagnement individuel', 
+    alt:'Accompagnement individuel',
+    image: individualMain,
+    link: "/services/accompagnement-individuel"
+  }, 
 
-    {
-    title: 'Cours en Groupe', 
-    image: serviceGroup,
-     link: "/services/cours-en-groupe"
-    }, 
+  {
+    title: 'Programme des cours collectifs', 
+    alt:'Cours en Groupe',
+    image: groupService,
+    link: "/services/cours-en-groupe"
+  }, 
 
-    {
+  {
     title: 'Offres pour les Entreprises', 
-    image: serviceAtelier,
-     link: "/services/offres-entreprises"
-    }, 
+    alt:'Offres pour les Entreprises',
+    image: serviceGroup,
+    link: "/services/offres-entreprises"
+  }, 
 
-    {
+  {
     title: 'Ateliers et Formations', 
+    alt:'Ateliers et Formations',
     image: serviceAtelier,
-     link: "/services/ateliers-formations"
-    }
-
+    link: "/services/ateliers-formations"
+  }
 ]

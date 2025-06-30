@@ -4,7 +4,7 @@ import { MainCardData } from "./MainCardData";
 import styles from "./MainCard.module.scss"
 
 export const MainCard = () => (
-  <Container >
+  <Container>
     <Row className="gy-4" >
     {MainCardData.map(({ icon, title, description }, index) => (
       

@@ -1,46 +1,33 @@
 import { serviceItems } from './ServiceItems';
 import styles from './Service.module.scss';
-import { Container, Card, Button } from 'react-bootstrap';
-import { serviceContent } from './ServiceContent';
+import { Container, Card } from 'react-bootstrap';
 import { Link} from 'react-router-dom';
 
-
- // заменить картинки  Servise Items в разделах 'Accompagnement individuel',  и Offres pour les Entreprises
- // кнопка на разном уровне из за текста 
  // цвет заголовка оставляем ? 
- // удалить компонент ServiceContent
 
-export const ServiceCard =()=> {
- 
-
+export const ServiceCard = () => {
     return (
 
-  <section className = {styles.section}>
-<Container fluid className="px-0">
-     <div className={styles.content}>
-    <h2 className="mb-5 " >Nos services</h2>
-    {/* <p>{serviceContent.description}</p> */}
-   
-   <div className={styles.cardsWrapper}>
-    
-    {serviceItems.map((service, index) => (
-      <Card key={index} style={{ width: '17rem', minWidth: '250px' }}>
-      <Card.Img variant="top" src={service.image} alt ="" style={{width: '100%' , height: 'auto'}} />
-       <Card.Body className={styles.serviceBody}>
-      <Card.Title className={`${styles.title} text-start`}>
-    {service.title}
-  </Card.Title>
-  <Card.Text className={`${styles.text} text-start`}>
-    {service.text}
-  </Card.Text>
+<Container className="px-0">
 
-        <Button  as={Link} to={service.link}  className={`btn-main ms-auto mt-3`} >En savoir plus</Button>
-       </Card.Body >
-    </Card>
+    <h2 className="mb-5 mt-5 text-center" >Nos services</h2>
+    
+    <div className={`${styles.cardsWrapper} d-flex flex-wrap justify-content-between`}>
+      {serviceItems.map((service, index) => (
+      <Link to={service.link} key={index} className={styles.cardLink}>
+        <Card key={index} className={`${styles.card}`}>
+          <Card.Img src={service.image} alt={service.alt} className={styles.cardImage} />
+            <Card.ImgOverlay>
+              <Card.Body className={`${styles.serviceBody} d-flex flex-column align-items-center justify-content-center text-center`}>
+                <Card.Title className={`${styles.title} text-center`}>{service.title}</Card.Title>
+                <div className={`${styles.separator} mx-auto`}></div>
+                <Card.Text className={`${styles.more} text-center`}>En savoir plus</Card.Text>
+              </Card.Body >
+            </Card.ImgOverlay>
+          </Card>
+      </Link>
     ))}
     </div>
-</div>
-      </Container>
-    </section>
+</Container>
   );
 };

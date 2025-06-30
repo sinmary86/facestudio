@@ -1,137 +1,87 @@
 @use '../styles/vars.scss' as *;
 
-// мне не нравятся цвета текста. У Наташи коричневый? меняем? рамку оставляем в карточке ? 
-// цвет внутри карточки оставляем ? 
-// границы карточек убрать или оставить
-
-.serviceBody {
-    font-family: $font-title;
-    font-size:  $font-size-16;
-    background-color: $light-bg-color;
-    color: $dark-text-color;
-   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  }
-
-
-
-
-// Основной блок секции
-.section {
-  text-align: center;
-  padding: 2rem 0;
-
-  @media (max-width: 768px) {
-    padding: 1rem 0;
-  }
-
-content.h2 {
-    font-family: $font-header;
-    font-weight: bold;
-     margin-bottom: 1rem;
-  }
-
- 
-}
-
-// Обёртка для карточек
 .cardsWrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 2rem; // <-- отступы по бокам
-  gap: 1rem; // норм отступы между карточками
+    padding-bottom: $gap-64;
 
-
-
-    @media (max-width: 1064px) {
-   flex-direction: row;
-    align-items: center;
-    gap: 1.1rem;
+    @media (max-width: 1464px) {
+     gap: $gap-32;
   }
 
   @media (max-width: 768px) {
-    // flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
     align-items: center;
-    gap: 1.1rem;
   }
 
   @media (max-width: 468px) {
-    gap: 1.25rem;
+    gap: $gap-16;
   }
 }
-
-
 
 // Карточка
 .card {
   width: 18rem;
-  min-width: 250px;
-  margin: 0;
-  border-radius: 2rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 18rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  
 
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
   }
 
-  @media (max-width: 1064px) {
-    width: 100%;
+   &:hover .cardImage {
+    transform: scale(1.3);
+  }
+
+  &:hover .cardContent {
+    transform: scale(1.3);
   }
 
   @media (max-width: 768px) {
-    width: 90%;
-    margin: 0 auto;
+      width: 100%;
   }
 
   @media (max-width: 468px) {
     width: 100%;
-    box-shadow: none;
-    border-radius: 0.5rem;
-    margin: 1rem auto;
   }
 }
 
 // Стили внутри карточки
-.actualBody {
-  font-family: $font-title;
-  font-size: $font-size-16;
-  color: $dark-text-color;
+.serviceBody {
+  position: relative;
+  z-index: 2;
+  color: $light-bg-color;
+  height: 100%; 
+  gap: $gap-8;
 }
 
 .title {
   font-size: $font-size-22;
+  font-family: $font-title;
   font-weight: bold;
-  color: $dark-text-color;
 }
 
-.text {
-  font-size: $font-size-16;
-  font-family: $font-text;
-    min-height: 20px; 
+.separator {
+  width: 30%;
+  height: 2px;
+  background-color: $light-bg-color;
 }
 
-// Изображение
-.image {
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  object-fit: cover;
-  height: 100px;
+.cardImage {
   width: 100%;
-}
-// .button {
-//     background-color: #e4b7a0;
-//     color: $dark-text-color;
-//     border: none;
-//     margin-top: auto;
-// }
+  height: 100%;
+  object-fit: cover;
 
-// .button:hover {
-//     transform: translateY(-5px);
-//     background-color:  #2f2f2f;
-//   }
+  .card:hover .cardImage {
+  transform: scale(1.1);
+}
+}
+
