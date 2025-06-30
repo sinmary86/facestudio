@@ -16,20 +16,25 @@ export const ServiceCard =()=> {
     return (
 
   <section className = {styles.section}>
-<Container>
+<Container fluid className="px-0">
      <div className={styles.content}>
-    <h2 className="mb-5" >Nos services</h2>
+    <h2 className="mb-5 " >Nos services</h2>
     {/* <p>{serviceContent.description}</p> */}
    
    <div className={styles.cardsWrapper}>
     
     {serviceItems.map((service, index) => (
-      <Card key={index} style={{ width: '16rem', minWidth: '250px', marginRight: '1rem' }}>
-      <Card.Img variant="top" src={service.image} alt ="" style={{width: '100%' , height: 'auto' }} />
-      <Card.Body className={styles.serviceBody}>
-        <Card.Title className={styles.title}>{service.title}</Card.Title>
-        <Card.Text className={styles.text}>{service.text} </Card.Text>
-        <Button  as={Link} to={service.link} className={styles.button} >En savoir plus</Button>
+      <Card key={index} style={{ width: '17rem', minWidth: '250px' }}>
+      <Card.Img variant="top" src={service.image} alt ="" style={{width: '100%' , height: 'auto'}} />
+       <Card.Body className={styles.serviceBody}>
+      <Card.Title className={`${styles.title} text-start`}>
+    {service.title}
+  </Card.Title>
+  <Card.Text className={`${styles.text} text-start`}>
+    {service.text}
+  </Card.Text>
+
+        <Button  as={Link} to={service.link}  className={`btn-main ms-auto mt-3`} >En savoir plus</Button>
        </Card.Body >
     </Card>
     ))}

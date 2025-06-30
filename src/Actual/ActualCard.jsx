@@ -8,7 +8,7 @@ import { actualContent } from './ActualContent';
 export const ActualCard = () => {
   return (
     <section className={styles.section}>
-      <Container>
+<Container >
 
    <div className='styles.content'>
     <h2>{actualContent.title}</h2>
@@ -20,7 +20,7 @@ export const ActualCard = () => {
           {actualItems.map((actual, index) => (
             <Card
               key={index}
-              style={{ width: '18rem', minWidth: '250px', marginRight: '1rem' }}
+              style={{ width: '20rem', minWidth: '300px' }}
             >
               <Card.Img
                 variant="top"

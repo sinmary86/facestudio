@@ -11,7 +11,7 @@ export const serviceItems = [
     {
   title: 'Accompagnement individuel', 
   image: individualMain,
-   link: "/services/accompagnement-individuel"
+  link: "/services/accompagnement-individuel"
     }, 
 
     {
