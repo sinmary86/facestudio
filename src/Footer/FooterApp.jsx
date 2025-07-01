@@ -13,15 +13,16 @@ export const FooterApp = () => {
     const currentYear = new Date().getFullYear();
 
     return(
-         <footer className={styles.footer}>
         
-        
-         <Container className={styles.footerContainer}>
+        <footer className={styles.footerContainer}>
+         <Container>
+
+          <div className={styles.separator}></div>
             
-    
-          <Row className="align-items-center text-center text-md-start mb-3 mb-md-6">
+   
+          <Row className="align-items-center text-center text-md-start mb-1 b-md-6">
           <Col md={6} className="mb-3 mb-md-6">
-                <h6 className="mb-0 fw-bold">&copy;  NK Facestudio <span>  {currentYear === 2025 ? '2025' : `2025–${currentYear}`}</span>
+                <h6>&copy;  NK Facestudio <span>  {currentYear === 2025 ? '2025' : `2025–${currentYear}`}</span>
             </h6>
               </Col>
 
@@ -88,6 +89,6 @@ export const FooterApp = () => {
         </Row>
 
       </Container>
-    </footer>
+  </footer>
   );
 };

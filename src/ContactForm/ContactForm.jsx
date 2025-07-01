@@ -6,6 +6,7 @@ import { useForm } from '@formspree/react';
 import styles from './ContactForm.module.scss';
 import { useEffect, useState } from 'react';
 import Swal from 'sweetalert2';
+import { Container } from 'react-bootstrap';
 
 
 //TODO - зарегистрировать клиента на FORMSPREE
@@ -47,6 +48,8 @@ useEffect(() => {
 
 
   return (
+
+    <Container>
     <Form noValidate validated={validated} onSubmit={handleSubmit} className={styles.formContainer}>
 
       <Row className="mb-3">
@@ -118,7 +121,8 @@ useEffect(() => {
         />
       </Form.Group>
       
-      <button type="submit" disabled={state.submitting} className={styles.btn}>Envoyer</button>
+      <button type="submit" disabled={state.submitting} className="btn-main">Envoyer</button>
     </Form>
+    </Container>
   );
     };

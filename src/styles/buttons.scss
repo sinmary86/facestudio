@@ -4,7 +4,7 @@
   background-color: transparent;
   color: $dark-text-color;
   border: 1px solid rgba($dark-text-color, 0.4);
-  padding: 0.75rem 1.5rem;
+  padding: $gap-8 $gap-32;
   font-family: $font-text;
   font-size: $font-size-18;
   letter-spacing: 0.05em;
@@ -14,8 +14,8 @@
 
   &:hover,
   &:focus {
-    background-color: rgba($dark-bg-color, 0.05);
     color: $dark-text-color;
+    background-color: rgba($dark-bg-color, 0.05);
     border-color: rgba($dark-text-color, 0.6); // ➤ немного усилить на ховере
     box-shadow: 0 4px 12px rgba($dark-text-color, 0.2); // ➤ чуть глубже
   }
