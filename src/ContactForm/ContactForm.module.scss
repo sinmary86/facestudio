@@ -1,10 +1,7 @@
 @use '../styles/vars.scss' as *;
-@use '../styles/mixins.scss' as *;
-
 
 .formContainer {
-  padding: $gap-64;
-  color: $dark-text-color;
+  padding: $gap-64 0;
 
   label {
     font-weight: 600;
@@ -14,13 +11,17 @@
   input,
   select,
   textarea {
-    border: 1px solid $dark-text-color;
+    background-color: transparent;
+    border-radius: 0.375rem;
+    border: 1px solid rgba($dark-text-color, 0.4);
+    box-shadow: 0 2px 6px rgba($dark-text-color, 0.1);
     transition: border-color 0.3s ease;
     font-family: $font-text;
 
     &:focus {
-      border-color: $dark-text-color;
-      box-shadow: 0 0 0 0.2rem rgba($dark-text-color, 0.25);
+      background-color: rgba($dark-bg-color, 0.05);
+      border-color: rgba($dark-text-color, 0.7); 
+      box-shadow: 0 4px 12px rgba($dark-text-color, 0.2); 
     }
   }
 
@@ -30,9 +31,5 @@
 
   .form-check-label {
     font-size: 1.95rem;
-  }
-
-  .btn {
-    @include soft-button();
   }
 }
