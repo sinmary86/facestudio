@@ -2,7 +2,7 @@ import styles from './MainContent.module.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 import womanabout from '../Assets/about.jpg';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight } from 'lucide-react';
+import { MoveRight } from 'lucide-react';
 
 export const MainContent =()=> {
   return (
@@ -13,7 +13,7 @@ export const MainContent =()=> {
                <p>Je m'appelle Natalia, je suis coach certifiée en Face Fitness et Face Yoga.</p>
                <p>J’aide les femmes à raffermir et rajeunir leur visage grâce à des exercices naturels et efficaces.</p>
                <p>Chaque visage est unique. Grâce à une approche douce, je vous aide à révéler votre beauté naturelle à tout âge.</p>
-               <Link to="/a-propos" className="btn-more align-self-start">Faire connaissance <ArrowUpRight size={18} className={styles.iconArrow}/></Link>
+               <Link to="/a-propos" className="btn-more align-self-start">Faire connaissance <MoveRight size={18} className={styles.iconArrow}/></Link>
           </Col> 
 
           <Col md={4} className="d-flex flex-column justify-content-center">
