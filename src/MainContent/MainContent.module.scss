@@ -1,22 +1,50 @@
 @use '../styles/vars.scss' as *;
 
+.section {
+  min-height: 100vh;
 
-// .custom-gap-col {
-//   padding: 1rem;  // отступы со всех сторон
-// }
+  @media (max-width: 768px) {
+    padding: $gap-32 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $gap-32;
+  }
 
-p {
+   @media (max-width: 468px) {
+    padding: $gap-16 0;
+  }
+}
+
+.imgСustom {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+
+  @media (max-width: 768px) {
+     height: 17rem;
+    }
+}
+
+p, li {
  font-size: $font-size-18;
-  line-height: 1.6;
-  
+ line-height: 1.6;
+ font-family: $font-text; 
+ margin-bottom: 0.5rem;
+
+   @media (max-width: 768px) {
+      font-size: $font-size-16;
+    }
 }
 
-p, ul{
- font-family: $font-title;
-}
-
-.custom-gap-col {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
+ h3 {
+    font-size: $font-size-24;
+    font-weight: bold;
+    padding-bottom: $gap-16;
+    font-family: $font-title;
+    
+    @media (max-width: 768px) {
+      font-size: $font-size-18;
+    }
+  }
