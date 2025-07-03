@@ -5,19 +5,26 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 import styles from './NavApp.module.scss';
 import { Container } from 'react-bootstrap';
+import { useState } from 'react';
 
 //TODO - нужно ли заменить brand на лого 
 
 export const NavApp = () => {
+
+  const [showOffcanvas, setShowOffcanvas] = useState(false);
+  const handleClose = () => setShowOffcanvas(false);
+
   return (   
     <Navbar expand={false} sticky="top" className={styles.navbarCustom}>
 
       <Container>
           
-            <Navbar.Brand as={Link} to="/">NK Facestudio</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/" onClick={handleClose}>NK Facestudio</Navbar.Brand>
 
-            <Navbar.Toggle aria-controls="offcanvasNavbar" />
+            <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={() => setShowOffcanvas(true)} />
             <Navbar.Offcanvas
+              show={showOffcanvas}
+              onHide={handleClose}
               id="offcanvasNavbar"
               aria-labelledby="offcanvasNavbarLabel"
               placement="end"
@@ -27,16 +34,16 @@ export const NavApp = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className={`justify-content-end flex-grow-1 pe-3 ${styles.navLinks}`}>
-                  <Nav.Link as={Link} to="/">Accueil</Nav.Link>
-                  <Nav.Link as={Link} to="/a-propos">A propos</Nav.Link>
+                  <Nav.Link as={Link} to="/" onClick={handleClose}>Accueil</Nav.Link>
+                  <Nav.Link as={Link} to="/a-propos" onClick={handleClose}>A propos</Nav.Link>
                   <NavDropdown title="Services" id="offcanvasNavbarDropdown">    
-                    <NavDropdown.Item  as={Link} to="/services/accompagnement-individuel">Accompagnement Individuel</NavDropdown.Item>
-                    <NavDropdown.Item  as={Link} to="/services/cours-en-groupe">Cours en Groupe</NavDropdown.Item>
-                    <NavDropdown.Item  as={Link} to="/services/offres-entreprises">Offres pour les Entreprises</NavDropdown.Item>
-                    <NavDropdown.Item  as={Link} to="/services/ateliers-formations">Ateliers & Formations</NavDropdown.Item>
+                    <NavDropdown.Item  as={Link} to="/services/accompagnement-individuel" onClick={handleClose}>Accompagnement Individuel</NavDropdown.Item>
+                    <NavDropdown.Item  as={Link} to="/services/cours-en-groupe" onClick={handleClose}>Cours en Groupe</NavDropdown.Item>
+                    <NavDropdown.Item  as={Link} to="/services/offres-entreprises" onClick={handleClose}>Offres pour les Entreprises</NavDropdown.Item>
+                    <NavDropdown.Item  as={Link} to="/services/ateliers-formations" onClick={handleClose}>Ateliers & Formations</NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link as={Link} to="/faq">FAQ</Nav.Link>
-                  <Nav.Link as={Link} to="/contacts">Contact</Nav.Link>
+                  <Nav.Link as={Link} to="/faq" onClick={handleClose}>FAQ</Nav.Link>
+                  <Nav.Link as={Link} to="/contacts" onClick={handleClose}>Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
