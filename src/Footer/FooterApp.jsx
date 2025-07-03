@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import WhatsappIcon from '../Assets/whatsappicon.svg';
+import WhatsappIcon from '../Assets/whatsappIcon.svg';
 import EmailIcon from '../Assets/mailIcon.svg';
 import LinkedInIcon from '../Assets/linkedin1.svg';
 import TelegramIcon from '../Assets/telegram.svg';
