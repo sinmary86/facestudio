@@ -19,7 +19,7 @@ export const NavApp = () => {
 
       <Container>
           
-            <Navbar.Brand as={Link} to="/" onClick={handleClose}>NK Facestudio</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/" onClick={handleClose} className={styles.brand}>NK Facestudio</Navbar.Brand>
 
             <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={() => setShowOffcanvas(true)} />
             <Navbar.Offcanvas

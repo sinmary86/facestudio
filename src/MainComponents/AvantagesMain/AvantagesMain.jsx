@@ -12,7 +12,7 @@ export const AvantagesMain = () => (
     {AvantagesMainData.map(({ icon, title, description }, index) => (
       
         <Col key={index} md={6} lg={4} className="d-flex flex-column align-items-center text-center"> 
-           <img src={icon} alt={title} width={65} className="mb-4"/>
+           <img src={icon} alt={title} className="mb-4"/>
            <h3>{ title }</h3>
            <p className={styles.subTitle}>{description} </p>
         </Col>
