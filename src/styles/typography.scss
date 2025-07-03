@@ -4,12 +4,10 @@ h1 {
   position: relative;
   z-index: 2;
   color: $light-bg-color;
-  font-family: $font-title;
-  font-weight: bold;
+  font-family: $font-deco;
   text-align: center;
-  text-transform: uppercase;
   width: 60%;
-  font-size: 48px;
+  font-size: 60px;
 
    @media (max-width: 768px) {
    width: 75%;

@@ -15,7 +15,7 @@
   &:hover,
   &:focus {
     color: $dark-text-color;
-    background-color: rgba($dark-bg-color, 0.05);
+    background-color: rgba($secondary-color, 0.05);
     border-color: rgba($dark-text-color, 0.6); // ➤ немного усилить на ховере
     box-shadow: 0 4px 12px rgba($dark-text-color, 0.2); // ➤ чуть глубже
   }
