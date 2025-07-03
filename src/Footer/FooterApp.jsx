@@ -1,8 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
-import WhatsappIcon from '../assets/whatsappicon.svg';
-import EmailIcon from '../assets/mailIcon.svg';
-import LinkedInIcon from '../assets/linkedin1.svg';
-import TelegramIcon from '../assets/telegram.svg';
+import WhatsappIcon from '../Assets/whatsappicon.svg';
+import EmailIcon from '../Assets/mailIcon.svg';
+import LinkedInIcon from '../Assets/linkedin1.svg';
+import TelegramIcon from '../Assets/telegram.svg';
 import styles from './Footer.module.scss';
 import { Link } from "react-router-dom";
 

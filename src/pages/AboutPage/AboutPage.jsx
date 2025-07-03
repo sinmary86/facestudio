@@ -1,7 +1,7 @@
-import { AboutContent } from "../../AboutContent/AboutContent";
-import { AboutFeatures } from "../../AboutFeatures/AboutFeatures";
+import { AboutContent } from "../../AboutComponents/AboutContent/AboutContent";
+import { AboutFeatures } from "../../AboutComponents/AboutFeatures/AboutFeatures";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../assets/two_wom_doc_pat.jpg';
+import backgroundImg from '../../Assets/actualAntiAge.jpg';
 
 const AboutPage = () => {
      return (

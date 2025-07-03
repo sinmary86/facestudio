@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import aboutOne from '../assets/aboutOne.jpg';
-import aboutTwo from '../assets/aboutTwo.jpg';
-import aboutThree from '../assets/aboutThree.jpg';
+import aboutOne from '../../Assets/aboutOne.jpg';
+import aboutTwo from '../../Assets/aboutTwo.jpg';
+import aboutThree from '../../Assets/aboutThree.jpg';
 import styles from "./AboutContent.module.scss";
 
 export const AboutContent = () => {

@@ -1,6 +1,6 @@
 import { GroupServicesCard } from "../../GroupServices/GroupServicesCard";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../assets/wom_ touch_face.jpg';
+import backgroundImg from '../../Assets/wom_ touch_face.jpg';
 
 const GroupServicesPage = () => {
      return (

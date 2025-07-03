@@ -1,6 +1,6 @@
 import { IndividualServiceCard } from "../../IndividualServices/IndividualServiceCard";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../assets/wom_ touch_face.jpg';
+import backgroundImg from '../../Assets/wom_ touch_face.jpg';
 
 const IndividualServicesPage = () => {
      return (

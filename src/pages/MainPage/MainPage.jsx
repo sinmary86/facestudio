@@ -1,8 +1,9 @@
-import { MainCard } from "../../MainCard/MainCard";
-import { MainContent } from "../../MainContent/MainContent";
+import { AvantagesMain } from "../../MainComponents/AvantagesMain/AvantagesMain";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import { ServiceCard } from "../../Services/ServiceCard";
-import backgroundImg from '../../assets/wom_ touch_face.jpg';
+import { MainServicesCards } from "../../MainComponents/ServicesCardsMain/MainServicesCards";
+import backgroundImg from '../../Assets/wom_ touch_face.jpg';
+import { MainAboutContent } from "../../MainComponents/MainAboutContent/MainAboutContent";
+import { BenefitsMethodMain } from "../../MainComponents/BenefitsMethodMain/BenefitsMethodMain";
 
 
 const MainPage = () => {
@@ -12,9 +13,11 @@ const MainPage = () => {
                 background={backgroundImg}
                 title="Apprenez les meilleures techniques de Rajeunissement du Visage avec un coach expert"
                 />
-            <MainContent/>
-            <MainCard/>
-            <ServiceCard/>
+
+            <MainAboutContent />
+            <AvantagesMain />
+            <MainServicesCards />
+            <BenefitsMethodMain />
         </div>
     )
 }
