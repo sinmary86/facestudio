@@ -16,15 +16,6 @@
     }
   }
 
-  p {
-    font-size: $font-size-18;
-    line-height: 1.6;
-
-    @media (max-width: 768px) {
-      font-size: $font-size-16;
-    }
-  }
-
   a {
    color: $black-color;
    transition: transform 0.2s ease, color 0.2s ease;

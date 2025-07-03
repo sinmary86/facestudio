@@ -24,6 +24,7 @@
 .footerLink {
    transition: transform 0.2s ease, color 0.2s ease;
    display: inline-block;
+   font-family: $font-text;
 
     &:hover {
       transform: scale(1.025);  
