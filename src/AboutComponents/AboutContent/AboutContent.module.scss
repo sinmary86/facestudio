@@ -3,6 +3,10 @@
 .myGridSection {
   padding: $gap-64 0;
 
+   @media (max-width: 992px) {
+    padding: $gap-32 0;
+   }
+
   .gridLayout {
     display: grid;
     grid-template-columns: calc((100% - 2 * $gap-32) / 3) repeat(2, calc((100% - 2 * $gap-32) / 3));
@@ -21,10 +25,10 @@
         "text1"
         "text2"
         "imgSmall"
-        "imgRight"
         "quote"
         "bottom1"
-        "bottom2";
+        "bottom2"
+        "imgRight";
     }
 
     .imgTallLeft {
@@ -33,6 +37,11 @@
       background-size: cover;
       background-position: center;
       height: auto;
+
+        @media (max-width: 992px) {
+          height: 40vh;
+          background-position: 30% 70%;
+  }
     }
 
     .textBlockOne {
@@ -62,6 +71,12 @@
       background-size: cover;
       background-position: center;
       height: auto;
+
+      
+        @media (max-width: 992px) {
+          height: 40vh;
+          background-position: 70% 20%;
+  }
     }
 
     .fullQuote {
