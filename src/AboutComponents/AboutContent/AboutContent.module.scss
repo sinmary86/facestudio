@@ -10,15 +10,6 @@
     }
 }
 
-p {
-  font-size: $font-size-18;
-  line-height: 1.6;
-
-   @media (max-width: 768px) {
-      font-size: $font-size-16;
-      line-height: 1.4;
-    }
-  }
 
   h5 {
     font-family: $font-title;

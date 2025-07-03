@@ -18,13 +18,8 @@
 }
 
 .imgСustom {
-  width: 518px;
-  height: 518px;
+  width: 100%;
+  max-width: 518px;
+  aspect-ratio: 1 / 1; // ✅ сохраняет квадрат на любом экране
   object-fit: cover;
-
-  @media (max-width: 768px) {
-     width: auto;
-     height: 428px;
-    }
 }
-

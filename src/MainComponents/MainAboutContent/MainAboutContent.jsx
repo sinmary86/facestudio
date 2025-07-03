@@ -11,7 +11,7 @@ export const MainAboutContent =()=> {
       <Container >
         <Row className={styles.section}>
           <Col md={6} className="d-flex flex-column justify-content-center">
-             <img src={womanabout} alt="Portrait de Natalia" className={`fluid rounded-circle ${styles.imgСustom}`} />        
+             <img src={womanabout} alt="Portrait de Natalia" className={`img-fluid rounded-circle ${styles.imgСustom}`} />        
           </Col>
 
           <Col md={6} className="d-flex flex-column justify-content-center">        
