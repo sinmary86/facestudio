@@ -8,8 +8,9 @@ import { MoveRight } from 'lucide-react';
 
 export const MainAboutContent =()=> {
   return (
-      <Container >
-        <Row className={styles.section}>
+      <Container className={styles.section}>
+        <h2 className='text-center'>À propos de la méthode</h2>
+        <Row >
           <Col md={6} className="d-flex flex-column justify-content-center">
              <img src={womanabout} alt="Portrait de Natalia" className={`img-fluid rounded-circle ${styles.imgСustom}`} />        
           </Col>
