@@ -1,0 +1,26 @@
+@use '../../styles/vars.scss' as *;
+
+
+.subTitle {
+  max-width: 85%;
+
+  @media (max-width: 768px) {
+   max-width: 100%;
+  }
+}
+
+.wrapperFull {
+  padding: $gap-32 0;
+  
+  @media (max-width: 768px) {
+   padding: $gap-16 0;
+  }
+  }
+
+.wrapper {
+  padding-top: $gap-32;
+
+  @media (max-width: 768px) {
+   padding: $gap-16 0;
+  }
+  }

@@ -1,23 +1,21 @@
-@use '../styles/vars.scss' as *;
+@use '../../styles/vars.scss' as *;
 
-.cardsWrapper {
-    padding-bottom: $gap-64;
-
-    @media (max-width: 1464px) {
-     gap: $gap-32;
+.wrapperFull {
+  padding: $gap-32 0;
   }
 
+  .wrapper {
+  padding-top: $gap-32;
+
+  
   @media (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-    align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: $gap-16;
+  }
   }
 
-  @media (max-width: 468px) {
-    gap: $gap-16;
-  }
-}
 
 // Карточка
 .card {
@@ -60,13 +58,7 @@
   z-index: 2;
   color: $light-bg-color;
   height: 100%; 
-  gap: $gap-8;
-}
-
-.title {
-  font-size: $font-size-22;
-  font-family: $font-title;
-  font-weight: bold;
+  gap: $gap-4;
 }
 
 .separator {
@@ -81,7 +73,7 @@
   object-fit: cover;
 
   .card:hover .cardImage {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 }
 

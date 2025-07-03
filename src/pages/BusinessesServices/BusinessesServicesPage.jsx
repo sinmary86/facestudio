@@ -2,7 +2,7 @@
 
 import { BusinessServicesCard } from "../../BusinessService/BusinessServicesCard";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../assets/wom_ touch_face.jpg';
+import backgroundImg from '../../Assets/wom_ touch_face.jpg';
 
 const BusinessesServicesPage = () => {
      return (

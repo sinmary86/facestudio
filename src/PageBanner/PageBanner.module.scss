@@ -30,18 +30,3 @@
    height: 40vh;
   }
 }
-
-.title {
-  position: relative;
-  z-index: 2;
-  color: $light-bg-color;
-  font-family: $font-header;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  width: 50%;
-
-   @media (max-width: 768px) {
-   width: 75%;
-  }
-}

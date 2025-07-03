@@ -1,6 +1,6 @@
-import actualToning from '../assets/actualToning.jpg';
-import actualWellBe from '../assets/actualWellBe.jpg';
-import actualAntiAge from '../assets/actualAntiAge.jpg'
+import actualToning from '../Assets/actualToning.jpg';
+import actualWellBe from '../Assets/actualWellBe.jpg';
+import actualAntiAge from '../Assets/actualAntiAge.jpg'
 
 export const actualItems = [
 

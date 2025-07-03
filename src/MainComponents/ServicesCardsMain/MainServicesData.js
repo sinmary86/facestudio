@@ -1,12 +1,10 @@
+import serviceGroup from '../../Assets/service-group.jpg';
+import serviceAtelier from '../../Assets/service-atelier.jpg';
+import individualMain from '../../Assets/individualMain.jpg';
+import groupService from '../../Assets/groupServices.jpg';
 
-import serviceGroup from '../assets/service-group.jpg';
-import serviceAtelier from '../Assets/service-atelier.jpg';
-import individualMain from '../Assets/individualMain.jpg';
-import groupService from '../Assets/groupServices.jpg';
 
-// цвет заголовка оставляем ? 
-
-export const serviceItems = [
+export const mainServicesData = [
   {
     title: 'Accompagnement individuel', 
     alt:'Accompagnement individuel',
@@ -15,7 +13,7 @@ export const serviceItems = [
   }, 
 
   {
-    title: 'Programme des cours collectifs', 
+    title: 'COURS EN GROUPE', 
     alt:'Cours en Groupe',
     image: groupService,
     link: "/services/cours-en-groupe"

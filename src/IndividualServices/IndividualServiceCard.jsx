@@ -1,4 +1,4 @@
-import { Card, ListGroup, Container, Alert } from 'react-bootstrap';
+import { Card, ListGroup, Container } from 'react-bootstrap';
 import styles from './IndividualService.module.scss';
 import { individualServiceItems } from './IndividualServiceItems';
 import { CalendarDays } from 'lucide-react';
