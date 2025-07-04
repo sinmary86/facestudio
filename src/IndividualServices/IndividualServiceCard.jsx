@@ -14,27 +14,35 @@ export const IndividualServiceCard = () => {
           <h2>Pour celles qui veulent transformer leur visage en profondeur, à leur rythme.</h2>
        {individualServiceItems.map((item) => (
         <Card key={item.id} className={styles.card} style={{ width: '22rem' }}>
-          <Card.Img variant="top" src={item.image} alt="" />
+          <Card.Img src={item.image} className={styles.cardImage} />
           <Card.Body>
           <Card.Title className={styles.title}>{item.title}</Card.Title>
-          <Card.Text className={styles.textTwo}>{item.discription}</Card.Text>
-          <Card.Text className={styles.text}>  <Pin /> {item.text}</Card.Text>
+          <Card.Text className={styles.textTwo}><i>{item.description}</i></Card.Text>
+          <Card.Text className={styles.text}>  {item.text}</Card.Text>
                
             <ListGroup className={styles.listItem}>
               {item.details.map((details, index) => (
                 <ListGroup.Item key={index} className={styles.listItem}>
-                <CheckCheck /> { details}
+                <CheckCheck size={16}/> { details}
                 </ListGroup.Item>
               ))}
             </ListGroup>
-            
-      <Card.Text  className={styles.listItem} >
-              <CalendarDays size={24} /> <strong>Durée:</strong> {item.period}
-            </Card.Text>
+     
+ <ListGroup className={styles.listItem}>
+  {item.period.map((period, index) => (
+    <ListGroup.Item key={index} className={styles.listItem}>
+      <CalendarDays size={20} /> {period}
+    </ListGroup.Item>
+  ))}
+</ListGroup>
 
-            <Card.Text className={styles.listItem}>
-            <BadgeEuro /> <strong>Tarif : {item.price} </strong> {item.priceDetails}
-            </Card.Text>
+<Card.Text className={styles.listItem} >
+  {item.connect}
+</Card.Text>
+
+<Card.Text className={styles.price}>
+  TARIF {item.price}  €
+ </Card.Text>
           </Card.Body>
         </Card>
       ))}
