@@ -1,48 +1,49 @@
 
-import { Card, ListGroup, Container} from 'react-bootstrap';
+// фото поискать 
+
+import { Card, Container } from 'react-bootstrap';
 import styles from './GroupServices.module.scss';
 import { groupServicesItems } from './GroupServicesItems';
-import { CalendarDays } from 'lucide-react';
-import { BadgeEuro } from 'lucide-react';
-import { Pin } from 'lucide-react';
-import { CheckCheck } from 'lucide-react';
+import { Check } from 'lucide-react';
 
-    
 export const GroupServicesCard = () => {
   return (
-    <Container className={styles.section}>
-      <h2>Pour prendre soin de son visage en douceur ou s’engager dans une vraie transformation, ensemble.</h2>
-      {groupServicesItems.map((item) => (
-        <Card key={item.id} className={styles.card} style={{ width: '22rem' }}>
+    <Container className={`text-center ${styles.wrapperFull}`}>
       
-         <Card.Img variant="top" src={item.image} alt="" />
-               
-          <Card.Body>
-            <Card.Title className={styles.title}>{item.title}</Card.Title>
-            <Card.Text className={styles.text}>{item.text}</Card.Text>
-                 <Card.Text className={styles.textTwo}><Pin /> <strong>{item.discription}</strong> </Card.Text>
+      <h2 >COURS EN GROUPE – Clubs en ligne</h2>
+      
+      <div className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}>
+        {groupServicesItems.map((item, index) => (
+          <div key={index} className={styles.cardWrapper}>
+            <img src={item.image} alt={item.title} className={styles.backgroundImage} />
+            <Card className={styles.textCard}>
+              <Card.Body className={styles.cardBody}>
+                <Card.Title className={styles.cardTitle}>
+                  {item.title}
+                  <div className={styles.subtitleText}>({item.subtitle})</div>
+                </Card.Title>
 
-            <Card.Text  className={styles.textTwo} > {item.textTwo}</Card.Text>
-            <ListGroup>
-              {item.concerns.map((concern, index) => (
-                <ListGroup.Item key={index} className={styles.listItem}>
-                   <CheckCheck />  {concern}
-                </ListGroup.Item>
-              ))}
-            </ListGroup>
+                <ul className={styles.myList}>
+                  {item.items.map((text, i) => (
+                  <li key={i} className={styles.listItem}>
+                  <span className={styles.icon}><Check/></span>
+                  {text}
+                </li>
+                  ))}
+                </ul>
 
-            <Card.Text className={styles.listItem}>
-              <CalendarDays size={24} /> <strong>Durée:</strong> {item.period}
-            </Card.Text>
-
-            <Card.Text className={styles.listItem}>
-               <BadgeEuro /> <strong>Tarif : {item.price}</strong> {item.priceDetails}
-            </Card.Text>
-
-         </Card.Body>
-        </Card>
-      ))}
+                <div className={styles.price}>
+                  {item.price}
+                  <br />
+                  <small className={styles.note}>{item.note}</small>
+                </div>
+              </Card.Body>
+            </Card>
+         </div>
+        ))}
+      </div>
     </Container>
   );
 };
+
 

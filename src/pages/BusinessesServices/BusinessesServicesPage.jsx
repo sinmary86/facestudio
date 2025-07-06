@@ -9,8 +9,9 @@ const BusinessesServicesPage = () => {
         <div>
             <PageBanner
                 background={backgroundImg}
-                title="INTERVENTIONS EN ENTREPRISE – Visage détendu, posture assurée"
+                title="Des ateliers bien-être pour favoriser l’énergie, la présence et le mieux-être au travail"
                 />
+{/* <BusinessServicesCard/> */}
 <BusinessServicesCard/>
         </div> 
      )

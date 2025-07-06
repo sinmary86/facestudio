@@ -1,45 +1,46 @@
-import onlineProgramm  from '../Assets/onlineProgramm.jpg'
+import individualProgramm from '../Assets/actualAntiAge.jpg';
+import Mimique from '../Assets/14198.jpg';
+import ParZone from '../Assets/about-foto-with-creame.jpg';
 
-export const groupServicesItems = [
-    {
-    id : 1, 
-    image: onlineProgramm,
-    title: "Club Fraîche – Prendre soin de soi en douceur",
-    text: "Pause hebdo pour détendre les traits, raviver l’énergie et soigner son visage.",
-    discription: "Inclus :",
-        concerns: [
-         "Groupe convivial (max 10 personnes)",
-         "Sans suivi individuel, mais avec bienveillance et efficacité"
-              ],
-    period: "1 séance hebdomadaire en ligne (40 min)",
-    price: "15 €/séance ou 60 €/mois",
-     }, 
+
+   export const groupServicesItems = [
+ {
+    image: individualProgramm,
+    title: "Club Fraîche",
+    subtitle: "1 séance",
+    items: [
+      "1 séance hebdomadaire en ligne (40 min)",
+      "Groupe convivial pour progresser ensemble (max 10 personnes)",
+      "Sans suivi individuel, mais efficace et bienveillant",
+   
+    ],
+    price: "15 €",
+    note: "(60 €/mois par 4 séances)",
+  },
+  {
+     image: Mimique,
+    title: "Club Boost Éclat",
+    subtitle: "1 mois",
+    items: [
+      "1 séance hebdomadaire en ligne (40 min)",
+      "Routine vidéo express personnalisée chaque mois",
+      "Mini-guide visage adapté à votre morphologie",
     
-     {
-    id : 2, 
-    image: onlineProgramm,
-    title: "Club Boost Éclat – Protéger votre jeunesse",
-    text: "Un format complet pour instaurer une vraie routine, personnalisée à vos besoins.",
-    discription: "Inclus :",
-        concerns: [
-         "Routine vidéo express personnalisée chaque mois",
-         "Mini-guide visage adapté à votre morphologie"
-              ],
-    period: "1 séance hebdomadaire en ligne",
-    price: "90 €/mois ou 240 €/trimestre",
-          },
-           {
-    id : 3, 
-    image: onlineProgramm,
-    title: "Club Reloaded – Une méthode complète pour se transformer",
-    text: "Pour celles qui veulent un vrai changement avec un accompagnement de proximité.",
-    discription: "Inclus :",
-        concerns: [
-         "Retours vocaux personnalisés tous les 15 jours en petit groupe (max 6)",
-         "Accès prioritaire à mes ateliers et nouveautés"
-              ],
-    period: "2 séances par semaine ",
-    price: "120 €/mois ou 320 €/trimestre",
-       }
-          
-]
+    ],
+    price: "90 €",
+    note: "(240 €/trimestre)",
+  },
+  {
+    image: ParZone,
+    title: "Club Reloaded ",
+    subtitle: "1 mois",
+    items: [
+      "2 séances par semaine en petit groupe (max 6)",
+      "Retours vocaux personnalisés tous les 15 jours",
+      "Accès prioritaire à mes ateliers et nouveautés",
+
+    ],
+    price: "120 € ",
+    note: "(320 €/trimestre)",
+  },
+];

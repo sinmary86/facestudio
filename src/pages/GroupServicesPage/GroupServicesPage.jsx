@@ -8,7 +8,7 @@ const GroupServicesPage = () => {
 
           <PageBanner
                 background={backgroundImg}
-                title="COURS EN GROUPE – Clubs en ligne"
+                title="Pour prendre soin de son visage en douceur ou s’engager dans une vraie transformation, ensemble"
                 />
 <GroupServicesCard/>
         </div> 
