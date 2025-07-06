@@ -7,7 +7,7 @@ const IndividualServicesPage = () => {
         <div>
             <PageBanner
                 background={backgroundImg}
-                title="Accompagnement Individuel"
+                title="Pour celles qui veulent transformer leur visage en profondeur, à leur rythme."
                 />
                 <IndividualServiceCard/>
         </div> 
