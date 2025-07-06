@@ -1,7 +1,7 @@
 
-import individualProgramm  from '../Assets/individualProgramm.jpg';
-import Mimique from '../Assets/IndividualMimique.jpg';
-import ParZone from '../Assets/IndividualParZone.jpg';
+import individualProgramm from '../Assets/actualAntiAge.jpg';
+import Mimique from '../Assets/14198.jpg';
+import ParZone from '../Assets/about-foto-with-creame.jpg';
 
 
    export const individualServiceItems = [
