@@ -1,0 +1,161 @@
+@use '../../styles/vars.scss' as *;
+
+.wrapperFull {
+  padding: $gap-64 0 $gap-32 0;
+  }
+
+  .wrapper {
+  padding-top: $gap-32;
+
+  
+  @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: $gap-16;
+  }
+  }
+
+
+.backgroundImage {
+  width: 356px;
+  height: 450px; 
+  object-fit: cover;
+  display: block;
+  filter: brightness(70%);
+}
+
+.textCard {
+  position: relative;
+  margin-top: -9rem; 
+  left: 1.5rem; 
+  width: 19rem; 
+  background:  $white-color;
+  z-index: 10;
+  border-radius: 0 !important;
+}
+
+.cardBody {
+  padding: $gap-20; 
+  background-color: #FBFBFB;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.25); 
+}
+
+.cardTitle {
+  font-family: $font-title;
+  font-size:  $font-size-20;
+  text-align: center;
+  letter-spacing: 7%;
+}
+
+.subtitleText {
+  font-family: $font-deco;
+  margin-top: $gap-16; 
+  font-size:  $font-size-30;
+  display: block;
+}
+
+.myList {
+  display: flex;
+  flex-direction: column;
+  text-align: left; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 1rem;
+  gap: $gap-8;
+}
+
+.listItem {
+    position: relative;
+    padding-left: 1.3rem;   
+    margin-bottom: 0.5rem;  
+ 
+  }
+
+  .icon {
+    position: absolute;
+    top: 0.5rem;             
+    left: 0; 
+    background-color: black;   
+    border-radius: 50%;           
+    color: white;
+    display: inline-flex;        
+    align-items: center;
+    justify-content: center;
+    width: $gap-16;           
+    height: $gap-16;   
+    padding: 2px;
+  }
+
+
+.price {
+  font-family: $font-title;
+  font-size:  $font-size-50;
+  color: $secondary-color;
+  padding-top: $gap-16; 
+  text-align: center;
+ 
+}
+  .note {
+    display: block;
+    font-family:  $font-text;
+    font-size: $font-size-12;
+    color: $black-color;
+  }
+
+
+@media (max-width: 768px) {
+  .cardsRow {
+    flex-direction: column;
+    align-items: center;
+    gap: $gap-24; 
+  }
+
+  .backgroundImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .textCard {
+    position: static;
+    width: 100%;
+    margin-top: 0rem;
+    left: 0;
+  }
+
+  .cardBody {
+    padding: 1rem;
+  }
+
+  .cardTitle {
+    font-size: $font-size-18;
+  }
+
+  .subtitleText {
+    font-size: $font-size-20;
+  }
+
+  .myList {
+    padding-top: 0.75rem;
+    gap: $gap-8;
+  }
+
+  .listItem {
+    padding-left: 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .icon {
+    top: 0.4rem;
+    font-size: 0.85rem;
+  }
+
+  .price {
+    font-size: $font-size-40;
+  }
+
+  .note {
+    font-size: $font-size-10;
+  }
+}
