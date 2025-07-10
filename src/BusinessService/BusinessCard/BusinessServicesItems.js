@@ -34,7 +34,7 @@ import ExpressiveFace from '../../Assets/expressive-face.jpg';
   },
   {
     image: ExpressiveFace,
-    alt:'Posture Assurée & Visage Convaincant',
+    alt:'Visage Convaincant',
     title: "Atelier Posture Assurée & Visage Convaincant",
     subtitle: "1 heure",
     items: [
