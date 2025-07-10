@@ -1,12 +1,13 @@
 
 import individualProgramm from '../../Assets/actualAntiAge.jpg';
-import Mimique from '../../Assets/14198.jpg';
+import Mimique from '../../Assets/mimique.jpg';
 import ParZone from '../../Assets/about-foto-with-creame.jpg';
 
 
    export const individualServiceItems = [
  {
     image: individualProgramm,
+    alt:'Individuel Programm ',
     title: "TRANSFORMATION \nDU VISAGE",
     subtitle: "10 séances",
     items: [
@@ -19,7 +20,8 @@ import ParZone from '../../Assets/about-foto-with-creame.jpg';
     note: "(paiement possible en 2x ou 3x)",
   },
   {
-     image: Mimique,
+    image: Mimique,
+    alt:'Mimique',
     title: "CORRECTION \nMIMIQUE",
     subtitle: "4 semaines",
     items: [
@@ -33,6 +35,7 @@ import ParZone from '../../Assets/about-foto-with-creame.jpg';
   },
   {
     image: ParZone,
+    alt:'Mimique Zpne',
     title: "SÉANCE CIBLÉE \nPAR ZONE",
     subtitle: "1 heure",
     items: [
