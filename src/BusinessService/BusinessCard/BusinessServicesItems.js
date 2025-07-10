@@ -1,4 +1,4 @@
-import InnerHarmony from '../../Assets/inner-harmony.jpg';
+import InnerHarmony from '../../Assets/Inner-harmony.jpg';
 import EnergyAndTone from '../../Assets/energy-and-tone.jpg';
 import ExpressiveFace from '../../Assets/expressive-face.jpg';
 
