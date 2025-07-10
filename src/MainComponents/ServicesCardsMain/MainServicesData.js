@@ -1,7 +1,7 @@
 import serviceGroup from '../../Assets/service-group.jpg';
 import serviceAtelier from '../../Assets/service-atelier.jpg';
 import individualMain from '../../Assets/individualMain.jpg';
-import groupService from '../../Assets/groupServices.jpg';
+import groupService from '../../Assets/group-Services.jpg';
 
 
 export const mainServicesData = [

@@ -7,7 +7,7 @@ export const BusinessIcons = () => (
   
   <Container className={styles.wrapperFull}>
 
-    <h3 className="text-center">Que vous apporte la participation au club ?</h3>
+    <h2 className="text-center">Que vous apporte la participation au club ?</h2>
 
     <Row className={styles.wrapper}>
     {BusinessIconsData.map(({ icon, title, description }, index) => (

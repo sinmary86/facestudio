@@ -7,7 +7,7 @@ export const IndividualIcons = () => (
   
   <Container className={styles.wrapperFull}>
 
-    <h3 className="text-center">Vous constatez certains de ces signes ?</h3>
+    <h2 className="text-center">Vous constatez certains de ces signes ?</h2>
 
     <Row className={styles.wrapper}>
     {IndividualIconsData.map(({ icon, title, description }, index) => (

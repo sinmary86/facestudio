@@ -5,7 +5,7 @@ export const IndividualBenefits =()=> {
   return (
     <Container className={styles.wrapperFull}>
   
-            <h3 className="text-center" > Zones disponibles </h3>
+            <h2 className="text-center" > Zones disponibles </h2>
 
             <ol className={styles.gridList}>
               <li>

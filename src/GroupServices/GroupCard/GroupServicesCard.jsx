@@ -1,5 +1,4 @@
 
-// фото поискать 
 
 import { Card, Container } from 'react-bootstrap';
 import styles from './GroupServices.module.scss';

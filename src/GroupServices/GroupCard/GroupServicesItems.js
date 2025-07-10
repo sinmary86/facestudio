@@ -6,6 +6,7 @@ import AgeTransformation from '../../Assets/age-transformation.jpg';
    export const groupServicesItems = [
  {
     image: AgeGroup,
+    alt:'Age Group',
     title: "Club Fraîche",
     subtitle: "1 séance",
     items: [
@@ -18,7 +19,8 @@ import AgeTransformation from '../../Assets/age-transformation.jpg';
     note: "(60 €/mois par 4 séances)",
   },
   {
-     image: GroupServices,
+    image: GroupServices,
+    alt:'Group Services',
     title: "Club Boost Éclat",
     subtitle: "1 mois",
     items: [
@@ -32,6 +34,7 @@ import AgeTransformation from '../../Assets/age-transformation.jpg';
   },
   {
     image: AgeTransformation,
+    alt:'Age Transformation',
     title: "Club Reloaded ",
     subtitle: "1 mois",
     items: [

@@ -6,6 +6,7 @@ import ExpressiveFace from '../../Assets/expressive-face.jpg';
    export const businessServicesItems = [
  {
     image: InnerHarmony,
+    alt:'Inner Harmony',
     title: "Atelier Équilibre mentale",
     subtitle: "1 heure",
     items: [
@@ -18,7 +19,8 @@ import ExpressiveFace from '../../Assets/expressive-face.jpg';
     // note: "(60 €/mois par 4 séances)",
   },
   {
-     image: EnergyAndTone,
+    image: EnergyAndTone,
+    alt:'Energy And Tone',
     title: "Atelier Regain d’Énergie",
     subtitle: "1 heure",
     items: [
@@ -32,6 +34,7 @@ import ExpressiveFace from '../../Assets/expressive-face.jpg';
   },
   {
     image: ExpressiveFace,
+    alt:'Posture Assurée & Visage Convaincant',
     title: "Atelier Posture Assurée & Visage Convaincant",
     subtitle: "1 heure",
     items: [
