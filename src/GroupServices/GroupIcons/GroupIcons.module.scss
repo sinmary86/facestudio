@@ -16,6 +16,18 @@
   }
   }
 
+.imgWrapper {
+  height: 120px; 
+
+
+  img {
+    max-height: 100%;
+    object-fit: contain;
+  }
+}
+
+
+
 .subTitle {
   max-width: 65%;
 

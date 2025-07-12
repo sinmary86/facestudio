@@ -13,13 +13,16 @@ export const GroupIcons = () => (
     {GroupIconsData.map(({ icon, title, description }, index) => (
       
         <Col key={index} md={6} lg={4} className="d-flex flex-column align-items-center text-center"> 
-        <div className={styles.imgWrapper}>
+      <div className={`d-flex align-items-center justify-content-center ${styles.imgWrapper}`}>
            <img src={icon} alt={title} className="mb-4"/>
          </div>
            <h3>{ title }</h3>
            <p className={styles.subTitle}>{description} </p>
         </Col>
-      
+
+
+
+
     ))}
   </Row>
   </Container>
