@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: $light-bg-color;
+    background-color: $primary-color;
     color: $black-color;
 }
 
@@ -13,4 +13,8 @@ button {
 
 a {
   text-decoration: none;
+}
+
+label.form-check-label {
+  text-transform: none !important;
 }
