@@ -1,0 +1,39 @@
+@use '../../styles/vars.scss' as *;
+
+.wrapperFull {
+  padding: $gap-32 0;
+  }
+
+.gridList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $gap-32;
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+  padding-top: $gap-32;
+
+  @media (max-width: 998px) {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: $gap-16;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: $gap-32;
+  }
+}
+
+.bigNumber {
+  font-size: 140px;
+  font-family: $font-title;
+  line-height: 1;
+  flex-shrink: 0;
+  font-weight: 200;
+  color: $secondary-color;
+
+   @media (max-width: 468px) {
+    font-size: 110px;
+  }
+}

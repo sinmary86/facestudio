@@ -1,0 +1,111 @@
+@use '../../styles/vars.scss' as *;
+
+.myGridSection {
+  padding: $gap-64 0;
+
+   @media (max-width: 992px) {
+    padding: $gap-32 0;
+   }
+
+  .gridLayout {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: $gap-32;
+    grid-template-areas:
+      "imgLeft text1 imgSmall textRight"
+      "imgLeft text2 imgSmall textRight"
+      "imgLeft text3 imgSmall textRight"
+      "imgLeft text4 imgSmall textRight"
+      "imgLeft quote quote textRight";
+
+    @media (max-width: 992px) {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "imgLeft"
+        "text1"
+        "text2"
+        "text3"
+        "text4"
+        "quote"
+        "imgSmall"
+        "bottom1"
+        "bottom2"
+        "imgRight";
+    }
+
+    .imgTallLeft {
+      grid-area: imgLeft;
+      background-image: url('/src/Assets/gentle-care-eyes.jpg');
+      background-size: cover;
+      background-position: center;
+      height: auto;
+      width: 100%;
+      box-shadow: 0px 4px 4px 0px #00000040;
+
+        @media (max-width: 992px) {
+          height: 40vh;
+          background-position: 30% 70%;
+  }
+    }
+
+    .textBlockOne {
+      grid-area: text1;
+      height: auto;
+      margin: 0;
+    }
+
+    .textBlockTwo {
+      grid-area: text2;
+      height: auto;
+      margin: 0;
+    }
+
+    .textBlockThree {
+      grid-area: text3;
+      height: auto;
+      text-align: center;
+      margin: 0;
+    }
+
+    .price {
+      font-family: $font-title;
+      font-size:  $font-size-50;
+      color: $secondary-color;
+    }
+
+    .imgSmallBetweenText {
+      grid-area: imgSmall;
+      height: auto;
+      width: 100%;
+      background-image: url('/src/Assets/wom_disscuss.jpg');
+      background-size: cover;
+      background-position: 25% 80%;
+      box-shadow: 0px 4px 4px 0px #00000040;
+    }
+
+    .textTallRight {
+      grid-area: textRight;
+      height: 100%;         
+      align-self: stretch; 
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: $gap-16;
+    }
+
+    .spanText {
+      font-size:  $font-size-18;
+      color: $dark-text-color;
+      font-family: $font-text;
+    }
+
+    .fullQuote {
+      grid-area: quote; 
+      grid-column: 2 / span 2;    
+      margin: 0;
+      align-self: center;
+    }
+}
+}
