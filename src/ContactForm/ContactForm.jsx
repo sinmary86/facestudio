@@ -48,7 +48,8 @@ useEffect(() => {
 
   return (
 
-    <Container>
+    <Container className={styles.section}>
+    <h2 className='text-center'>Formulaire de contact</h2>
     <Form noValidate validated={validated} onSubmit={handleSubmit} className={styles.formContainer}>
 
       <Row className="mb-3">
@@ -80,7 +81,7 @@ useEffect(() => {
         </Form.Group>
       </Row>
 
-      <Row className="mb-3">
+   <Row className="mb-3">
   <Form.Group as={Col} md="6" controlId="serviceSelect">
     <Form.Label>Quel service vous intéresse ?</Form.Label>
     <Form.Select name="service">
@@ -95,7 +96,7 @@ useEffect(() => {
   </Form.Group>
 
   <Form.Group as={Col} md="6" controlId="timeSelect">
-    <Form.Label>Préférez-vous un rendez-vous en journée ou en soirée ?</Form.Label>
+    <Form.Label>Plutôt journée ou soirée ?</Form.Label>
     <Form.Select name="time">
       <option value="">Choisissez un créneau</option>
       <option value="1">Matin</option>
@@ -114,9 +115,14 @@ useEffect(() => {
         <Form.Check
           required
           name="consent"
-          label="Je consens à ce que mes données soient utilisées pour être contacté(e) dans le cadre de cette demande"
+          label={
+    <>
+      Je consens au traitement de mes données personnelles conformément à la <a href="/politique-de-confidentialite" target="_blank" rel="noopener noreferrer" className={styles.policyLink}>politique de confidentialité</a>.
+    </>
+  }
           feedback="Vous devez accepter avant de soumettre!"
           feedbackType="invalid"
+          className="custom-check"      
         />
       </Form.Group>
       

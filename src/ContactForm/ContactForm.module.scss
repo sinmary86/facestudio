@@ -1,22 +1,42 @@
 @use '../styles/vars.scss' as *;
+@use 'sass:color';
 
-.formContainer {
+.section {
   padding: $gap-64 0;
 
-  label {
-    font-weight: 600;
-    font-family: $font-title;
+  @media (max-width: 768px) {
+    padding: $gap-32 0;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // gap: $gap-32;
   }
 
+   @media (max-width: 468px) {
+    padding: $gap-16 0;
+  }
+}
+
+.formContainer {
+  // padding: $gap-32 0;
+
+  label {
+    font-weight: 400;
+    font-family: $font-title;
+    font-size: 20px;
+  }
+  
   input,
   select,
   textarea {
     background-color: transparent;
     border-radius: 0.375rem;
-    border: 1px solid rgba($dark-text-color, 0.4);
-    box-shadow: 0 2px 6px rgba($dark-text-color, 0.1);
+    border: 0.5px solid rgba($dark-text-color, 0.4);
+    box-shadow: 0px 4px 16px 0px #0000001A;
     transition: border-color 0.3s ease;
     font-family: $font-text;
+    color: $dark-text-color;
 
     &:focus {
       background-color: rgba($secondary-color, 0.05);
@@ -25,11 +45,61 @@
     }
   }
 
+
+  select option {
+   background-color: $primary-color;
+   color: $dark-text-color;
+}
+
   .form-check-input {
     margin-top: 0.4rem;
+  } 
+} 
+
+:global(.form-check-label) {
+  text-transform: none !important;
+  font-family: $font-text !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
+:global(.form-select) {
+    font-size: 16px;
+
+  &:focus {
+    border-color: rgba($dark-text-color, 0.7); 
+    box-shadow: 0 4px 12px rgba($dark-text-color, 0.2); 
+  }
+}
+
+:global(.custom-check .form-check-input) {
+  border: 1px solid $secondary-color;
+  background-color: transparent;
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem rgba(68, 102, 97, 0.25);
+    outline: none;
   }
 
-  .form-check-label {
-    font-size: 1.95rem;
+  &:checked {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='white' d='M6.173 12.672l-3.88-3.89 1.414-1.414 2.466 2.468 5.656-5.657 1.414 1.415z'/%3e%3c/svg%3e");
+  }
+}
+
+.policyLink {
+  color: $secondary-color;
+  font-family: $font-text;
+  font-weight: 400;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  transition: transform 0.2s ease, color 0.2s ease;
+  display: inline-block;
+
+  &:hover {
+    color: color.scale($secondary-color, $lightness: -10%);
+    text-decoration: underline;
+    transform: scale(1.025); 
   }
 }

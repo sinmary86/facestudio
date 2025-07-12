@@ -9,7 +9,7 @@
 .navbarCustom {
   font-family: $font-title !important;
   color: $dark-text-color !important;
-  background-color: $light-bg-color;
+  background-color: $primary-color;
 }
 
 :global(.navbar-toggler) {
@@ -19,8 +19,8 @@
 }
 
 .offcanvas {
-    background-color: $light-bg-color !important;
-     padding-left: $gap-16;
+    background-color: $primary-color !important;
+    padding-left: $gap-16;
   }
 
 :global(.dropdown-menu) {
