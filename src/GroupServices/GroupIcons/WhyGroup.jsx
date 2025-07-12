@@ -1,18 +1,19 @@
 
 import { Row, Col, Container } from "react-bootstrap";
-import { GroupIconsData} from "./GroupIconsData";
-import styles from "./GroupIcons.module.scss";
+import { WhyGroupData} from "./WhyGroupData";
+import styles from "./WhyGroup.module.scss";
 
-export const GroupIcons = () => (
+export const WhyGroup = () => (
   
   <Container className={styles.wrapperFull}>
 
     <h2 className="text-center">Que vous apporte la participation au club ?</h2>
 
     <Row className={styles.wrapper}>
-    {GroupIconsData.map(({ icon, title, description }, index) => (
+    {WhyGroupData.map(({ icon, title, description }, index) => (
       
-        <Col key={index} md={6} lg={4} className="d-flex flex-column align-items-center text-center"> 
+        <Col key={index} md={6}  lg={4}
+     className={`d-flex flex-column align-items-center text-center mb-4 ${styles.imgIcon}`}>
       <div className={`d-flex align-items-center justify-content-center ${styles.imgWrapper}`}>
            <img src={icon} alt={title} className="mb-4"/>
          </div>
