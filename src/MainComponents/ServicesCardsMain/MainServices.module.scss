@@ -56,7 +56,7 @@
 .serviceBody {
   position: relative;
   z-index: 2;
-  color: $light-bg-color;
+  color: $primary-color;
   height: 100%; 
   gap: $gap-4;
 }
@@ -64,7 +64,7 @@
 .separator {
   width: 30%;
   height: 2px;
-  background-color: $light-bg-color;
+  background-color: $primary-color;
 }
 
 .cardImage {
