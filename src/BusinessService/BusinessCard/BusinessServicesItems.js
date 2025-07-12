@@ -15,8 +15,7 @@ import ExpressiveFace from '../../Assets/expressive-face.jpg';
       "Parfait pour améliorer la QVCT et terminer la journée en douceur",
    
     ],
-    // price: "15 €",
-    // note: "(60 €/mois par 4 séances)",
+    note: "* En visio ou en présentiel (sur devis selon durée et nombre de participants)",
   },
   {
     image: EnergyAndTone,
@@ -29,8 +28,7 @@ import ExpressiveFace from '../../Assets/expressive-face.jpg';
       "Parfait en début de journée ou après la pause déjeuner",
     
     ],
-    // price: "90 €",
-    // note: "(240 €/trimestre)",
+     note: "* En visio ou en présentiel (sur devis selon durée et nombre de participants)",
   },
   {
     image: ExpressiveFace,
@@ -43,7 +41,7 @@ import ExpressiveFace from '../../Assets/expressive-face.jpg';
       "Disponible en visio ou en présentiel, selon vos besoins",
 
     ],
-    // price: "120 € ",
-    // note: "(320 €/trimestre)",
+
+    note: "* En visio ou en présentiel (sur devis selon durée et nombre de participants)",
   },
 ];
