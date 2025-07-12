@@ -5,7 +5,6 @@ import backgroundImg from '../../Assets/wom_ touch_face.jpg';
 import { MainAboutContent } from "../../MainComponents/MainAboutContent/MainAboutContent";
 import { BenefitsMethodMain } from "../../MainComponents/BenefitsMethodMain/BenefitsMethodMain";
 
-
 const MainPage = () => {
     return(
         <div>
