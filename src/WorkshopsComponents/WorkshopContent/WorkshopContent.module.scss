@@ -17,22 +17,33 @@
       "imgLeft text1 imgSmall textRight"
       "imgLeft text2 imgSmall textRight"
       "imgLeft text3 imgSmall textRight"
-      "imgLeft text4 imgSmall textRight"
       "imgLeft quote quote textRight";
 
     @media (max-width: 992px) {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+       "imgLeft imgLeft"
+       "text1 text1"
+       "text2 text3"
+       "quote quote"
+       "imgSmall imgSmall"
+       "textRight textRight";
+      gap: $gap-24;
+    }
+
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr ;
       grid-template-areas:
         "imgLeft"
         "text1"
         "text2"
         "text3"
-        "text4"
         "quote"
         "imgSmall"
-        "bottom1"
-        "bottom2"
-        "imgRight";
+        "textRight";
+        gap: $gap-16;
     }
 
     .imgTallLeft {
@@ -40,15 +51,15 @@
       background-image: url('/src/Assets/gentle-care-eyes.jpg');
       background-size: cover;
       background-position: center;
-      height: auto;
+      height: 100%;
+      min-height: 40vh;
       width: 100%;
       box-shadow: 0px 4px 4px 0px #00000040;
 
-        @media (max-width: 992px) {
-          height: 40vh;
-          background-position: 30% 70%;
+       @media (max-width: 992px) {
+        background-position: center;   
   }
-    }
+  }
 
     .textBlockOne {
       grid-area: text1;
@@ -67,22 +78,64 @@
       height: auto;
       text-align: center;
       margin: 0;
+      align-self: center;
+
+       @media (max-width: 992px) {
+           
+  }
     }
 
     .price {
       font-family: $font-title;
       font-size:  $font-size-50;
       color: $secondary-color;
+
+       @media (max-width: 992px) {
+        font-size: 30px;
+        align-self: center;
+        margin: 0;
+        padding: 0;
+      }
     }
+
+    .spanText {
+      font-size:  $font-size-18;
+      color: $dark-text-color;
+      font-family: $font-text;
+
+      
+       @media (max-width: 992px) {
+        margin: 0;
+        padding: 0;
+      }
+
+      @media (max-width: 492px) {
+        align-self: center;
+      }
+    }
+
 
     .imgSmallBetweenText {
       grid-area: imgSmall;
       height: auto;
+      min-height: 40vh;
       width: 100%;
       background-image: url('/src/Assets/wom_disscuss.jpg');
       background-size: cover;
       background-position: 25% 80%;
       box-shadow: 0px 4px 4px 0px #00000040;
+
+        @media (max-width: 992px) {
+          background-position: center;
+      }
+    }
+
+    .title {
+      margin-bottom: $gap-16;
+
+         @media (max-width: 992px) {
+          text-align: center;
+      }
     }
 
     .textTallRight {
@@ -93,17 +146,14 @@
       display: flex;
       flex-direction: column;
       gap: $gap-16;
-    }
 
-    .spanText {
-      font-size:  $font-size-18;
-      color: $dark-text-color;
-      font-family: $font-text;
+       @media (max-width: 992px) {
+          text-align: center;
+      }
     }
 
     .fullQuote {
       grid-area: quote; 
-      grid-column: 2 / span 2;    
       margin: 0;
       align-self: center;
     }

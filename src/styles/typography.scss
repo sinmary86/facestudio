@@ -34,7 +34,7 @@ h2 {
 
 h3 {
     font-family: $font-title;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 22px;
 
      @media (max-width: 768px) {
@@ -53,9 +53,13 @@ h3 {
   }
 
   h5 {
-        font-family: $font-deco;
-        font-size: 35px;
+    font-family: $font-deco;
+    font-size: 35px;
+
+      @media (max-width: 768px) {
+        font-size: 30px;
       }
+    }
 
 p, li {
   font-size: $font-size-18;

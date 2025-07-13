@@ -33,7 +33,7 @@ export const WorkshopContent = () => {
             </div>
 
             <div className={styles.textTallRight}>
-              <h3 className="mb-3">Thèmes populaires</h3>
+              <h3 className={styles.title}>Thèmes populaires</h3>
 
               <h4>Pourquoi le visage change-t-il?</h4>
               <p>Décodage des causes + 3 étapes pour inverser le processus</p>
