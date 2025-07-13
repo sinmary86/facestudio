@@ -6,13 +6,14 @@
   right: $gap-32;
   width: 60px;
   height: 60px;
-  background-color: $secondary-color;
+  background: $secondary-color;
+  box-shadow: 0 0 0 2px white, 0 4px 12px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  
   cursor: pointer;
   animation: pulse 2s infinite;
 
@@ -24,7 +25,7 @@
 
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 4px white, 0 8px 16px rgba(0, 0, 0, 0.4);
   }
 
   @media (max-width: 600px) {
@@ -57,14 +58,20 @@
 @keyframes pulse {
   0% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba($secondary-color, 0.7);
+    box-shadow:
+      0 0 0 0 rgba(255, 255, 255, 0.6),
+      0 4px 12px rgba(0, 0, 0, 0.3);
   }
   70% {
     transform: scale(1.05);
-    box-shadow: 0 0 0 10px rgba($secondary-color, 0);
+    box-shadow:
+      0 0 0 12px rgba(255, 255, 255, 0),
+      0 8px 16px rgba(0, 0, 0, 0.4);
   }
   100% {
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba($secondary-color, 0);
+    box-shadow:
+      0 0 0 0 rgba(255, 255, 255, 0),
+      0 4px 12px rgba(0, 0, 0, 0.3);
   }
 }

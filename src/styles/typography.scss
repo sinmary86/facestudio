@@ -61,6 +61,12 @@ h3 {
       }
     }
 
+  h6 {
+    color: $primary-color;
+    font-family: $font-title;
+    font-size: $font-size-18;
+  }
+
 p, li {
   font-size: $font-size-18;
   line-height: 1.6;

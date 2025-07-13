@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import styles from './NavApp.module.scss';
 import { Container } from 'react-bootstrap';
 import { useState } from 'react';
+import burger from '../assets/burger-icon.svg';
 
 //TODO - нужно ли заменить brand на лого 
 
@@ -21,7 +22,9 @@ export const NavApp = () => {
           
             <Navbar.Brand as={Link} to="/" onClick={handleClose} className={styles.brand}>NK Facestudio</Navbar.Brand>
 
-            <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={() => setShowOffcanvas(true)} />
+            <Navbar.Toggle aria-controls="offcanvasNavbar" onClick={() => setShowOffcanvas(true)}>
+              <img src={burger} alt="burger nav" /> 
+             </Navbar.Toggle>
             <Navbar.Offcanvas
               show={showOffcanvas}
               onHide={handleClose}
