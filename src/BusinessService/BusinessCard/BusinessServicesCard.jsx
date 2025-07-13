@@ -1,11 +1,8 @@
-// оставила код на  цену, вдруг надо будет добавить, если клиенту надо 
-// название третьего ателье оставляем ? 
-// возможно убрать из название карточек слово АТЕЛЬЕ 
 
 import { Card, Container } from 'react-bootstrap';
 import styles from './BusinessServices.module.scss';
 import { businessServicesItems } from './BusinessServicesItems';
-import { Check } from 'lucide-react';
+
 
 export const BusinessServicesCard = () => {
   return (
@@ -29,17 +26,15 @@ export const BusinessServicesCard = () => {
                 <ul className={styles.myList}>
                   {item.items.map((text, i) => (
                   <li key={i} className={styles.listItem}>
-                  <span className={styles.icon}><Check/></span>
+                 <span className={styles.icon}>✔</span>
                   {text}
                 </li>
                   ))}
                 </ul>
 
-                <div className={styles.price}>
-                  {item.price}
-                  <br />
+                <br/>
                   <small className={styles.note}>{item.note}</small>
-                </div>
+             
               </Card.Body>
             </Card>
          </div>

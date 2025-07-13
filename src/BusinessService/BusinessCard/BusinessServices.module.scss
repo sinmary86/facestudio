@@ -22,7 +22,9 @@
   height: 450px; 
   object-fit: cover;
   display: block;
+  box-shadow: 0px 4px 4px 0px #00000040;
   filter: brightness(70%);
+
 }
 
 .textCard {
@@ -77,16 +79,12 @@
     position: absolute;
     top: 0.5rem;             
     left: 0; 
-    background-color: black;   
-    border-radius: 50%;           
-    color: white;
     display: inline-flex;        
     align-items: center;
     justify-content: center;
     width: $gap-16;           
     height: $gap-16;   
-    padding: 2px;
-  }
+    }
 
 
 .price {

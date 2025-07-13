@@ -1,7 +1,7 @@
 import { Container } from 'react-bootstrap';
-import styles from './IndividualBenefits.module.scss';
+import styles from './AvailableZones.module.scss';
 
-export const IndividualBenefits =()=> {
+export const AvailableZones =()=> {
   return (
     <Container className={styles.wrapperFull}>
   

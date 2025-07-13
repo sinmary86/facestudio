@@ -1,11 +1,9 @@
 
-
-
 import { PageBanner } from "../../PageBanner/PageBanner";
 import backgroundImg from '../../Assets/wom_ touch_face.jpg';
 import { BusinessServicesCard } from "../../BusinessService/BusinessCard/BusinessServicesCard";
-import { BusinessIcons } from "../../BusinessService/BusinessIcons/BusinessIcons";
-import { BusinessBenefits } from "../../BusinessService/BusinessNumbers/BusinessBenefits";
+import { BusinessBenefits } from "../../BusinessService/BusinessResults/BusinessBenefits";
+import { ProgramModules } from "../../BusinessService/BusinessModules/ProgramModules";
 
 const BusinessesServicesPage = () => {
      return (
@@ -16,7 +14,7 @@ const BusinessesServicesPage = () => {
                 />
 
 <BusinessServicesCard/>
-<BusinessIcons/>
+<ProgramModules/>
 <BusinessBenefits/>
         </div> 
      )

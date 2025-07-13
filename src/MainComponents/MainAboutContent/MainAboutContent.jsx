@@ -1,6 +1,8 @@
 import styles from './MainAboutContent.module.scss';
 import { Container, Row, Col } from 'react-bootstrap';
-import womanabout from '../../Assets/about.jpg';
+import womanabout from '../../Assets/face11.jpg';
+// import womanabout from '../../Assets/face12.png';
+// import womanabout from '../../Assets/about.jpg';
 import { Link } from 'react-router-dom';
 import { MoveRight } from 'lucide-react';
 
