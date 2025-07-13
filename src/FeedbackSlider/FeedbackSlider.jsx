@@ -42,16 +42,16 @@ export const FeedbackSlider = () => {
             <h2>Ce que nos clients disent de nous</h2>
             <Row>
                 <Col md={6}>
-                    <img src={guasha} alt="" className={styles.imageBig} />
+                    <img src={guasha} alt="Massage du visage Gua Sha" className={styles.imageBig} />
                 </Col>
 
                 <Col md={6}  className={styles.feedbackWrapper}>
-                <img src={quotes} alt="" className={styles.quotes}/>
+                <img src={quotes} alt="quotes" className={styles.quotes}/>
            
                  <Slider {...settings} ref={sliderRef}>
                     {feedbackData.map((feedback, id) => (
                     <div key={id} className={styles.sliderContainer}>
-                        <p className="mb-5">{feedback.text}</p>
+                        <p>{feedback.text}</p>
                         <h4>{feedback.name}</h4>
                         <p className="text-muted">{feedback.age} ANS</p>
                     </div>
