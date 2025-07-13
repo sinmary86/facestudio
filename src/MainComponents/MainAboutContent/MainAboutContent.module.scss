@@ -23,3 +23,7 @@
   aspect-ratio: 1 / 1; // ✅ сохраняет квадрат на любом экране
   object-fit: cover;
 }
+
+.iconArrow {
+  transform: rotate(270deg);
+}
