@@ -5,7 +5,7 @@ import styles from "./WorkshopBenefits.module.scss";
 export const WorkshopBenefits = () => (
   <Container className={styles.wrapperFull}>
 
-        <h2 className="text-center">Les atouts des ateliers</h2>
+        <h2>Les atouts des ateliers</h2>
 
         <Row className={styles.wrapper}> 
         {workshopBenefits.map(({ icon, title, description }, index) => (

@@ -5,7 +5,7 @@ export const AboutContent = () => {
   return (
 <Container className={styles.myGridSection}>
 
-  <h2 className='text-center'>Qui suis-je?</h2>
+  <h2>Qui suis-je?</h2>
   <div className={styles.gridLayout} >
     
     <div className={styles.imgTallLeft} />

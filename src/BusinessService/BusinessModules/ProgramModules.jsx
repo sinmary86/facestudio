@@ -7,7 +7,7 @@ export const ProgramModules = () => (
   
   <Container className={styles.wrapperFull}>
 
-    <h2 className="text-center">Que vous apporte la participation au club ?</h2>
+    <h2>Que vous apporte la participation au club ?</h2>
 
     <Row className={styles.wrapper}>
     {ProgramModulesData.map(({ icon, title, description }, index) => (

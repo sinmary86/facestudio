@@ -5,7 +5,7 @@ export const BusinessBenefits =()=> {
   return (
     <Container className={styles.wrapperFull}>
   
-            <h2 className="text-center" > Bénéfices RH & QVCT </h2>
+            <h2>Bénéfices RH & QVCT</h2>
 
             <ol className={styles.gridList}>
               <li>

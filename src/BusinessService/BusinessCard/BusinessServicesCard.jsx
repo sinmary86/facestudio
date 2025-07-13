@@ -8,7 +8,7 @@ export const BusinessServicesCard = () => {
   return (
     <Container className={`text-center ${styles.wrapperFull}`}>
       
-      <h2 >INTERVENTIONS EN ENTREPRISE</h2>
+      <h2>INTERVENTIONS EN ENTREPRISE</h2>
       
       <div className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}>
         {businessServicesItems.map((item, index) => (

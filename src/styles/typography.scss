@@ -21,6 +21,7 @@ h2 {
   font-size: 35px;
   text-transform: uppercase;
   padding-bottom: $gap-32;
+  text-align: center;
 
    @media (max-width: 768px) {
    padding-bottom: $gap-16;
