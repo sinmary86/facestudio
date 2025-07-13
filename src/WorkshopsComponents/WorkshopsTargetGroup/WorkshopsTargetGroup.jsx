@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 export const WorkshopsTargetGroup =()=> {
   return (
       <Container className={styles.wrapperFull}>
-            <h2 className="text-center" >Ces ateliers sont pour vous si:</h2>
+            <h2>Ces ateliers sont pour vous si:</h2>
 
             <ol className={styles.gridList}>
               <li>

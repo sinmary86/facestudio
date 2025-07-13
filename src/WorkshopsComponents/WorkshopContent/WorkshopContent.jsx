@@ -6,7 +6,7 @@ export const WorkshopContent = () => {
 
     <Container className={styles.myGridSection}>
 
-        <h2 className='text-center'>Ateliers</h2>
+        <h2>Ateliers</h2>
         <div className={styles.gridLayout} >
             
             <div className={styles.imgTallLeft} />

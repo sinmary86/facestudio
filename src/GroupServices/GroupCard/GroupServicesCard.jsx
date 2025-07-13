@@ -9,7 +9,7 @@ export const GroupServicesCard = () => {
   return (
     <Container className={`text-center ${styles.wrapperFull}`}>
       
-      <h2 >COURS EN GROUPE – Clubs en ligne</h2>
+      <h2>COURS EN GROUPE – Clubs en ligne</h2>
       
       <div className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}>
         {groupServicesItems.map((item, index) => (

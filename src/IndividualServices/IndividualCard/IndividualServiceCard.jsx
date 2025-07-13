@@ -8,7 +8,7 @@ export const IndividualServiceCard = () => {
   return (
     <Container className={`text-center ${styles.wrapperFull}`}>
       
-      <h2 >ACCOMPAGNEMENT INDIVIDUEL</h2>
+      <h2>ACCOMPAGNEMENT INDIVIDUEL</h2>
       
       <div className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}>
         {individualServiceItems.map((item, index) => (

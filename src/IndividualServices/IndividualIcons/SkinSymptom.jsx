@@ -7,7 +7,7 @@ export const SkinSymptom = () => (
   
   <Container className={styles.wrapperFull}>
 
-    <h2 className="text-center">Vous constatez certains de ces signes ?</h2>
+    <h2>Vous constatez certains de ces signes ?</h2>
 
     <Row className={styles.wrapper}>
     {SkinSymptomData.map(({ icon, title, description }, index) => (

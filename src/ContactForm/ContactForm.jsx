@@ -49,7 +49,7 @@ useEffect(() => {
   return (
 
     <Container className={styles.section}>
-    <h2 className='text-center'>Formulaire de contact</h2>
+    <h2>Formulaire de contact</h2>
     <Form noValidate validated={validated} onSubmit={handleSubmit} className={styles.formContainer}>
 
       <Row className="mb-3">
