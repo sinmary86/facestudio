@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import styles from './NavApp.module.scss';
 import { Container } from 'react-bootstrap';
 import { useState } from 'react';
-import burger from '../assets/burger-icon.svg';
+import burger from '../Assets/burger-icon.svg';
 
 //TODO - нужно ли заменить brand на лого 
 
