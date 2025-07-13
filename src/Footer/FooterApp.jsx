@@ -1,12 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
-import WhatsappIcon from '../Assets/whatsappIcon.svg';
-import EmailIcon from '../Assets/mailIcon.svg';
-import LinkedInIcon from '../Assets/linkedin1.svg';
-import TelegramIcon from '../Assets/telegram.svg';
+import WhatsappIcon from '../Assets/whatsapp-icon.svg';
+import EmailIcon from '../Assets/whatsapp-icon.svg';;
+import LinkedInIcon from '../Assets/linkedin-icon.svg';
+import TelegramIcon from '../Assets/whatsapp-icon.svg';
 import styles from './Footer.module.scss';
 import { Link } from "react-router-dom";
 
-
+//заменить иконку телеграмм почта
 
 export const FooterApp = () => {
 
@@ -17,9 +17,6 @@ export const FooterApp = () => {
         <footer className={styles.footerContainer}>
          <Container>
 
-          <div className={styles.separator}></div>
-            
-   
           <Row className="align-items-center text-center text-md-start mb-1 b-md-6">
           <Col md={6} className="mb-3 mb-md-6">
                 <h6>&copy;  NK Facestudio <span>  {currentYear === 2025 ? '2025' : `2025–${currentYear}`}</span>
@@ -69,7 +66,7 @@ export const FooterApp = () => {
             <Col xs={12} md="auto" className="mb-2 mb-md-0">
             
               <Link to="/mentions-legales" className={`text-decoration-none text-muted ${styles.footerLink}`}>
-                Mentions légales
+                <h6>Mentions légales</h6>
               </Link>
               
               </Col>
@@ -77,13 +74,13 @@ export const FooterApp = () => {
               
               <Col xs={12} md="auto" className="mb-2 mb-md-0">
                <Link to="/conditions-generales-de-vente" className={`text-decoration-none text-muted ${styles.footerLink}`}>
-                Conditions Générales de Vente
+                <h6>Conditions Générales de Vente</h6>
               </Link></Col>
 
               <Col xs={12} md="auto" className="mb-2 mb-md-0">
               
               <Link to="/politique-de-confidentialite" className={`text-decoration-none text-muted ${styles.footerLink}`}>
-                Politique de confidentialité
+                <h6>Politique de confidentialité</h6>
               </Link>
             </Col>
         </Row>
