@@ -3,7 +3,7 @@
 import { Card, Container } from 'react-bootstrap';
 import styles from './GroupServices.module.scss';
 import { groupServicesItems } from "./GroupServicesItems.js";
-import { Check } from 'lucide-react';
+
 
 export const GroupServicesCard = () => {
   return (

@@ -1,7 +1,6 @@
 import { Card, Container } from 'react-bootstrap';
 import styles from './IndividualService.module.scss';
 import { individualServiceItems } from './IndividualServiceItems';
-import { Check } from 'lucide-react';
 
 
 export const IndividualServiceCard = () => {
