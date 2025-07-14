@@ -4,6 +4,7 @@ import { MainServicesCards } from "../../MainComponents/ServicesCardsMain/MainSe
 import backgroundImg from '../../Assets/wom_ touch_face.jpg';
 import { MainAboutContent } from "../../MainComponents/MainAboutContent/MainAboutContent";
 import { BenefitsMethodMain } from "../../MainComponents/BenefitsMethodMain/BenefitsMethodMain";
+import { PageBannerWithButton } from "../../PageBannerWithButton/PageBannerWithButton";
 
 const MainPage = () => {
     return(
@@ -17,6 +18,7 @@ const MainPage = () => {
             <AvantagesMain />
             <MainServicesCards />
             <BenefitsMethodMain />
+            <PageBannerWithButton />
         </div>
     )
 }

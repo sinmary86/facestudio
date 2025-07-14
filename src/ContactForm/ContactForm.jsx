@@ -126,7 +126,7 @@ useEffect(() => {
         />
       </Form.Group>
       
-      <button type="submit" disabled={state.submitting} className="btn-main">Envoyer</button>
+      <button type="submit" disabled={state.submitting} className="btn-base btn-dark">Envoyer</button>
     </Form>
     </Container>
   );
