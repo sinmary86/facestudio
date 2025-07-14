@@ -1,6 +1,6 @@
 import { IndividualServiceCard } from "../../IndividualServices/IndividualCard/IndividualServiceCard";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../Assets/wom_ touch_face.jpg';
+import backgroundImg from '../../Assets/gesichtsmassage-nahaufnahme-eine.jpg';
 import { SkinSymptom } from "../../IndividualServices/IndividualIcons/SkinSymptom.jsx";
 import { AvailableZones } from "../../IndividualServices/IndividualNumbers/AvailableZones.jsx";
 import { PageBannerWithButton } from "../../PageBannerWithButton/PageBannerWithButton.jsx";

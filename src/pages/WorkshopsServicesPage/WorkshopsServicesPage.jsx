@@ -1,5 +1,5 @@
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../Assets/wom_ touch_face.jpg';
+import backgroundImg from '../../Assets/brunettemadchen-das-mit-exotisch.jpg';
 import { WorkshopBenefits } from "../../WorkshopsComponents/WorkshopBenefits/WorkshopBenefits";
 import { WorkshopContent } from "../../WorkshopsComponents/WorkshopContent/WorkshopContent";
 import { WorkshopsTargetGroup } from "../../WorkshopsComponents/WorkshopsTargetGroup/WorkshopsTargetGroup";

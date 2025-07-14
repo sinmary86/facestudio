@@ -1,6 +1,6 @@
 
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../Assets/wom_ touch_face.jpg';
+import backgroundImg from '../../Assets/lachende-fotografie-portrat-lach.jpg';
 import { GroupServicesCard } from "../../GroupServices/GroupCard/GroupServicesCard";
 import { GroupBenefits } from "../../GroupServices/GroupNumbers/GroupBenefits";
 import { WhyGroup } from "../../GroupServices/GroupIcons/WhyGroup";
@@ -22,3 +22,5 @@ const GroupServicesPage = () => {
 }
 
 export default GroupServicesPage;
+
+

@@ -1,6 +1,6 @@
 
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../Assets/wom_ touch_face.jpg';
+import backgroundImg from '../../Assets/schone-hellhautige-frauen.jpg';
 import { BusinessServicesCard } from "../../BusinessService/BusinessCard/BusinessServicesCard";
 import { BusinessBenefits } from "../../BusinessService/BusinessResults/BusinessBenefits";
 import { ProgramModules } from "../../BusinessService/BusinessModules/ProgramModules";

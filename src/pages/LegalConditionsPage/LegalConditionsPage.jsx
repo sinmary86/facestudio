@@ -1,6 +1,6 @@
 import { LegalContentRenderer } from "../../LegalContent/LegalContent";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../Assets/conditionsCover.jpg';
+import backgroundImg from '../../Assets/face-rolle-leaves.jpg';
 
 const LegalConditionsPage = () => {
      return (

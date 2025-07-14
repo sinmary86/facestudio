@@ -1,7 +1,7 @@
 import { AboutContent } from "../../AboutComponents/AboutContent/AboutContent";
 import { AboutFeatures } from "../../AboutComponents/AboutFeatures/AboutFeatures";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../Assets/actualAntiAge.jpg';
+import backgroundImg from '../../Assets/woman-with-leaves.jpg';
 import { PageBannerWithButton } from "../../PageBannerWithButton/PageBannerWithButton";
 
 const AboutPage = () => {
