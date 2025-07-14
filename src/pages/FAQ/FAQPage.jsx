@@ -1,6 +1,8 @@
 import { AccordionList } from "../../Accordion/AccordionList";
 import { PageBanner } from "../../PageBanner/PageBanner";
 import backgroundImg from '../../Assets/actualAntiAge.jpg';
+import { FeedbackSlider } from "../../FeedbackSlider/FeedbackSlider";
+import { PageBannerWithButton } from "../../PageBannerWithButton/PageBannerWithButton";
 
 
 const FAQPage = () => {
@@ -8,9 +10,11 @@ const FAQPage = () => {
         <div>
              <PageBanner
                 background={backgroundImg}
-                title="FAQ – Tout savoir sur le Face Fitness & le Rajeunissement Naturel"
+                title="FAQ & Avis"
                 />
              <AccordionList />
+             <FeedbackSlider />
+             <PageBannerWithButton />
         </div>
     )
 }

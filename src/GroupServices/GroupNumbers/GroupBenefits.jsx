@@ -5,7 +5,7 @@ export const GroupBenefits =()=> {
   return (
     <Container className={styles.wrapperFull}>
   
-            <h2 className="text-center" > Les bienfaits d’un travail en groupe </h2>
+            <h2> Les bienfaits d’un travail en groupe </h2>
 
             <ol className={styles.gridList}>
               <li>

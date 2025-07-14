@@ -5,7 +5,7 @@ export const AvailableZones =()=> {
   return (
     <Container className={styles.wrapperFull}>
   
-            <h2 className="text-center" > Zones disponibles </h2>
+            <h2> Zones disponibles </h2>
 
             <ol className={styles.gridList}>
               <li>

@@ -45,7 +45,7 @@ export const NavApp = () => {
                     <NavDropdown.Item  as={Link} to="/services/offres-entreprises" onClick={handleClose}>Offres pour les Entreprises</NavDropdown.Item>
                     <NavDropdown.Item  as={Link} to="/services/ateliers-formations" onClick={handleClose}>Ateliers & Formations</NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link as={Link} to="/faq" onClick={handleClose}>FAQ</Nav.Link>
+                  <Nav.Link as={Link} to="/faq" onClick={handleClose}>FAQ & Avis</Nav.Link>
                   <Nav.Link as={Link} to="/contacts" onClick={handleClose}>Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>

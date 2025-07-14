@@ -5,7 +5,7 @@ import styles from "./AboutFeatures.module.scss";
 export const AboutFeatures = () => (
   <Container className={styles.wrapperFull}>
 
-    <h2 className="text-center">Les avantages de la méthode</h2>
+    <h2>Les avantages de la méthode</h2>
 
     <Row className={styles.wrapper}> 
     {aboutFeatures.map(({ icon, title, description }, index) => (

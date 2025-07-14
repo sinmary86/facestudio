@@ -5,13 +5,11 @@ import backgroundImg from '../../Assets/actualWellBe.jpg';
 const ContactsPage = () => {
      return (
         <div>
-
           <PageBanner
                 background={backgroundImg}
                 title="Apprenez les meilleures techniques de Rajeunissement du Visage avec un coach expert"
                 />
             <ContactForm />
-
         </div> 
      )
 }

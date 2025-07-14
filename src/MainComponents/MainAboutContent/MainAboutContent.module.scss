@@ -23,6 +23,7 @@
   aspect-ratio: 1 / 1; // ✅ сохраняет квадрат на любом экране
   object-fit: cover;
 
+
 // Центрирование на моб. экранах
   @media (max-width: 992px) {
     max-width: 400px;
@@ -38,4 +39,10 @@
     max-width: 220px;
     margin: 0 auto;
   }
+
+}
+
+.iconArrow {
+  transform: rotate(270deg);
+
 }

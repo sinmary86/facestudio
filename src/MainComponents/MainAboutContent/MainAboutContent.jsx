@@ -1,10 +1,8 @@
 import styles from './MainAboutContent.module.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 import womanabout from '../../Assets/face11.jpg';
-// import womanabout from '../../Assets/face12.png';
-// import womanabout from '../../Assets/about.jpg';
+import arrow from '../../Assets/arrow-icon.svg'; 
 import { Link } from 'react-router-dom';
-import { MoveRight } from 'lucide-react';
 
 //скорректировать текст - дублирующийся p
 
@@ -28,7 +26,7 @@ export const MainAboutContent =()=> {
                Chaque visage est unique. Grâce à une approche douce, je vous aide à révéler votre beauté naturelle à tout âge.
                </p>
               
-               <Link to="/a-propos" className="btn-more align-self-start">Faire connaissance <MoveRight size={18} className={styles.iconArrow}/></Link>
+               <Link to="/a-propos" className="btn-more align-self-start">Faire connaissance <img src={arrow} alt="précédent" className={styles.iconArrow}/></Link>
           </Col> 
 
         </Row>
