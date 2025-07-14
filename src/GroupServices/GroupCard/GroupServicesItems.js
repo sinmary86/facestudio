@@ -1,6 +1,10 @@
-import AgeGroup from '../../Assets/age-groups.jpg';
-import  GroupServices from '../../Assets/group-Services.jpg';
-import AgeTransformation from '../../Assets/age-transformation.jpg';
+import  GroupServices from '../../Assets/age-groups.jpg';
+
+import AgeGroup from '../../Assets/group-Services.jpg';
+
+import AgeTransformation from '../../Assets/freund-helfende-frau.jpg';
+
+
 
 
    export const groupServicesItems = [

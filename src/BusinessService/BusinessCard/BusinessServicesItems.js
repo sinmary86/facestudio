@@ -1,6 +1,6 @@
-import InnerHarmony from '../../Assets/Inner-harmony.jpg';
-import EnergyAndTone from '../../Assets/energy-and-tone.jpg';
-import ExpressiveFace from '../../Assets/expressive-face.jpg';
+import InnerHarmony from '../../Assets/équipe-administrative-travaille.jpg';
+import EnergyAndTone from '../../Assets/service-group.jpg';
+import ExpressiveFace from '../../Assets/age-transformation.jpg';
 
 
    export const businessServicesItems = [

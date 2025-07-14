@@ -1,7 +1,7 @@
 import { AvantagesMain } from "../../MainComponents/AvantagesMain/AvantagesMain";
 import { PageBanner } from "../../PageBanner/PageBanner";
 import { MainServicesCards } from "../../MainComponents/ServicesCardsMain/MainServicesCards";
-import backgroundImg from '../../Assets/wom_ touch_face.jpg';
+import backgroundImg from '../../Assets/portraits-young-woman.jpg';
 import { MainAboutContent } from "../../MainComponents/MainAboutContent/MainAboutContent";
 import { BenefitsMethodMain } from "../../MainComponents/BenefitsMethodMain/BenefitsMethodMain";
 import { PageBannerWithButton } from "../../PageBannerWithButton/PageBannerWithButton";
