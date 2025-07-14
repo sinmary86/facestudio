@@ -9,20 +9,20 @@ export const WorkshopsTargetGroup =()=> {
             <ol className={styles.gridList}>
               <li>
                 <span className={styles.bigNumber}>01</span>
-                Vous avez l’impression que votre reflet ne vous ressemble plus tout à fait
+                Vous avez l’impression que votre reflet ne vous ressemble plus tout à fait.
               </li>
               <li>
                 <span className={styles.bigNumber}>02</span>
-                Vous aspirez à une approche douce, naturelle et consciente, loin des solutions invasives
+                Vous aspirez à une approche douce, naturelle et consciente, loin des solutions invasives.
               </li>
               <li>
                 <span className={styles.bigNumber}>03</span>
-                Vous rêvez d’un visage détendu, lumineux, plein d’expression et de vie
+                Vous rêvez d’un visage détendu, lumineux, plein d’expression et de vie.
                 </li>
 
               <li>
                 <span className={styles.bigNumber}>04</span>
-                Vous êtes curieuse de décoder les messages subtils que votre visage envoie chaque jour
+                Vous êtes curieuse de décoder les messages subtils que votre visage envoie chaque jour.
               </li>
             </ol>  
       </Container>
