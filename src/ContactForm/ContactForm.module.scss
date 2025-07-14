@@ -6,6 +6,7 @@
 
   @media (max-width: 768px) {
     padding: $gap-32 0;
+  
     // display: flex;
     // flex-direction: column;
     // justify-content: center;
@@ -21,10 +22,11 @@
 .formContainer {
   // padding: $gap-32 0;
 
+
   label {
     font-weight: 400;
     font-family: $font-title;
-    font-size: 20px;
+    font-size: $font-size-20;
   }
   
   input,
@@ -43,6 +45,9 @@
       border-color: rgba($dark-text-color, 0.7); 
       box-shadow: 0 4px 12px rgba($dark-text-color, 0.2); 
     }
+
+    
+
   }
 
 
@@ -54,6 +59,20 @@
   .form-check-input {
     margin-top: 0.4rem;
   } 
+
+ @media (max-width: 768px) {
+    label,
+    input,
+    select,
+    textarea,
+    .form-control,
+    .form-select,
+    .custom-check,
+    .btn-main {
+    font-size:  $font-size-16;
+    }
+  } 
+
 } 
 
 :global(.form-check-label) {
@@ -102,4 +121,8 @@
     text-decoration: underline;
     transform: scale(1.025); 
   }
+
+
 }
+
+ 

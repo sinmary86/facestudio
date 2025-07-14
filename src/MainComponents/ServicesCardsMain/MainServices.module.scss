@@ -8,18 +8,20 @@
   padding-top: $gap-32;
 
   
-  @media (max-width: 768px) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: $gap-16;
-  }
+  // @media (max-width: 768px) {
+  //     display: flex;
+  //     flex-direction: column;
+  //     justify-content: center;
+  //     gap: $gap-16;
+  // }
+
   }
 
 
 // Карточка
 .card {
-  width: 18rem;
+    width: 100%;
+  // width: 18rem;
   height: 18rem;
   background-size: cover;
   background-position: center;

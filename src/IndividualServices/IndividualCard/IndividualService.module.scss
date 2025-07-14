@@ -76,7 +76,10 @@
 
   .icon {
     position: absolute;
-    top: 0.5rem;             
+    top: 0.5rem;   
+    color: white;
+    background-color: black;    
+    border-radius: 10px;
     left: 0; 
     display: inline-flex;        
     align-items: center;
@@ -144,8 +147,8 @@
   }
 
   .icon {
-    top: 0.4rem;
-    font-size: 0.85rem;
+    top: 0.3rem;
+    font-size: 0.7rem;
   }
 
   .price {

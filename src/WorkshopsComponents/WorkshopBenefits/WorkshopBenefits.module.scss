@@ -1,20 +1,27 @@
 @use '../../styles/vars.scss' as *;
 
 .title {
-  max-width: 65%;
-
-  @media (max-width: 768px) {
-   max-width: 100%;
-  }
-}
-
-.subTitle {
   max-width: 80%;
 
   @media (max-width: 768px) {
    max-width: 100%;
   }
+   @media (max-width: 992px) {
+   max-width: 100%;
+  }
 }
+
+.subTitle {
+  max-width: 100%;
+
+@media (max-width: 992px) {
+  max-width: 95%;
+  }
+  @media (max-width: 768px) {
+  max-width: 90%;
+  }
+
+ }
 
 .wrapperFull {
   padding: $gap-32 0;

@@ -78,6 +78,9 @@
     position: absolute;
     top: 0.5rem;             
     left: 0; 
+    color: white;
+    background-color: black;    
+    border-radius: 10px;
     display: inline-flex;        
     align-items: center;
     justify-content: center;
@@ -142,8 +145,8 @@
   }
 
   .icon {
-    top: 0.4rem;
-    font-size: 0.85rem;
+    top: 0.3rem;
+    font-size: 0.7rem;
   }
 
   .price {
