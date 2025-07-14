@@ -1,12 +1,10 @@
 import { Col, Container, Row } from "react-bootstrap";
 import WhatsappIcon from '../Assets/whatsapp-icon.svg';
-import EmailIcon from '../Assets/whatsapp-icon.svg';;
+import EmailIcon from '../Assets/email-icon.svg';;
 import LinkedInIcon from '../Assets/linkedin-icon.svg';
-import TelegramIcon from '../Assets/whatsapp-icon.svg';
+import TelegramIcon from '../Assets/telegram-icon.svg';
 import styles from './Footer.module.scss';
 import { Link } from "react-router-dom";
-
-//заменить иконку телеграмм почта
 
 export const FooterApp = () => {
 
