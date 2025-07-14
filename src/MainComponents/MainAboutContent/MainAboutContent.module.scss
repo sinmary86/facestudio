@@ -22,4 +22,20 @@
   max-width: 518px;
   aspect-ratio: 1 / 1; // ✅ сохраняет квадрат на любом экране
   object-fit: cover;
+
+// Центрирование на моб. экранах
+  @media (max-width: 992px) {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 468px) {
+    max-width: 220px;
+    margin: 0 auto;
+  }
 }

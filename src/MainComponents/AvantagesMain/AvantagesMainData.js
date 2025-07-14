@@ -10,11 +10,11 @@ export const AvantagesMainData = [
     },
         {
         title : "Bien être",
-       description : "Détend les tensions et équilibre les expressions pour une harmonie retrouvée",
+       description : "Détend les tensions et équilibre les expressions pour une harmonie",
        icon: BienEtre,
     },
         {
-        title : "Anti-âge",
+       title : "Anti-âge",
        description : "Lisse les rides et ravive l’éclat et redonne le volume au visage",
        icon: AntiAge,
     }

@@ -26,7 +26,7 @@ export const BusinessServicesCard = () => {
                 <ul className={styles.myList}>
                   {item.items.map((text, i) => (
                   <li key={i} className={styles.listItem}>
-                 <span className={styles.icon}>✔</span>
+               <span className={styles.icon}><span>✓</span></span>
                   {text}
                 </li>
                   ))}
