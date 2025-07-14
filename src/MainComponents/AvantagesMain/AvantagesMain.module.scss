@@ -1,32 +1,80 @@
+// @use '../../styles/vars.scss' as *;
+
+// .wrapperFull {
+//   padding: $gap-32 0;
+  
+//   @media (max-width: 768px) {
+//    padding: $gap-16 0;
+//   }
+//   }
+
+// .wrapper {
+//   padding-top: $gap-32;
+
+//   @media (max-width: 768px) {
+//    padding: $gap-16 0;
+//   }
+//   }
+
+// .subTitle {
+//   max-width: 100%;
+
+//    @media (max-width: 768px) {
+//     max-width: 90%;
+//    }
+// }
+
+// .imgIcon {
+
+//   @media (max-width: 768px) {
+//      width: 90%;
+//   }
+// }
+
 @use '../../styles/vars.scss' as *;
 
 .wrapperFull {
   padding: $gap-32 0;
-  
+
   @media (max-width: 768px) {
-   padding: $gap-16 0;
+    padding: $gap-16 0;
   }
-  }
+}
 
 .wrapper {
   padding-top: $gap-32;
 
   @media (max-width: 768px) {
-   padding: $gap-16 0;
+    padding: $gap-16 0;
   }
-  }
-
-.subTitle {
-  max-width: 100%;
-
-   @media (max-width: 768px) {
-    max-width: 90%;
-   }
 }
 
 .imgIcon {
+  height: 100%; /* растягиваем колонку */
 
-  @media (max-width: 768px) {
-     width: 90%;
+   @media (max-width: 768px) {
+     width: 100%;
   }
+
+  img {
+    width: 100px;   // фиксируем размер иконок
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: $gap-16;
+  }
+
+  h3 {
+    margin-bottom: $gap-8;
+  }
+
+  .subTitle {
+    max-width: 100%; 
+    margin: 0 auto;
+    line-height: 1.4;
+
+      @media (max-width: 992px) {
+    max-width: 90%;
+   }
+  }
+
 }
