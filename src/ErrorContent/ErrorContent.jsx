@@ -23,7 +23,7 @@ export const ErrorContent = () => {
             Veuillez utiliser le menu de navigation ou revenir à la page d’accueil du site.
           </p>
           <button 
-            className="btn-main"
+            className="btn-base btn-dark"
             onClick={() => navigate('/')}>
             Retour à l’accueil
           </button>

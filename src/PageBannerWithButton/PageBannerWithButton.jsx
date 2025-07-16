@@ -8,7 +8,7 @@ export const PageBannerWithButton = () => {
       <div className={styles.contentBanner}>
         <h5 className={styles.title}>Prête à offrir une nouvelle <br/>
             vie à votre visage ? </h5>
-        <Link to="/contact" className="btn-base btn-light">
+        <Link to="/contacts" className="btn-base btn-light">
           Prendre rendez-vous
         </Link>
       </div>
