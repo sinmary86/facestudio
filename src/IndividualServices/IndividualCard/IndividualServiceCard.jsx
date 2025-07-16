@@ -1,22 +1,26 @@
-import { Card, Container } from 'react-bootstrap';
-import styles from './IndividualService.module.scss';
-import { individualServiceItems } from './IndividualServiceItems';
-
+import { Card, Container } from "react-bootstrap";
+import styles from "./IndividualService.module.scss";
+import { individualServiceItems } from "./IndividualServiceItems";
 
 export const IndividualServiceCard = () => {
   return (
     <Container className={`text-center ${styles.wrapperFull}`}>
-      
       <h2>ACCOMPAGNEMENT INDIVIDUEL</h2>
-      
-      <div className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}>
+
+      <div
+        className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}
+      >
         {individualServiceItems.map((item, index) => (
           <div key={index} className={styles.cardWrapper}>
-            <img src={item.image} alt={item.title} className={styles.backgroundImage} />
+            <img
+              src={item.image}
+              alt={item.title}
+              className={styles.backgroundImage}
+            />
             <Card className={styles.textCard}>
               <Card.Body className={styles.cardBody}>
                 <Card.Title className={styles.cardTitle}>
-                  {item.title.split('\n').map((line, i) => (
+                  {item.title.split("\n").map((line, i) => (
                     <div key={i}>{line}</div>
                   ))}
                   <div className={styles.subtitleText}>({item.subtitle})</div>
@@ -24,10 +28,12 @@ export const IndividualServiceCard = () => {
 
                 <ul className={styles.myList}>
                   {item.items.map((text, i) => (
-                  <li key={i} className={styles.listItem}>
-                  <span className={styles.icon}><span>✓</span></span>
-                  {text}
-                </li>
+                    <li key={i} className={styles.listItem}>
+                      <span className={styles.icon}>
+                        <span>✓</span>
+                      </span>
+                      {text}
+                    </li>
                   ))}
                 </ul>
 
@@ -38,16 +44,9 @@ export const IndividualServiceCard = () => {
                 </div>
               </Card.Body>
             </Card>
-         </div>
+          </div>
         ))}
       </div>
-
-
-
     </Container>
-  
   );
-
 };
-
-

@@ -1,15 +1,15 @@
-@use '../styles/vars.scss' as *;
+@use "../styles/vars.scss" as *;
 
 .wrapperFull {
   padding: $gap-64 0 $gap-16 0;
-  
+
   @media (max-width: 768px) {
-   padding: $gap-16 0;
+    padding: $gap-16 0;
   }
-  }
+}
 
 .accordionContainer {
-    padding: $gap-16 0;
+  padding: $gap-16 0;
 }
 
 .accordionItem {
@@ -19,7 +19,7 @@
 
 .accordionBody {
   font-family: $font-title;
-  font-size:  $font-size-16;
+  font-size: $font-size-16;
   background-color: $primary-color;
 }
 
@@ -32,7 +32,7 @@
   padding: $gap-24;
   border: none;
   box-shadow: none;
-  border-bottom: 1px solid $dark-text-color; 
+  border-bottom: 1px solid $dark-text-color;
   border-radius: 0;
   transition: font-weight 0.2s ease;
 }
@@ -41,7 +41,7 @@
   font-weight: 700;
   background-color: $primary-color;
   color: $dark-text-color;
-  border-bottom: 1px solid $dark-text-color; 
+  border-bottom: 1px solid $dark-text-color;
 }
 
 :global(.accordion-button::after) {
@@ -61,12 +61,10 @@
   box-shadow: none;
 }
 
-
 @media (max-width: 768px) {
-
-.accordionContainer {
+  .accordionContainer {
     padding: $gap-32;
-}
+  }
 
   :global(.accordion-button) {
     font-size: $font-size-18;
@@ -79,16 +77,16 @@
 
 @media (max-width: 480px) {
   .accordionContainer {
-    padding: $gap-16; 
+    padding: $gap-16;
   }
 
   .accordionItem {
-    margin-bottom: $gap-8; 
+    margin-bottom: $gap-8;
   }
 
   :global(.accordion-button) {
-    font-size: $font-size-16; 
-    padding: $gap-16; 
+    font-size: $font-size-16;
+    padding: $gap-16;
   }
 
   .accordionBody {

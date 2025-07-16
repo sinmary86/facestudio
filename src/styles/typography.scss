@@ -1,4 +1,4 @@
-@use '../styles/vars.scss' as *;
+@use "../styles/vars.scss" as *;
 
 h1 {
   position: relative;
@@ -9,9 +9,9 @@ h1 {
   width: 60%;
   font-size: 60px;
 
-   @media (max-width: 768px) {
-   width: 75%;
-   font-size: 30px;
+  @media (max-width: 768px) {
+    width: 75%;
+    font-size: 30px;
   }
 }
 
@@ -23,62 +23,63 @@ h2 {
   padding-bottom: $gap-32;
   text-align: center;
 
-   @media (max-width: 768px) {
-   padding-bottom: $gap-16;
-   font-size: 28px;
+  @media (max-width: 768px) {
+    padding-bottom: $gap-16;
+    font-size: 28px;
   }
 
   @media (max-width: 468px) {
-   font-size: 24px;
-}
+    font-size: 24px;
+  }
 }
 
 h3 {
-    font-family: $font-title;
-    font-weight: 600;
-    font-size: 22px;
+  font-family: $font-title;
+  font-weight: 600;
+  font-size: 22px;
 
-     @media (max-width: 768px) {
-      font-size: 20px;
+  @media (max-width: 768px) {
+    font-size: 20px;
   }
-  }
+}
 
-  h4 {
-    font-family: $font-title;
+h4 {
+  font-family: $font-title;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  @media (max-width: 768px) {
     font-size: 18px;
-    text-transform: uppercase;
-
-     @media (max-width: 768px) {
-      font-size: 18px;
   }
+}
+
+h5 {
+  font-family: $font-deco;
+  font-size: 35px;
+  font-weight: 400;
+
+  @media (max-width: 768px) {
+    font-size: 30px;
   }
+}
 
-  h5 {
-    font-family: $font-deco;
-    font-size: 35px;
-    font-weight: 400;
+h6 {
+  color: $primary-color;
+  font-family: $font-title;
+  font-size: $font-size-18;
+}
 
-      @media (max-width: 768px) {
-        font-size: 30px;
-      }
-    }
-
-  h6 {
-    color: $primary-color;
-    font-family: $font-title;
-    font-size: $font-size-18;
-  }
-
-p, li {
+p,
+li {
   font-size: $font-size-18;
   line-height: 1.6;
   font-family: $font-text;
 
-   @media (max-width: 768px) {
-      font-size: $font-size-16;
-    }
-
-     @media (max-width: 468px) {
-      font-size: $font-size-14;
-    }
+  @media (max-width: 768px) {
+    font-size: $font-size-16;
   }
+
+  @media (max-width: 468px) {
+    font-size: $font-size-14;
+  }
+}

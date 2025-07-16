@@ -1,10 +1,9 @@
-import { Container } from 'react-bootstrap';
-import styles from './GroupBenefits.module.scss';
+import { Container } from "react-bootstrap";
+import styles from "./GroupBenefits.module.scss";
 
-export const GroupBenefits =()=> {
+export const GroupBenefits = () => {
   return (
     <Container className={styles.wrapperFull}>
-  
       <h2>Les bienfaits d’un travail en groupe</h2>
 
       <ol className="grid-list-numbers">
@@ -25,11 +24,9 @@ export const GroupBenefits =()=> {
 
         <li>
           <span className="big-number">04</span>
-          Un soutien chaleureux et un esprit de groupe.         
+          Un soutien chaleureux et un esprit de groupe.
         </li>
       </ol>
-          
     </Container>
   );
-}
-
+};

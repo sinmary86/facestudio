@@ -1,6 +1,6 @@
-import { Container } from 'react-bootstrap';
-import { legalData } from './LegalData';
-import styles from './LegalContent.module.scss';
+import { Container } from "react-bootstrap";
+import { legalData } from "./LegalData";
+import styles from "./LegalContent.module.scss";
 
 //TODO - заменить Page introuvable на страницу ошибки
 
@@ -11,10 +11,7 @@ export const LegalContentRenderer = ({ type }) => {
     return <p>Page introuvable.</p>;
   }
 
-  return(
-
-    <Container className={styles.container}>
-          {legalContent.content}
-    </Container>
+  return (
+    <Container className={styles.container}>{legalContent.content}</Container>
   );
 };

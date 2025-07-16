@@ -1,4 +1,4 @@
-import Spinner from 'react-bootstrap/Spinner';
+import Spinner from "react-bootstrap/Spinner";
 
 export const Loader = () => (
   <div className="d-flex justify-content-center align-items-center vh-100">
@@ -7,4 +7,3 @@ export const Loader = () => (
     </Spinner>
   </div>
 );
-
