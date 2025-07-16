@@ -1,4 +1,4 @@
-@use '../styles/vars.scss' as *;
+@use "../styles/vars.scss" as *;
 
 .grid-list-numbers {
   display: grid;
@@ -8,20 +8,20 @@
   list-style: none;
   padding-left: 0;
   padding-top: $gap-32;
-  
-    li {
-      display: flex;
-      align-items: center;
-      gap: $gap-64;
 
-       @media (max-width: 992px) {
-         gap: $gap-16;
-      }
+  li {
+    display: flex;
+    align-items: center;
+    gap: $gap-64;
 
-       @media (max-width: 768px) {
-         gap: $gap-32;
-      }
+    @media (max-width: 992px) {
+      gap: $gap-16;
     }
+
+    @media (max-width: 768px) {
+      gap: $gap-32;
+    }
+  }
 
   @media (max-width: 992px) {
     gap: $gap-16;
@@ -41,7 +41,7 @@
   font-weight: 200;
   color: $secondary-color;
 
-   @media (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 80px;
   }
 }

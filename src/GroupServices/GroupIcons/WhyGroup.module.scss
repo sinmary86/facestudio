@@ -1,24 +1,23 @@
-@use '../../styles/vars.scss' as *;
+@use "../../styles/vars.scss" as *;
 
 .wrapperFull {
   padding: $gap-32 0;
-  
+
   @media (max-width: 768px) {
-   padding: $gap-16 0;
+    padding: $gap-16 0;
   }
-  }
+}
 
 .wrapper {
   padding-top: $gap-32;
 
   @media (max-width: 768px) {
-   padding: $gap-16 0;
+    padding: $gap-16 0;
   }
-  }
+}
 
 .imgWrapper {
-  height: 120px; 
-
+  height: 120px;
 
   img {
     max-height: 100%;
@@ -26,18 +25,16 @@
   }
 }
 
-
-
 .subTitle {
   max-width: 80%;
 
-   @media (max-width: 768px) {
+  @media (max-width: 768px) {
     max-width: 90%;
-   }
+  }
 }
 
 .imgIcon {
   @media (max-width: 768px) {
-   width: 100%;
+    width: 100%;
   }
 }

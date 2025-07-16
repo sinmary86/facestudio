@@ -1,15 +1,18 @@
-@use '../../styles/vars.scss' as *;
+@use "../../styles/vars.scss" as *;
 
 .myGridSection {
   padding: $gap-64 0;
 
-   @media (max-width: 992px) {
+  @media (max-width: 992px) {
     padding: $gap-32 0;
-   }
+  }
 
   .gridLayout {
     display: grid;
-    grid-template-columns: calc((100% - 2 * $gap-32) / 3) repeat(2, calc((100% - 2 * $gap-32) / 3));
+    grid-template-columns: calc((100% - 2 * $gap-32) / 3) repeat(
+        2,
+        calc((100% - 2 * $gap-32) / 3)
+      );
     grid-template-rows: auto;
     gap: $gap-32;
     grid-template-areas:
@@ -33,16 +36,16 @@
 
     .imgTallLeft {
       grid-area: imgLeft;
-      background-image: url('/src/Assets/massage-relaxant-du-visage.jpg');
+      background-image: url("/src/Assets/massage-relaxant-du-visage.jpg");
       background-size: cover;
       background-position: center;
       height: auto;
       box-shadow: 0px 4px 4px 0px #00000040;
 
-        @media (max-width: 992px) {
-          height: 40vh;
-          background-position: 30% 70%;
-  }
+      @media (max-width: 992px) {
+        height: 40vh;
+        background-position: 30% 70%;
+      }
     }
 
     .textBlockOne {
@@ -61,28 +64,27 @@
       grid-area: imgSmall;
       width: auto;
       height: 250px;
-      background-image: url('/src/Assets/portret-with-words.png');
+      background-image: url("/src/Assets/portret-with-words.png");
       background-size: cover;
       background-position: center;
     }
 
     .imgTallRight {
       grid-area: imgRight;
-      background-image: url('/src/Assets/creme-face.jpg');
+      background-image: url("/src/Assets/creme-face.jpg");
       background-size: cover;
       background-position: center;
       height: auto;
       box-shadow: 0px 4px 4px 0px #00000040;
 
-      
-        @media (max-width: 992px) {
-          height: 40vh;
-          background-position: 70% 20%;
-  }
+      @media (max-width: 992px) {
+        height: 40vh;
+        background-position: 70% 20%;
+      }
     }
 
     .fullQuote {
-      grid-area: quote;     
+      grid-area: quote;
       background: none;
     }
 

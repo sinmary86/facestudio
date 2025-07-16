@@ -1,4 +1,4 @@
-@use '../styles/vars.scss' as *;
+@use "../styles/vars.scss" as *;
 
 .btnFloat {
   position: fixed;
@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   cursor: pointer;
   animation: pulse 2s infinite;
 
@@ -53,25 +53,18 @@
   }
 }
 
-
 // Пульсирующая анимация
 @keyframes pulse {
   0% {
     transform: scale(1);
-    box-shadow:
-      0 0 0 0 rgba(255, 255, 255, 0.6),
-      0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6), 0 4px 12px rgba(0, 0, 0, 0.3);
   }
   70% {
     transform: scale(1.05);
-    box-shadow:
-      0 0 0 12px rgba(255, 255, 255, 0),
-      0 8px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 12px rgba(255, 255, 255, 0), 0 8px 16px rgba(0, 0, 0, 0.4);
   }
   100% {
     transform: scale(1);
-    box-shadow:
-      0 0 0 0 rgba(255, 255, 255, 0),
-      0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 4px 12px rgba(0, 0, 0, 0.3);
   }
 }

@@ -1,4 +1,4 @@
-@use '../styles/vars.scss' as *;
+@use "../styles/vars.scss" as *;
 
 .banner {
   width: 100%;
@@ -11,7 +11,7 @@
   justify-content: center;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.4); // затемнение фона
@@ -26,7 +26,7 @@
     }
   }
 
-   @media (max-width: 768px) {
-   height: 40vh;
+  @media (max-width: 768px) {
+    height: 40vh;
   }
 }

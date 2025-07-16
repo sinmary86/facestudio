@@ -1,20 +1,22 @@
-
-
-import { Card, Container } from 'react-bootstrap';
-import styles from './GroupServices.module.scss';
+import { Card, Container } from "react-bootstrap";
+import styles from "./GroupServices.module.scss";
 import { groupServicesItems } from "./GroupServicesItems.js";
-
 
 export const GroupServicesCard = () => {
   return (
     <Container className={`text-center ${styles.wrapperFull}`}>
-      
       <h2>COURS EN GROUPE – Clubs en ligne</h2>
-      
-      <div className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}>
+
+      <div
+        className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}
+      >
         {groupServicesItems.map((item, index) => (
           <div key={index} className={styles.cardWrapper}>
-            <img src={item.image} alt={item.title} className={styles.backgroundImage} />
+            <img
+              src={item.image}
+              alt={item.title}
+              className={styles.backgroundImage}
+            />
             <Card className={styles.textCard}>
               <Card.Body className={styles.cardBody}>
                 <Card.Title className={styles.cardTitle}>
@@ -24,10 +26,12 @@ export const GroupServicesCard = () => {
 
                 <ul className={styles.myList}>
                   {item.items.map((text, i) => (
-                  <li key={i} className={styles.listItem}>
-                <span className={styles.icon}><span>✓</span></span>
-                  {text}
-                </li>
+                    <li key={i} className={styles.listItem}>
+                      <span className={styles.icon}>
+                        <span>✓</span>
+                      </span>
+                      {text}
+                    </li>
                   ))}
                 </ul>
 
@@ -38,11 +42,9 @@ export const GroupServicesCard = () => {
                 </div>
               </Card.Body>
             </Card>
-         </div>
+          </div>
         ))}
       </div>
     </Container>
   );
 };
-
-

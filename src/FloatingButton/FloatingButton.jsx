@@ -1,5 +1,5 @@
-import styles from './FloatingButton.module.scss';
-import telegram from '../Assets/telegram-floating-icon.png';
+import styles from "./FloatingButton.module.scss";
+import telegram from "../Assets/telegram-floating-icon.png";
 
 export const FloatingButton = () => {
   return (
