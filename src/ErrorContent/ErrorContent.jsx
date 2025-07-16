@@ -32,4 +32,11 @@ export const ErrorContent = () => {
           <button 
             className="btn-base btn-dark"
             onClick={() => navigate('/')}>
+              Retour à l’accueil
+          </button>
+           </Col>
+      </Row>
+    </Container>
+  );
+};
 
