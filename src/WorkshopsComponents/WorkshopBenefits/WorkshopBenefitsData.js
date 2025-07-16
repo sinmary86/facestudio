@@ -5,23 +5,23 @@ import accompagnement from "../../Assets/accompagnement-et-feedback.svg";
 
 export const workshopBenefits = [
   {
-    title: 'Anatomie claire + pratique',
+    title: "Anatomie claire + pratique",
     description: "Sans “eau inutile”, facile à comprendre et à appliquer",
-    icon: pratique
-},
+    icon: pratique,
+  },
   {
     title: 'Méthode "fais et répète"',
     description: "Pour retenir et appliquer immédiatement",
-    icon: methode
+    icon: methode,
   },
   {
-    title: 'Techniques ciblées',
+    title: "Techniques ciblées",
     description: "Efficaces même avec un emploi du temps chargé",
-    icon: techniques
+    icon: techniques,
   },
   {
-    title: 'Accompagnement et feedback',
+    title: "Accompagnement et feedback",
     description: "Des réponses et du soutien à chaque étape",
-    icon: accompagnement
-  }
+    icon: accompagnement,
+  },
 ];

@@ -1,3 +1,3 @@
 import { lazy } from "react";
 
-export const LazyLegalPolicyPage = lazy(() => import('./LegalPolicyPage'));
+export const LazyLegalPolicyPage = lazy(() => import("./LegalPolicyPage"));

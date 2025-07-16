@@ -1,16 +1,20 @@
+
 import { Container } from 'react-bootstrap';
 import styles from './GroupServices.module.scss';
 import { groupServicesItems } from "./GroupServicesItems.js";
 
-
 export const GroupServicesCard = () => {
   return (
+
     <Container className={`${styles.wrapperFull}`}>
       
       <h2>COURS EN GROUPE – Clubs en ligne</h2>
-      
-      <div className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}>
+
+      <div
+        className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}
+      >
         {groupServicesItems.map((item, index) => (
+
           <div key={index} className="card-wrapper">
             <img src={item.image} alt={item.alt} className="image-card" />
            <div className="body-card">
@@ -19,9 +23,12 @@ export const GroupServicesCard = () => {
                   <h5 className="card-subtitle">{item.subtitle}</h5>
                 </div>
 
+
                 <ul className="d-flex flex-column card-list">
                   {item.items.map((text, i) => (
+
                   <li key={i}><span>✓</span>{text}</li>
+
                   ))}
                 </ul>
 
@@ -29,12 +36,12 @@ export const GroupServicesCard = () => {
                   <h2 className="card-price">{item.price}</h2>
                   <p className="card-note">{item.note}</p>
                 </div>
+
              </div>
          </div>
+
         ))}
       </div>
     </Container>
   );
 };
-
-

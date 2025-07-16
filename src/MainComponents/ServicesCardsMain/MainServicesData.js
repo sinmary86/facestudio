@@ -1,35 +1,34 @@
-import serviceGroup from '../../Assets/service-group.jpg';
-import serviceAtelier from '../../Assets/service-atelier.jpg';
-import individualMain from '../../Assets/individualMain.jpg';
-import groupService from '../../Assets/group-Services.jpg';
-
+import serviceGroup from "../../Assets/service-group.jpg";
+import serviceAtelier from "../../Assets/service-atelier.jpg";
+import individualMain from "../../Assets/individualMain.jpg";
+import groupService from "../../Assets/group-Services.jpg";
 
 export const mainServicesData = [
   {
-    title: 'Accompagnement individuel', 
-    alt:'Accompagnement individuel',
+    title: "Accompagnement individuel",
+    alt: "Accompagnement individuel",
     image: individualMain,
-    link: "/services/accompagnement-individuel"
-  }, 
+    link: "/services/accompagnement-individuel",
+  },
 
   {
-    title: 'COURS EN GROUPE', 
-    alt:'Cours en Groupe',
+    title: "COURS EN GROUPE",
+    alt: "Cours en Groupe",
     image: groupService,
-    link: "/services/cours-en-groupe"
-  }, 
+    link: "/services/cours-en-groupe",
+  },
 
   {
-    title: 'Offres pour les Entreprises', 
-    alt:'Offres pour les Entreprises',
+    title: "Offres pour les Entreprises",
+    alt: "Offres pour les Entreprises",
     image: serviceGroup,
-    link: "/services/offres-entreprises"
-  }, 
+    link: "/services/offres-entreprises",
+  },
 
   {
-    title: 'Ateliers et Formations', 
-    alt:'Ateliers et Formations',
+    title: "Ateliers et Formations",
+    alt: "Ateliers et Formations",
     image: serviceAtelier,
-    link: "/services/ateliers-formations"
-  }
-]
+    link: "/services/ateliers-formations",
+  },
+];

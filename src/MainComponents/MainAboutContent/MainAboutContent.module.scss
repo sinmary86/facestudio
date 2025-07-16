@@ -1,4 +1,4 @@
-@use '../../styles/vars.scss' as *;
+@use "../../styles/vars.scss" as *;
 
 .section {
   padding: $gap-64 0;
@@ -12,7 +12,7 @@
     gap: $gap-32;
   }
 
-   @media (max-width: 468px) {
+  @media (max-width: 468px) {
     padding: $gap-16 0;
   }
 }
@@ -23,8 +23,7 @@
   aspect-ratio: 1 / 1; // ✅ сохраняет квадрат на любом экране
   object-fit: cover;
 
-
-// Центрирование на моб. экранах
+  // Центрирование на моб. экранах
   @media (max-width: 992px) {
     max-width: 400px;
     margin: 0 auto;
@@ -39,10 +38,8 @@
     max-width: 220px;
     margin: 0 auto;
   }
-
 }
 
 .iconArrow {
   transform: rotate(270deg);
-
 }

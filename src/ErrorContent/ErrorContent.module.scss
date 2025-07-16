@@ -1,11 +1,10 @@
-@use '../styles/vars.scss' as *;
+@use "../styles/vars.scss" as *;
 
 .error {
   font-size: 200px;
   font-weight: 200;
   font-family: $font-title;
   line-height: 1; // убираем лишние отступы у цифр
- 
 
   span {
     display: flex; // используем flex, чтобы картинка центрировалась внутри

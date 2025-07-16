@@ -1,4 +1,4 @@
-@use '../styles/vars.scss' as *;
+@use "../styles/vars.scss" as *;
 
 .brand {
   font-family: $font-deco !important;
@@ -19,9 +19,9 @@
 }
 
 .offcanvas {
-    background-color: $primary-color !important;
-    padding-left: $gap-16;
-  }
+  background-color: $primary-color !important;
+  padding-left: $gap-16;
+}
 
 :global(.dropdown-menu) {
   background-color: transparent !important;
@@ -37,7 +37,7 @@
 
   &:hover {
     transform: scale(1.05);
-    background-color: transparent !important; 
+    background-color: transparent !important;
   }
 
   &:active,

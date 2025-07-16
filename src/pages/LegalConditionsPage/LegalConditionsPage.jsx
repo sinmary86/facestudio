@@ -1,20 +1,18 @@
 import { LegalContentRenderer } from "../../LegalContent/LegalContent";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../Assets/face-rolle-leaves.jpg';
+import backgroundImg from "../../Assets/face-rolle-leaves.jpg";
 
 const LegalConditionsPage = () => {
-     return (
-        <div>
+  return (
+    <div>
+      <PageBanner
+        background={backgroundImg}
+        title="Conditions Générales de Vente (CGV)"
+      />
 
-          <PageBanner
-               background={backgroundImg}
-               title="Conditions Générales de Vente (CGV)"
-               />
-
-          <LegalContentRenderer type="cgv" />
-
-        </div> 
-     )
-}
+      <LegalContentRenderer type="cgv" />
+    </div>
+  );
+};
 
 export default LegalConditionsPage;

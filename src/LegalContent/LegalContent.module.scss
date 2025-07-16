@@ -1,25 +1,24 @@
-@use '../styles/vars.scss' as *;
+@use "../styles/vars.scss" as *;
 
 .container {
-   padding-top: $gap-32;
-   padding-bottom: $gap-32;
+  padding-top: $gap-32;
+  padding-bottom: $gap-32;
 
   h4 {
     font-size: $font-size-22;
     font-weight: bold;
     padding-bottom: $gap-8;
     font-family: $font-title;
-    
-    
+
     @media (max-width: 768px) {
       font-size: $font-size-18;
     }
   }
 
   a {
-   color: $black-color;
-   transition: transform 0.2s ease, color 0.2s ease;
-   display: inline-block;
+    color: $black-color;
+    transition: transform 0.2s ease, color 0.2s ease;
+    display: inline-block;
 
     &:hover {
       transform: scale(1.025);

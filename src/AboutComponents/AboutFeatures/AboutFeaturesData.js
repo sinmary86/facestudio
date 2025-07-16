@@ -5,23 +5,25 @@ import experience from "../../Assets/experience-icon.svg";
 
 export const aboutFeatures = [
   {
-    title: 'Méthode unique et complète',
+    title: "Méthode unique et complète",
     description: "Face Fitness, Yoga, Relaxation pour des résultats optimaux",
-    icon: uniqueMethode
-},
-  {
-    title: 'Approche 100% naturelle',
-    description: "Sans chirurgie, sans injections : des exercices doux et efficaces",
-    icon: naturelleMethode
+    icon: uniqueMethode,
   },
   {
-    title: 'Personnalisation des séances',
+    title: "Approche 100% naturelle",
+    description:
+      "Sans chirurgie, sans injections : des exercices doux et efficaces",
+    icon: naturelleMethode,
+  },
+  {
+    title: "Personnalisation des séances",
     description: "Un accompagnement adapté à vos besoins et votre morphologie",
-    icon: personnalisation
+    icon: personnalisation,
   },
   {
-    title: 'Expérience et formation',
-    description: "Formée auprès des meilleurs experts en Face Fitness et bien-être facial",
-    icon: experience
-  }
+    title: "Expérience et formation",
+    description:
+      "Formée auprès des meilleurs experts en Face Fitness et bien-être facial",
+    icon: experience,
+  },
 ];
