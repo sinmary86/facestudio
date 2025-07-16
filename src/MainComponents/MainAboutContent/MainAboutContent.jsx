@@ -19,28 +19,16 @@ export const MainAboutContent = () => {
           />
         </Col>
 
-        <Col md={6} className="d-flex flex-column justify-content-center">
-          <p>
-            Je m'appelle Natalia, je suis coach certifiée en Face Fitness et
-            Face Yoga.
-            <br />
-            J’aide les femmes à raffermir et rajeunir leur visage grâce à des
-            exercices naturels et efficaces.
-            <br />
-            Chaque visage est unique. Grâce à une approche douce, je vous aide à
-            révéler votre beauté naturelle à tout âge.
-          </p>
 
-          <p>
-            Je m'appelle Natalia, je suis coach certifiée en Face Fitness et
-            Face Yoga.
-            <br />
-            J’aide les femmes à raffermir et rajeunir leur visage grâce à des
-            exercices naturels et efficaces.
-            <br />
-            Chaque visage est unique. Grâce à une approche douce, je vous aide à
-            révéler votre beauté naturelle à tout âge.
-          </p>
+          <Col md={6} className="d-flex flex-column justify-content-center">        
+               <p>Je suis Natalia, coach expérimentée en Face Fitness et Face Yoga, et j’accompagne avec passion et engagement mes clientes dans leur parcours pour tonifier, raffermir, revitaliser et rajeunir naturellement leur visage. À travers un accompagnement personnalisé et bienveillant, je vous aide à développer une pratique régulière qui transforme non seulement l’apparence extérieure, mais aussi le ressenti intérieur de votre peau et de vos traits. Grâce à des exercices ciblés, doux, progressifs et profondément efficaces, il devient possible de stimuler les muscles en profondeur, d’activer la circulation sanguine et lymphatique et de favoriser une régénération naturelle des tissus cutanés. Chaque séance devient un moment précieux pour prendre soin de soi.
+               </p>
+
+              <p>Cette approche unique et complète permet non seulement de lisser progressivement les rides, de redéfinir et sculpter les contours du visage, mais aussi d’équilibrer les expressions, de libérer les tensions accumulées et de retrouver une harmonie naturelle qui révèle toute la beauté intérieure et l’éclat lumineux du visage.
+               </p>
+              
+               <Link to="/a-propos" className="btn-more align-self-start">Faire connaissance <img src={arrow} alt="précédent" className={styles.iconArrow}/></Link>
+          </Col> 
 
           <Link to="/a-propos" className="btn-more align-self-start">
             Faire connaissance{" "}

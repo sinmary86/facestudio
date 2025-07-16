@@ -28,11 +28,8 @@ export const ErrorContent = () => {
             pas, a été déplacée ou supprimée. Veuillez utiliser le menu de
             navigation ou revenir à la page d’accueil du site.
           </p>
-          <button className="btn-main" onClick={() => navigate("/")}>
-            Retour à l’accueil
-          </button>
-        </Col>
-      </Row>
-    </Container>
-  );
-};
+
+          <button 
+            className="btn-base btn-dark"
+            onClick={() => navigate('/')}>
+

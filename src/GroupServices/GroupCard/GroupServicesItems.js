@@ -29,7 +29,7 @@ import AgeTransformation from '../../Assets/freund-helfende-frau.jpg';
     subtitle: "1 mois",
     items: [
       "1 séance hebdomadaire en ligne (40 min)",
-      "Routine vidéo express personnalisée chaque mois",
+      "Chaque mois, un programme express personnalisé (format vidéo)",
       "Mini-guide visage adapté à votre morphologie",
     
     ],
@@ -43,7 +43,7 @@ import AgeTransformation from '../../Assets/freund-helfende-frau.jpg';
     subtitle: "1 mois",
     items: [
       "2 séances par semaine en petit groupe (max 6)",
-      "Retours vocaux personnalisés tous les 15 jours",
+      "Retours vocaux personnalisés détaillés tous les 15 jours",
       "Accès prioritaire à mes ateliers et nouveautés",
 
     ],

@@ -7,7 +7,7 @@ import ExpressiveFace from '../../Assets/age-transformation.jpg';
  {
     image: InnerHarmony,
     alt:'Inner Harmony',
-    title: "Atelier Équilibre mentale",
+    title: "Atelier Équilibre mentale & Stabilité Émotionnelle",
     subtitle: "1 heure",
     items: [
       "Relâchez les tensions accumulées et retrouvez un visage apaisé",
@@ -20,13 +20,12 @@ import ExpressiveFace from '../../Assets/age-transformation.jpg';
   {
     image: EnergyAndTone,
     alt:'Energy And Tone',
-    title: "Atelier Regain d’Énergie",
+    title: "Atelier Regain d’Énergie & Élan Vital",
     subtitle: "1 heure",
     items: [
       "Réactiver le tonus grâce à des techniques faciales dynamiques",
       "Booster efficacement la concentration de manière ludique",
-      "Parfait en début de journée ou après la pause déjeuner",
-    
+      "Parfait pour bien démarrer la journée ou après la pause déjeuner",  
     ],
      note: "* En visio ou en présentiel (sur devis selon durée et nombre de participants)",
   },

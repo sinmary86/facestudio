@@ -1,48 +1,45 @@
-import { Card, Container } from "react-bootstrap";
-import styles from "./GroupServices.module.scss";
+
+import { Container } from 'react-bootstrap';
+import styles from './GroupServices.module.scss';
 import { groupServicesItems } from "./GroupServicesItems.js";
 
 export const GroupServicesCard = () => {
   return (
-    <Container className={`text-center ${styles.wrapperFull}`}>
+
+    <Container className={`${styles.wrapperFull}`}>
+      
       <h2>COURS EN GROUPE – Clubs en ligne</h2>
 
       <div
         className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}
       >
         {groupServicesItems.map((item, index) => (
-          <div key={index} className={styles.cardWrapper}>
-            <img
-              src={item.image}
-              alt={item.title}
-              className={styles.backgroundImage}
-            />
-            <Card className={styles.textCard}>
-              <Card.Body className={styles.cardBody}>
-                <Card.Title className={styles.cardTitle}>
-                  {item.title}
-                  <div className={styles.subtitleText}>({item.subtitle})</div>
-                </Card.Title>
 
-                <ul className={styles.myList}>
+          <div key={index} className="card-wrapper">
+            <img src={item.image} alt={item.alt} className="image-card" />
+           <div className="body-card">
+                <div className='text-center'>
+                  <h4 className="card-title">{item.title}</h4>
+                  <h5 className="card-subtitle">{item.subtitle}</h5>
+                </div>
+
+
+                <ul className="d-flex flex-column card-list">
                   {item.items.map((text, i) => (
-                    <li key={i} className={styles.listItem}>
-                      <span className={styles.icon}>
-                        <span>✓</span>
-                      </span>
-                      {text}
-                    </li>
+
+                  <li key={i}><span>✓</span>{text}</li>
+
                   ))}
                 </ul>
 
-                <div className={styles.price}>
-                  {item.price}
-                  <br />
-                  <small className={styles.note}>{item.note}</small>
+                <div className='text-center'>
+                  <h2 className="card-price">{item.price}</h2>
+                  <p className="card-note">{item.note}</p>
                 </div>
-              </Card.Body>
-            </Card>
-          </div>
+
+             </div>
+         </div>
+
         ))}
       </div>
     </Container>
