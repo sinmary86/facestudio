@@ -30,7 +30,6 @@ export const MainAboutContent = () => {
                <Link to="/a-propos" className="btn-more align-self-start">Faire connaissance <img src={arrow} alt="précédent" className={styles.iconArrow}/></Link>
           </Col> 
 
-      
       </Row>
     </Container>
   );

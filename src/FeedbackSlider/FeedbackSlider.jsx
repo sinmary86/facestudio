@@ -44,8 +44,8 @@ export const FeedbackSlider = () => {
   return (
     <Container className="section-wrapper-last">
       <h2>Ce que nos clients disent de nous</h2>
-      <Row className="wrapper">
-        <Col md={6}>
+      <Row className="wrapper gy-4 gy-lg-0">
+        <Col lg={6}>
           <img
             src={guasha}
             alt="Massage du visage Gua Sha"
@@ -53,7 +53,7 @@ export const FeedbackSlider = () => {
           />
         </Col>
 
-        <Col md={6} className={styles.feedbackWrapper}>
+        <Col lg={6} className={styles.feedbackWrapper}>
           <img src={quotes} alt="quotes" className={styles.quotes} />
 
           <Slider {...settings} ref={sliderRef}>

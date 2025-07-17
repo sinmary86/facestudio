@@ -10,11 +10,11 @@
 .feedbackWrapper {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding-left: $gap-64;
-  
 
-  @media (max-width: 768px) {
-    padding: $gap-32;
+   @media (max-width: 992px) {
+     padding: $gap-32 $gap-32 0 $gap-32;
   }
 
   .quotes {
