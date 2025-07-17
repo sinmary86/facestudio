@@ -42,9 +42,9 @@ export const FeedbackSlider = () => {
   };
 
   return (
-    <Container className={styles.wrapperFull}>
+    <Container className="section-wrapper-last">
       <h2>Ce que nos clients disent de nous</h2>
-      <Row>
+      <Row className="wrapper">
         <Col md={6}>
           <img
             src={guasha}
@@ -58,7 +58,7 @@ export const FeedbackSlider = () => {
 
           <Slider {...settings} ref={sliderRef}>
             {feedbackData.map((feedback, id) => (
-              <div key={id} className={styles.sliderContainer}>
+              <div key={id}>
                 <p>{feedback.text}</p>
                 <h4>{feedback.name}</h4>
                 <p className="text-muted">{feedback.age} ANS</p>

@@ -1,18 +1,16 @@
-
 import { Container } from 'react-bootstrap';
-import styles from './IndividualService.module.scss';
 import { individualServiceItems } from './IndividualServiceItems';
 
 
 export const IndividualServiceCard = () => {
   return (
-    <Container className={`${styles.wrapperFull}`}>
+    <Container className="section-wrapper-first">
       
 
       <h2>ACCOMPAGNEMENT INDIVIDUEL</h2>
 
       <div
-        className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}
+        className="d-flex flex-wrap justify-content-between wrapper"
       >
         {individualServiceItems.map((item, index) => (
 

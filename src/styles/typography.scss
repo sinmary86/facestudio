@@ -20,11 +20,11 @@ h2 {
   font-weight: 400;
   font-size: 35px;
   text-transform: uppercase;
-  padding-bottom: $gap-32;
+  padding-bottom: 0;
+  margin: 0;
   text-align: center;
 
   @media (max-width: 768px) {
-    padding-bottom: $gap-16;
     font-size: 28px;
   }
 
@@ -35,7 +35,7 @@ h2 {
 
 h3 {
   font-family: $font-title;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 22px;
 
   @media (max-width: 768px) {
@@ -68,6 +68,11 @@ h6 {
   color: $primary-color;
   font-family: $font-title;
   font-size: $font-size-18;
+
+  
+  @media (max-width: 768px) {
+    font-size: $font-size-16;
+  }
 }
 
 p,

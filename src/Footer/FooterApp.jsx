@@ -12,7 +12,7 @@ export const FooterApp = () => {
   return (
     <footer className={styles.footerContainer}>
       <Container>
-        <Row className="align-items-center text-center text-md-start mb-1 b-md-6">
+        <Row className="align-items-center text-center text-md-start">
           <Col md={6} className="mb-3 mb-md-6">
             <h6>
               &copy; NK Facestudio{" "}
@@ -65,8 +65,8 @@ export const FooterApp = () => {
           </Col>
         </Row>
 
-        <Row className="justify-content-center text-center gap-2 gap-md-4">
-          <Col xs={12} md="auto" className="mb-2 mb-md-0">
+        <Row className="justify-content-center text-center gap-1 gap-md-4">
+          <Col xs={12} md="auto" className="mb-0">
             <Link
               to="/mentions-legales"
               className={`text-decoration-none text-muted ${styles.footerLink}`}
@@ -75,7 +75,7 @@ export const FooterApp = () => {
             </Link>
           </Col>
 
-          <Col xs={12} md="auto" className="mb-2 mb-md-0">
+          <Col xs={12} md="auto" className="mb-0">
             <Link
               to="/conditions-generales-de-vente"
               className={`text-decoration-none text-muted ${styles.footerLink}`}
@@ -84,7 +84,7 @@ export const FooterApp = () => {
             </Link>
           </Col>
 
-          <Col xs={12} md="auto" className="mb-2 mb-md-0">
+          <Col xs={12} md="auto" className="mb-0">
             <Link
               to="/politique-de-confidentialite"
               className={`text-decoration-none text-muted ${styles.footerLink}`}

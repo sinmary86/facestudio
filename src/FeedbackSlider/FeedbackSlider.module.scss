@@ -1,22 +1,8 @@
 @use "../styles/vars.scss" as *;
 
-.wrapperFull {
-  padding: $gap-32 0 $gap-64 0;
-  display: flex;
-  flex-direction: column;
-  gap: $gap-32;
-
-  @media (max-width: 768px) {
-    padding: $gap-32 0;
-    display: flex;
-    flex-direction: column;
-    gap: $gap-16;
-  }
-}
-
 .imageBig {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   box-shadow: 0px 4px 4px 0px #00000040;
 }
@@ -24,8 +10,8 @@
 .feedbackWrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding-left: $gap-64;
+  
 
   @media (max-width: 768px) {
     padding: $gap-32;
@@ -35,7 +21,7 @@
     width: 43px;
     height: 35px;
     color: $secondary-color;
-    margin-bottom: $gap-32;
+    margin-bottom: $gap-8;
   }
 }
 

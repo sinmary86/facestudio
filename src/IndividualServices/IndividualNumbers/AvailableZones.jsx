@@ -1,12 +1,11 @@
 import { Container } from "react-bootstrap";
-import styles from "./AvailableZones.module.scss";
 
 export const AvailableZones = () => {
   return (
-    <Container className={styles.wrapperFull}>
+    <Container className="section-wrapper-last">
       <h2> Zones disponibles </h2>
 
-      <ol className="grid-list-numbers">
+      <ol className="wrapper grid-list-numbers">
         <li>
           <span className="big-number">01</span>
           Front & ride du lion.

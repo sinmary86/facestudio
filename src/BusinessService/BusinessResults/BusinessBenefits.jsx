@@ -1,13 +1,12 @@
 import { Container } from 'react-bootstrap';
-import styles from './BusinessBenefits.module.scss';
 
 export const BusinessBenefits =()=> {
   return (
-    <Container className={styles.wrapperFull}>
+    <Container className="section-wrapper-last">
   
         <h2>Bénéfices RH & QVCT</h2>
 
-        <ol className="grid-list-numbers">
+        <ol className="wrapper grid-list-numbers">
           <li>
             <span className="big-number">01</span>
             Meilleure concentration et récupération mentale.

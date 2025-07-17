@@ -4,7 +4,7 @@ import AntiAge from "../../Assets/anti-age-icon.svg";
 
 export const WhyGroupData = [
   {
-    description: "Un relâchement hebdomadaire des muscles du visage",
+    description: "Un relâchement hebdomadaire du visage",
     icon: Tonification,
   },
   {

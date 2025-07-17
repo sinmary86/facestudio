@@ -1,18 +1,14 @@
-
 import { Container } from 'react-bootstrap';
-import styles from './GroupServices.module.scss';
 import { groupServicesItems } from "./GroupServicesItems.js";
 
 export const GroupServicesCard = () => {
   return (
 
-    <Container className={`${styles.wrapperFull}`}>
+    <Container className="section-wrapper-first">
       
       <h2>COURS EN GROUPE – Clubs en ligne</h2>
 
-      <div
-        className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}
-      >
+      <div className="d-flex flex-wrap justify-content-between wrapper">
         {groupServicesItems.map((item, index) => (
 
           <div key={index} className="card-wrapper">

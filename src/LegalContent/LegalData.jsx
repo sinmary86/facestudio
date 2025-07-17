@@ -7,30 +7,30 @@ export const legalData = {
       <>
         <h4>Éditeur du site</h4>
         <p>
-          <strong>Nom:</strong> Natalia Kovaleva NK Facestudio — Entreprise
+          Nom: Natalia Kovaleva NK Facestudio — Entreprise
           individuelle (EI)
         </p>
         <p>
-          <strong>Statut:</strong> Entrepreneur individuel — SIREN
+          Statut: Entrepreneur individuel — SIREN
           94038534700015
         </p>
         <p>
-          <strong>Siège social:</strong> 134 rue de Cambrai 59000 LILLE ° TVA
+          Siège social: 134 rue de Cambrai 59000 LILLE ° TVA
           non applicable, art. 293 B du CGI
         </p>
         <p>
-          <strong>Directrice de la publication:</strong> Natalia Kovaleva
+          Directrice de la publication: Natalia Kovaleva
         </p>
         <p>
-          <strong>Contact:</strong>{" "}
+          Contact:{" "}
           <a href="mailto:nk.facestudio@gmail.com">nk.facestudio@gmail.com</a> |
           Tél. : <a href="tel:+33621755222">+33 6 21 75 52 22</a>
         </p>
         <p>
-          <strong>Hébergeur:</strong>{" "}
+          Hébergeur:{" "}
         </p>
         <p>
-          <strong>Activité:</strong> coaching et programmes numériques de « Face
+          Activité: coaching et programmes numériques de « Face
           Fitness » (bien‑être, gymnastique faciale, auto massage et taping)
           Dispositifs non médical.
         </p>
@@ -141,19 +141,19 @@ export const legalData = {
         <h4>1.2 Données collectées</h4>
         <ul>
           <li>
-            <strong>Identification</strong> : nom, prénom, e‑mail, mot de passe
+            Identification: nom, prénom, e‑mail, mot de passe
             chiffré.
           </li>
           <li>
-            <strong>Paiement</strong> : quatre derniers chiffres de la carte,
+            Paiement: quatre derniers chiffres de la carte,
             identifiant transaction (données gérées par le prestataire).
           </li>
           <li>
-            <strong>Utilisation</strong> : historique d’achats, suivi de
+            Utilisation: historique d’achats, suivi de
             progression.
           </li>
           <li>
-            <strong>Cookies</strong> : mesure d’audience, affichage
+            Cookies: mesure d’audience, affichage
             personnalisé, publicité ciblée (avec consentement).
           </li>
         </ul>
@@ -213,14 +213,14 @@ export const legalData = {
         <h4>1.5 Destinataires</h4>
         <ul>
           <li>
-            <strong>Hébergeur</strong>:{" "}
+            Hébergeur:{" "}
           </li>
           <li>
-            <strong>Prestataire de paiement</strong> : Stripe Payments Europe
+            Prestataire de paiement: Stripe Payments Europe
             Limited (Irlande), PayPal (Luxembourg)
           </li>
           <li>
-            <strong>Outils marketing</strong> : Meta Platforms Ireland Limited
+            Outils marketing: Meta Platforms Ireland Limited
             (Pixel Meta), Google Ireland Limited (Google Analytics) – après
             consentement
           </li>

@@ -1,12 +1,11 @@
-import styles from "./BenefitsMethodMain.module.scss";
 import { Container } from "react-bootstrap";
 
 export const BenefitsMethodMain = () => {
   return (
-    <Container className={styles.wrapperFull}>
+    <Container className="section-wrapper-last">
       <h2>Pourquoi choisir ma méthode?</h2>
 
-      <ol className="grid-list-numbers">
+      <ol className="wrapper grid-list-numbers gy-4 gy-lg-0">
         <li>
           <span className="big-number">01</span>
           Atténuer en douceur les signes de fatigue et de tension.

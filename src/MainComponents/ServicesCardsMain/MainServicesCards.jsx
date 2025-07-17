@@ -5,10 +5,10 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 export const MainServicesCards = () => {
   return (
-    <Container className={styles.wrapperFull}>
-      <h2 className="text-center">Nos services</h2>
+    <Container className="section-wrapper-middle">
+      <h2>Nos services</h2>
 
-      <Row className={styles.wrapper}>
+      <Row className="wrapper">
         {mainServicesData.map((service, index) => (
           <Col
             key={index}

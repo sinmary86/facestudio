@@ -11,6 +11,11 @@
   color: $dark-text-color;
   transition: transform 0.2s;
 
+   @media (max-width: 768px) {
+      width: 27px;
+      height: 27px;
+    }
+
   &:hover {
     transform: scale(1.1);
   }

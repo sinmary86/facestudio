@@ -12,7 +12,7 @@ export const SkinSymptomData = [
     icon: BienEtre,
   },
   {
-    description: "Le visage devient asymétrique, tendu ou crispé par endroits",
+    description: "Le visage devient asymétrique, tendu ou crispé",
     icon: AntiAge,
   },
 ];

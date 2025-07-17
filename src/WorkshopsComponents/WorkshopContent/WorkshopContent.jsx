@@ -3,9 +3,9 @@ import styles from "./WorkshopContent.module.scss";
 
 export const WorkshopContent = () => {
   return (
-    <Container className={styles.myGridSection}>
+    <Container className="section-wrapper-first">
       <h2>Ateliers</h2>
-      <div className={styles.gridLayout}>
+      <div className={`wrapper ${styles.gridLayout}`}>
         <div className={styles.imgTallLeft} />
 
         <div className={styles.textBlockOne}>

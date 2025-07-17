@@ -1,15 +1,13 @@
 import { Container } from 'react-bootstrap';
-import styles from './BusinessServices.module.scss';
 import { businessServicesItems } from './BusinessServicesItems';
-
 
 export const BusinessServicesCard = () => {
   return (
-    <Container className={`${styles.wrapperFull}`}>
+    <Container className="section-wrapper-first">
       
       <h2>INTERVENTIONS EN ENTREPRISE</h2>
       
-      <div className={`d-flex flex-wrap justify-content-between ${styles.wrapper}`}>
+      <div className="d-flex flex-wrap justify-content-between wrapper">
         {businessServicesItems.map((item, index) => (
           <div key={index} className="card-wrapper">
             <img src={item.image} alt={item.alt} className="image-card" />
@@ -33,5 +31,3 @@ export const BusinessServicesCard = () => {
     </Container>
   );
 };
-
-
