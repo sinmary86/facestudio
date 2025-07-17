@@ -1,9 +1,9 @@
 @use "../styles/vars.scss" as *;
 
 .brand {
-  font-family: $font-deco !important;
+  font-family: $font-title !important;
   font-size: 30px;
-  letter-spacing: 2px;
+  font-weight: 400 !important;
 }
 
 .navbarCustom {
