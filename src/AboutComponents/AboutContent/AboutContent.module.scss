@@ -1,12 +1,5 @@
 @use "../../styles/vars.scss" as *;
 
-.myGridSection {
-  padding: $gap-64 0;
-
-  @media (max-width: 992px) {
-    padding: $gap-32 0;
-  }
-
   .gridLayout {
     display: grid;
     grid-template-columns: calc((100% - 2 * $gap-32) / 3) repeat(
@@ -36,7 +29,7 @@
 
     .imgTallLeft {
       grid-area: imgLeft;
-      background-image: url("/src/Assets/massage-relaxant-du-visage.jpg");
+      background-image: url("/src/Assets/face-maasage-studio.png");
       background-size: cover;
       background-position: center;
       height: auto;
@@ -64,14 +57,15 @@
       grid-area: imgSmall;
       width: auto;
       height: 250px;
-      background-image: url("/src/Assets/portret-with-words.png");
+      background-image: url("/src/Assets/guasha-rolls-for-face-massage.png");
       background-size: cover;
       background-position: center;
+      box-shadow: 0px 4px 4px 0px #00000040;
     }
 
     .imgTallRight {
       grid-area: imgRight;
-      background-image: url("/src/Assets/creme-face.jpg");
+      background-image: url("/src/Assets/creme-face-woman.png");
       background-size: cover;
       background-position: center;
       height: auto;
@@ -100,4 +94,4 @@
       margin: 0;
     }
   }
-}
+

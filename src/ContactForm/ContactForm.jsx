@@ -43,13 +43,13 @@ export const ContactForm = () => {
   }, [state.succeeded]);
 
   return (
-    <Container className={styles.section}>
+    <Container className="section-wrapper-first">
       <h2>Formulaire de contact</h2>
       <Form
         noValidate
         validated={validated}
         onSubmit={handleSubmit}
-        className={styles.formContainer}
+        className={`wrapper ${styles.formContainer}`}
       >
         <Row className="mb-3">
           <Form.Group as={Col} md="4" controlId="validationCustom01">
@@ -138,7 +138,7 @@ export const ContactForm = () => {
         <button
           type="submit"
           disabled={state.submitting}
-          className="btn-base btn-dark"
+          className="btn-base btn-dark mt-3"
         >
           Envoyer
         </button>

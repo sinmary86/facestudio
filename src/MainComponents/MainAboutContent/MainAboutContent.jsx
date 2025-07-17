@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 export const MainAboutContent = () => {
   return (
-    <Container className={styles.section}>
+    <Container className="section-wrapper-first">
       <h2 className="text-center">À propos de la méthode</h2>
-      <Row>
+      <Row  className="wrapper">
         <Col md={6} className="d-flex flex-column justify-content-center">
           <img
             src={womanabout}

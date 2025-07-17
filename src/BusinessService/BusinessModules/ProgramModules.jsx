@@ -1,25 +1,18 @@
-
 import { Row, Col, Container } from "react-bootstrap";
 import { ProgramModulesData} from "./ProgramModulesData";
-import styles from "./ProgramModules.module.scss";
 
 export const ProgramModules = () => (
   
-  <Container className={styles.wrapperFull}>
+  <Container className="section-wrapper-middle">
 
     <h2>Que vous apporte la participation au club ?</h2>
 
-    <Row className={styles.wrapper}>
+    <Row className="wrapper gy-4 gy-lg-0">
     {ProgramModulesData.map(({ icon, title, description }, index) => (
       
-        <Col key={index} md={6} lg={4} 
-        className={`d-flex flex-column align-items-center text-center mb-4 ${styles.imgIcon}`}>
-          
-           <div className={`d-flex align-items-center justify-content-center ${styles.imgWrapper}`}>
-           <img src={icon} alt={title} className="mb-4"/>
-           </div>
-           <h3>{ title }</h3>
-           <p className={styles.subTitle}>{description} </p>
+        <Col key={index} md={6} lg={4} className="d-flex flex-column align-items-center text-center icon-linear">
+           <img src={icon} alt={title} />
+           <p>{description} </p>
         </Col>
       
     ))}

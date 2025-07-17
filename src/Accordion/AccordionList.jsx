@@ -5,9 +5,9 @@ import { Container } from "react-bootstrap";
 
 export const AccordionList = () => {
   return (
-    <Container className={styles.wrapperFull}>
+    <Container className="section-wrapper-first">
       <h2>FAQ – Tout sur le Face Fitness</h2>
-      <Accordion defaultActiveKey="0" className={styles.accordionContainer}>
+      <Accordion className={`wrapper ${styles.accordionContainer}`}>
         {AccordionItems.map((item, index) => (
           <Accordion.Item
             eventKey={index.toString()}

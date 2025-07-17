@@ -1,12 +1,11 @@
-import styles from "./WorkshopsTargetGroup.module.scss";
 import { Container } from "react-bootstrap";
 
 export const WorkshopsTargetGroup = () => {
   return (
-    <Container className={styles.wrapperFull}>
+    <Container className="section-wrapper-last">
       <h2>Ces ateliers sont pour vous si:</h2>
 
-      <ol className="grid-list-numbers">
+      <ol className="wrapper grid-list-numbers gy-4 gy-lg-0">
         <li>
           <span className="big-number">01</span>
           Vous avez l’impression que votre reflet ne vous ressemble plus tout à

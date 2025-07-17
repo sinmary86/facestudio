@@ -1,5 +1,13 @@
 @use '../styles/vars.scss' as *;
 
+.card-wrapper {
+  margin-bottom: 0;
+
+  @media (max-width: 768px) {
+    margin-bottom: $gap-32;
+  }
+}
+
 .image-card {
   width: 356px;
   height: 450px; 

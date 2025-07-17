@@ -1,5 +1,5 @@
 import individualProgramm from "../../Assets/actualAntiAge.jpg";
-import Mimique from "../../Assets/mimique.jpg";
+import Mimique from "../../Assets/actualWellBe.jpg";
 import ParZone from "../../Assets/about-foto-with-creame.jpg";
 
 export const individualServiceItems = [

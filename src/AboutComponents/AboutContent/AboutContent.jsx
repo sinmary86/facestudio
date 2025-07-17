@@ -3,9 +3,9 @@ import styles from "./AboutContent.module.scss";
 
 export const AboutContent = () => {
   return (
-    <Container className={styles.myGridSection}>
+    <Container className="section-wrapper-first">
       <h2>Qui suis-je?</h2>
-      <div className={styles.gridLayout}>
+      <div className={`wrapper ${styles.gridLayout}`}>
         <div className={styles.imgTallLeft} />
 
         <div className={styles.textBlockOne}>
