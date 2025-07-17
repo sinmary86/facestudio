@@ -1,6 +1,6 @@
 import InnerHarmony from '../../Assets/service-atelier.jpg';
 import EnergyAndTone from '../../Assets/service-group.jpg';
-import ExpressiveFace from '../../Assets/age-transformation.jpg';
+import ExpressiveFace from '../../Assets/woman-meeting-business.jpg';
 
 
    export const businessServicesItems = [
