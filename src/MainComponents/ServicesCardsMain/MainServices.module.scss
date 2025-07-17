@@ -3,7 +3,6 @@
 // Карточка
 .card {
   width: 100%;
-  // width: 18rem;
   height: 18rem;
   background-size: cover;
   background-position: center;
@@ -42,6 +41,8 @@
   color: $primary-color;
   height: 100%;
   gap: $gap-4;
+  padding: 0 40px;
+  
 }
 
 .separator {
