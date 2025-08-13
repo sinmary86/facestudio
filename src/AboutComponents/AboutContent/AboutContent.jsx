@@ -10,26 +10,22 @@ export const AboutContent = () => {
 
         <div className={styles.textBlockOne}>
           <p>
-            En face fitness depuis trois ans, j'ai le plaisir d'accompagner des
-            personnes dans leur quête d'un visage tonifié et rayonnant. Ma
-            passion pour le bien-être du visage m'a conduite à me certifier en
-            face yoga et face fitness et à maîtriser les étirements spécifiques
-            des muscles faciaux. Cette expertise, enrichie par une connaissance
-            approfondie de l'anatomie faciale, me permet de vous proposer des
-            programmes sur mesure, adaptés à vos besoins et objectifs.
+            Ce que je fais aujourd’hui, je l’ai vécu moi-même. 
+            Mon visage a été mon premier terrain. Depuis trois ans, 
+            j'accompagne avec passion les entreprises et leurs équipes vers plus de bien-être au quotidien,
+           ainsi que les femmes qui souhaitent retrouver un visage plus vivant, plus libre, plus aligné.
+           Le visage reflète nos états intérieurs — mais il peut aussi les transformer, quand on apprend
+            à en prendre soin.
           </p>
         </div>
 
         <div className={styles.textBlockTwo}>
           <p>
-            Passionnée par le bien-être et la beauté naturelle, j’utilise une
-            méthode unique qui allie tonicité, relaxation et correction des
-            tensions faciales. Mon approche est avant tout humaine et
-            bienveillante. Je crée un espace d'apprentissage convivial où chaque
-            séance devient un moment privilégié de détente et de découverte de
-            soi. Ensemble, nous travaillerons main dans la main pour révéler
-            votre éclat naturel, tout en respectant votre rythme et vos
-            aspirations.
+           Mon histoire a commencé par un moment de vulnérabilité. À une période particulièrement 
+           éprouvante de ma vie, submergée par le stress professionnel et personnel, je regardais 
+           mon reflet sans plus me reconnaître. Mon visage était devenu étranger : crispé, marqué 
+           par la fatigue et l'anxiété. Je ressentais un profond décalage entre mon apparence 
+           extérieure et ce que je vivais à l’intérieur.
           </p>
         </div>
 
@@ -47,19 +43,23 @@ export const AboutContent = () => {
 
         <div className={styles.bottomTextOne}>
           <p>
-            En face fitness depuis trois ans, j'ai le plaisir d'accompagner des
-            personnes dans leur quête d'un visage tonifié et rayonnant. Ma
-            passion pour le bien-être du visage m'a conduite à me certifier en
-            face yoga et face{" "}
+           C’est dans cette quête pour me reconnecter à moi-même que le Face Yoga 
+           est entré dans ma vie. Cette découverte a été une révélation, une façon
+            douce et puissante de retrouver mon énergie vitale, mon authenticité et 
+            un apaisement durable. Je ne cherchais pas à changer mon visage, mais à y revenir.
+             À le réhabiter pleinement.
+             Cette méthode agit sur la mémoire musculaire et émotionnelle du visage, 
+             que j'enseigne avec précision.{" "}
           </p>
         </div>
 
         <div className={styles.bottomTextTwo}>
-          <p>
-            En face fitness depuis trois ans, j'ai le plaisir d'accompagner des
-            personnes dans leur quête d'un visage tonifié et rayonnant. Ma
-            passion pour le bien-être du visage m'a conduite à me certifier en
-            face yoga et face
+          <p>             
+       Aujourd’hui, portée par cette expérience personnelle et une solide expertise, 
+       je propose aux entreprises des ateliers humains et ciblés pour libérer les
+       tensions du quotidien : fatigue visuelle, stress, manque de présence, surcharge mentale. 
+       J’accompagne aussi les particuliers avec des séances sur mesure pour un visage aligné,
+        apaisé et rayonnant. Et si votre visage reflétait votre énergie véritable ?
           </p>
         </div>
       </div>

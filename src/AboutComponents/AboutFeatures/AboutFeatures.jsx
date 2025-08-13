@@ -10,8 +10,10 @@ export const AboutFeatures = () => (
       
         <Col key={index} md={6} lg={3} className="d-flex flex-column justify-content-center align-items-center text-center icon-circle"> 
            <img src={icon} alt={title} />
-           <h3>{title}</h3>
-           <p>{description}</p>
+           {/* <h3>{title}</h3>
+           <p>{description}</p> */}
+      <h3 style={{ maxWidth: '85%', marginBottom: '0.5rem' }}>{title}</h3>
+      <p style={{ maxWidth: '85%' }}>{description}</p>
         </Col> 
       ))}
     </Row>

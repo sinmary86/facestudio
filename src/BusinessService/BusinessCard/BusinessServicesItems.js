@@ -7,7 +7,7 @@ import ExpressiveFace from '../../Assets/woman-meeting-business.jpg';
  {
     image: InnerHarmony,
     alt:'Inner Harmony',
-    title: "Atelier Équilibre mentale & Stabilité Émotionnelle",
+    title: "Atelier \nÉquilibre mentale",
     subtitle: "1 heure",
     items: [
       "Relâchez les tensions accumulées et retrouvez un visage apaisé",
@@ -20,7 +20,7 @@ import ExpressiveFace from '../../Assets/woman-meeting-business.jpg';
   {
     image: EnergyAndTone,
     alt:'Energy And Tone',
-    title: "Atelier Regain d’Énergie & Élan Vital",
+    title: "Atelier \nRegain d’Énergie",
     subtitle: "1 heure",
     items: [
       "Réactiver le tonus grâce à des techniques faciales dynamiques",
@@ -32,7 +32,7 @@ import ExpressiveFace from '../../Assets/woman-meeting-business.jpg';
   {
     image: ExpressiveFace,
     alt:'Visage Convaincant',
-    title: "Atelier Posture Assurée & Visage Convaincant",
+    title: "Atelier Posture  & \nVisage Convaincant",
     subtitle: "1 heure",
     items: [
       "Préparez vos prises avec assurance, posture et visage engageants",

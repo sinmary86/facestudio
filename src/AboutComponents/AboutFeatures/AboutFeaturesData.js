@@ -23,7 +23,7 @@ export const aboutFeatures = [
   {
     title: "Expérience et formation",
     description:
-      "Formée auprès des meilleurs experts en Face Fitness et bien-être facial",
+      "Formée auprès d'experts en Face Fitness et bien-être facial",
     icon: experience,
   },
 ];

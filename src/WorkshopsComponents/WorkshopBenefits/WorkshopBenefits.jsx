@@ -15,7 +15,7 @@ export const WorkshopBenefits = () => (
         >
           <img src={icon} alt={title} />
           <h3>{title}</h3>
-          <p>{description}</p>
+          <p style={{ maxWidth: '95%' }}>{description}</p>
         </Col>
       ))}
     </Row>

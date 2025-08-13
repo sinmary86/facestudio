@@ -59,7 +59,10 @@
 .card-title {
   font-size: $font-size-20;
   letter-spacing: 7%;
-  padding: $gap-8 $gap-32;
+  padding: $gap-8 ;
+  white-space: pre-line;
+  width: 100%;
+
 
   @media (max-width: 768px) {
     font-size: $font-size-18;
@@ -86,7 +89,8 @@
   
   li {
     position: relative;
-    padding-left: $gap-24;    
+    padding-left: $gap-24;  
+    white-space: pre-line; 
   }
 
   span {
