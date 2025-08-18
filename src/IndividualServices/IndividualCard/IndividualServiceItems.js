@@ -23,7 +23,7 @@ export const individualServiceItems = [
     title: "CORRECTION \nMIMIQUE",
     subtitle: "4 semaines",
     items: [
-      "4 séances individuelles (1h chacune)",
+      "4 séances individuelles \n(1h chacune)",
       "Analyse du tonus local et global",
       "Plan d’exercices vidéo personnalisés",
       "Conseils à intégrer au quotidien",
@@ -40,7 +40,7 @@ export const individualServiceItems = [
       "Un premier bilan ciblé personnalisé",
       "Corriger une expression nocive",
       "Adopter un exercice simple et efficace",
-      "????????????????11????1111????",
+      "Repartir avec une routine à refaire chez soi",
     ],
     price: "60 €",
     note: "(+ Vers “Correction Mimique)",

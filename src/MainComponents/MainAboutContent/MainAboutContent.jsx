@@ -21,13 +21,19 @@ export const MainAboutContent = () => {
 
 
           <Col lg={6} className="d-flex flex-column justify-content-center">        
-               <p>Je suis Natalia, coach expérimentée en Face Fitness et Face Yoga, et j’accompagne avec passion et engagement mes clientes dans leur parcours pour tonifier, raffermir, revitaliser et rajeunir naturellement leur visage. À travers un accompagnement personnalisé et bienveillant, je vous aide à développer une pratique régulière qui transforme non seulement l’apparence extérieure, mais aussi le ressenti intérieur de votre peau et de vos traits. Grâce à des exercices ciblés, doux, progressifs et profondément efficaces, il devient possible de stimuler les muscles en profondeur, d’activer la circulation sanguine et lymphatique et de favoriser une régénération naturelle des tissus cutanés. Chaque séance devient un moment précieux pour prendre soin de soi.
+               <p>Bienvenue, je suis Natalia, coach passionnée en Face Fitness et Face Yoga.<br/>
+               Mon approche douce et personnalisée agit directement sur les muscles du visage pour répondre à vos besoins spécifiques.<br/>
+                 Elle permet de relâcher les tensions accumulées au quotidien, de préparer sereinement vos prises de parole et d’améliorer votre présence.
+                 Elle vous aide à booster naturellement votre énergie grâce à des exercices revitalisants, à transformer durablement vos habitudes mimétiques néfastes, à lisser les rides et à apaiser les crispations responsables du vieillissement prématuré. 
+                 Elle stimule aussi efficacement la circulation sanguine et lymphatique, pour une peau plus éclatante.
+               <br/>
+               Chaque séance devient un moment précieux de reconnexion avec vous-même, révélant progressivement un visage tonifié, harmonieux et rayonnant de vitalité.
+               Plus qu’une méthode esthétique, c’est une véritable expérience qui révèle votre beauté authentique, de l’intérieur vers l’extérieur.
                </p>
 
-              <p>Cette approche unique et complète permet non seulement de lisser progressivement les rides, de redéfinir et sculpter les contours du visage, mais aussi d’équilibrer les expressions, de libérer les tensions accumulées et de retrouver une harmonie naturelle qui révèle toute la beauté intérieure et l’éclat lumineux du visage.
-               </p>
-              
-               <Link to="/a-propos" className="btn-more align-self-start">Faire connaissance <img src={arrow} alt="précédent" className={styles.iconArrow}/></Link>
+                      <Link to="/a-propos" className="btn-more align-self-start">
+               <strong className={styles.boldText}>Faire connaissance</strong>
+           <img src={arrow} alt="précédent" className={`${styles.iconArrow} ${styles.arrowSpacing}`}/></Link>
           </Col> 
 
       </Row>

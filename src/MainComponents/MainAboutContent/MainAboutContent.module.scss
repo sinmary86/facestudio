@@ -1,5 +1,13 @@
 @use "../../styles/vars.scss" as *;
 
+ .boldText {
+  font-weight: 600; 
+}
+
+.arrowSpacing {
+  margin-left: 8px;
+}
+
 .imgAbout {
   width: 100%;
   max-width: 518px;

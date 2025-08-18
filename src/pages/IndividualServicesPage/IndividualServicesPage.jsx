@@ -10,7 +10,7 @@ const IndividualServicesPage = () => {
     <div>
       <PageBanner
         background={backgroundImg}
-        title="Pour celles qui veulent transformer leur visage en profondeur, à leur rythme"
+        title="Reprenez le pouvoir sur votre visage : exercices ciblés, rythme respecté, résultats visibles"
       />
       <IndividualServiceCard />
       <SkinSymptom />

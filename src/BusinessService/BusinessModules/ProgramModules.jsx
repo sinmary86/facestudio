@@ -12,7 +12,7 @@ export const ProgramModules = () => (
       
         <Col key={index} md={6} lg={4} className="d-flex flex-column align-items-center text-center icon-linear">
            <img src={icon} alt={title} />
-           <p>{description} </p>
+            <p>{description}</p>
         </Col>
       
     ))}

@@ -1,6 +1,6 @@
 import { ContactForm } from "../../ContactForm/ContactForm";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from "../../Assets/gua-sha-massage-face-tools.png";
+import backgroundImg from "../../Assets/page-about.jpg";
 
 const ContactsPage = () => {
   return (

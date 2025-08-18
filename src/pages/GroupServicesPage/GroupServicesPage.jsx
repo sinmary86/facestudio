@@ -10,7 +10,7 @@ const GroupServicesPage = () => {
     <div>
       <PageBanner
         background={backgroundImg}
-        title="Pour prendre soin de son visage en douceur ou s’engager dans une vraie transformation, ensemble"
+        title="Libérez les tensions du visage et boostez votre énergie dans un cadre bienveillant et motivant"
       />
       <GroupServicesCard />
       <WhyGroup />
