@@ -14,7 +14,7 @@ export const WhyGroup = () => (
           className="d-flex flex-column align-items-center text-center icon-linear"
         >
           <img src={icon} alt={title} />
-          <p style={{ maxWidth: '85%' }}>{description}</p>
+          <p>{description}</p>
         </Col>
       ))}
     </Row>

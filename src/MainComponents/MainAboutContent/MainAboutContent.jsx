@@ -26,16 +26,10 @@ export const MainAboutContent = () => {
                  Elle permet de relâcher les tensions accumulées au quotidien, de préparer sereinement vos prises de parole et d’améliorer votre présence.
                  Elle vous aide à booster naturellement votre énergie grâce à des exercices revitalisants, à transformer durablement vos habitudes mimétiques néfastes, à lisser les rides et à apaiser les crispations responsables du vieillissement prématuré. 
                  Elle stimule aussi efficacement la circulation sanguine et lymphatique, pour une peau plus éclatante.
-               </p>
-              
-               <p>Chaque séance devient un moment précieux de reconnexion avec vous-même, révélant progressivement un visage tonifié, harmonieux et rayonnant de vitalité.
                <br/>
+               Chaque séance devient un moment précieux de reconnexion avec vous-même, révélant progressivement un visage tonifié, harmonieux et rayonnant de vitalité.
                Plus qu’une méthode esthétique, c’est une véritable expérience qui révèle votre beauté authentique, de l’intérieur vers l’extérieur.
                </p>
-              
-               {/* <Link to="/a-propos" className="btn-more align-self-start">Faire connaissance 
-               <img src={arrow} alt="précédent" className={styles.iconArrow}/></Link>
-               </Col>  */}
 
                       <Link to="/a-propos" className="btn-more align-self-start">
                <strong className={styles.boldText}>Faire connaissance</strong>

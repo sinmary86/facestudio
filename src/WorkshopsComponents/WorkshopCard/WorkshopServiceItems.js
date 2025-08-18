@@ -1,6 +1,6 @@
 
 import gymnastiqueFaciale from '../../Assets/gymnastique-faciale.jpg';
-import gonflements from '../../Assets/policyCover.jpg';
+import gonflements from '../../Assets/woman-with-tablette.jpg';
 import massageRelaxantLissage from '../../Assets/massage-relaxant-lissage.jpg';
 
 
