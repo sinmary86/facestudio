@@ -3,10 +3,15 @@ import methode from "../../Assets/méthode-fais-et-répète.svg";
 import techniques from "../../Assets/techniques-ciblées.svg";
 import accompagnement from "../../Assets/accompagnement-et-feedback.svg";
 
-export const workshopBenefits = [
+export const AtelierModulesData = [
   {
     title: "Anatomie claire + pratique",
-    description: "Sans “eau inutile”, facile à comprendre et à appliquer",
+description: "Sans “eau inutile”, facile à comprendre et à appliquer",
+    // description: (
+    //  <> Sans “eau inutile”, facile à  {" "}<span className="d-none d-md-inline"><br /></span>
+    //   comprendre et à appliquer
+    //  </>
+    // ),
     icon: pratique,
   },
   {

@@ -3,7 +3,7 @@ import naturelleMethode from "../../Assets/naturelle-icon.svg";
 import personnalisation from "../../Assets/personnalisation-icon.svg";
 import experience from "../../Assets/experience-icon.svg";
 
-export const aboutFeatures = [
+export const AboutFeaturesData = [
   {
     title: "Méthode unique et complète",
     description: "Face Fitness, Yoga, Relaxation pour des résultats optimaux",
@@ -22,8 +22,14 @@ export const aboutFeatures = [
   },
   {
     title: "Expérience et formation",
-    description:
-      "Formée auprès d'experts en Face Fitness et bien-être facial",
+   description: " Formée auprès d'experts  en Face Fitness et bien-être facial",       
+  
+    // description:(
+    //  <>
+    //   Formée auprès d'experts  
+    //   en Face Fitness {" "}<span className="d-none d-md-inline"><br /></span> et bien-être facial      
+    //   </>
+    //   ),
     icon: experience,
   },
 ];

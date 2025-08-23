@@ -24,7 +24,7 @@
   
 
     @media (max-width: 992px) {
-      max-width: 90%;
+      // max-width: none;
     }
   }
 }
@@ -38,20 +38,21 @@
 
   h3 {
     margin-bottom: $gap-20;
-    max-width: 75%;
+    // max-width: 75%;
 
      @media (max-width: 992px) {
       margin-bottom: $gap-8;
-      max-width: 100%;
+      // max-width: 100%;
+         max-width: none;
   }
   }
 
   p {
-    max-width: 85%;
+    // max-width: 85%;
     margin: 0 auto;
   
     @media (max-width: 992px) {
-      max-width: 90%;
+      // max-width: 90%;
     }
   }
 }
