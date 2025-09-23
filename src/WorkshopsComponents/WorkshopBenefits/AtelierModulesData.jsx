@@ -6,12 +6,7 @@ import accompagnement from "../../Assets/accompagnement-et-feedback.svg";
 export const AtelierModulesData = [
   {
     title: "Anatomie claire + pratique",
-description: "Sans “eau inutile”, facile à comprendre et à appliquer",
-    // description: (
-    //  <> Sans “eau inutile”, facile à  {" "}<span className="d-none d-md-inline"><br /></span>
-    //   comprendre et à appliquer
-    //  </>
-    // ),
+    description: "Sans “eau inutile”, facile à comprendre et à appliquer",
     icon: pratique,
   },
   {
@@ -26,7 +21,7 @@ description: "Sans “eau inutile”, facile à comprendre et à appliquer",
   },
   {
     title: "Accompagnement et feedback",
-    description: "Des réponses et du soutien à chaque étape",
+    description: "Accompagnement et réponses à chaque étape",
     icon: accompagnement,
   },
 ];

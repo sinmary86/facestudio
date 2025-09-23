@@ -8,7 +8,7 @@ export const AtelierModules = () => (
      <Row className="wrapper gy-4 gy-lg-0">
     {AtelierModulesData.map(({ icon, title, description }, index) => (
       
-        <Col key={index} xs={6} md={3} className="d-flex flex-column justify-content-center
+        <Col key={index}  md={6} lg={3} className="d-flex flex-column justify-content-center
          align-items-center text-center icon-circle"> 
            <img src={icon} alt={title} />
             <p>{description}</p>
