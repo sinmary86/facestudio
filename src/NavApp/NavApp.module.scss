@@ -4,6 +4,10 @@
   font-family: $font-title !important;
   font-size: 30px;
   font-weight: 400 !important;
+
+   @media (max-width: 343px) {
+      font-size: 20px;
+    }
 }
 
 .navbarCustom {

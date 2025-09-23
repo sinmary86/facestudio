@@ -1,4 +1,4 @@
-import InnerHarmony from '../../Assets/service-atelier.jpg';
+import InnerHarmony from '../../Assets/wom_meeting.jpg';
 import EnergyAndTone from '../../Assets/service-group.jpg';
 import ExpressiveFace from '../../Assets/atelier-business.jpg';
 
