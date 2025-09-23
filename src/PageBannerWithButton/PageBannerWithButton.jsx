@@ -1,6 +1,6 @@
 import styles from "./PageBannerWithButton.module.scss";
 import { Link } from "react-router-dom";
-import bannerBottom from "../Assets/gua-sha-massage-face-tools.png";
+import bannerBottom from "../Assets/gua-sha-massage-face-tools.jpg";
 
 export const PageBannerWithButton = () => {
   return (

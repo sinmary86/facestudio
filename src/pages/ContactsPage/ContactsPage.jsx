@@ -1,6 +1,6 @@
 import { ContactForm } from "../../ContactForm/ContactForm";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from "../../Assets/page-about.jpg";
+import backgroundImg from "../../Assets/banner-contacts.jpg";
 
 const ContactsPage = () => {
   return (

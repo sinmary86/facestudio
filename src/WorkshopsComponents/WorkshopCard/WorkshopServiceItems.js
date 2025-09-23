@@ -1,7 +1,7 @@
 
 import gymnastiqueFaciale from '../../Assets/gymnastique-faciale.jpg';
 import gonflements from '../../Assets/woman-with-tablette.jpg';
-import massageRelaxantLissage from '../../Assets/massage-relaxant-lissage.jpg';
+import massageRelaxantLissage from '../../Assets/wom_disscuss.jpg';
 
 
    export const workshopServiceItems = [
