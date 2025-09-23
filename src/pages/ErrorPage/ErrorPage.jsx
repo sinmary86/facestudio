@@ -1,6 +1,6 @@
 import { ErrorContent } from "../../ErrorContent/ErrorContent";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from '../../Assets/gua-sha-massage-face-tools.png';
+import backgroundImg from '../../Assets/gua-sha-massage-face-tools.jpg';
 
 const ErrorPage = () => {
      return (
