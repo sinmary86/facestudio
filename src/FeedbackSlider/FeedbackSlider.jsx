@@ -43,8 +43,11 @@ export const FeedbackSlider = () => {
 
   return (
     <Container className="section-wrapper-last">
+
       <h2>Ce que nos clients disent de nous</h2>
+
       <Row className="wrapper gy-4 gy-lg-0">
+        
         <Col lg={6}>
           <img
             src={guasha}
