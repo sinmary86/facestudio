@@ -8,7 +8,7 @@ export const FloatingButton = () => {
       target="_blank"
       rel="noopener noreferrer"
       className={styles.btnFloat}
-      aria-label="Связаться в Telegram"
+      aria-label="Contacter sur Telegram"
     >
       <img src={telegram} alt="Telegram" />
     </a>

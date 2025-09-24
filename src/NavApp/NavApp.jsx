@@ -8,7 +8,6 @@ import { Container } from "react-bootstrap";
 import { useState } from "react";
 import burger from "../Assets/burger-icon.svg";
 
-//TODO - нужно ли заменить brand на лого
 
 export const NavApp = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);

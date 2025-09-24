@@ -1,5 +1,3 @@
 import { lazy } from "react";
 
-export const LazyWorkshopsServicesPage = lazy(() =>
-  import("./WorkshopsServicesPage")
-);
+export const LazyWorkshopsServicesPage = lazy(() => import("./WorkshopsServicesPage"));

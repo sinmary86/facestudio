@@ -7,7 +7,7 @@
   width: 60px;
   height: 60px;
   background: $secondary-color;
-  box-shadow: 0 0 0 2px white, 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 2px $primary-color, 0 4px 12px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   z-index: 1000;
   display: flex;
@@ -31,8 +31,8 @@
   @media (max-width: 600px) {
     width: 50px;
     height: 50px;
-    bottom: 60px; // было 15px — теперь кнопка выше
-    right: 25px; // вместо 15px
+    bottom: 5%; 
+    right: 5%; 
 
     img {
       width: 28px;
@@ -43,9 +43,8 @@
   @media (max-width: 400px) {
     width: 45px;
     height: 45px;
-    bottom: 50px; // было 10px — теперь выше
-    right: 20px; // вместо 10px
-
+    bottom: 3%; 
+    
     img {
       width: 24px;
       height: 24px;
@@ -53,7 +52,7 @@
   }
 }
 
-// Пульсирующая анимация
+
 @keyframes pulse {
   0% {
     transform: scale(1);

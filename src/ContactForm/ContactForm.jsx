@@ -24,9 +24,6 @@ export const ContactForm = () => {
 
     const formData = new FormData(form);
     await formspreeSubmit(Object.fromEntries(formData.entries()));
-
-    // ✅ показываем alert не через result, а через state.succeeded
-    // но через useEffect, потому что state обновляется после submit
   };
 
   useEffect(() => {
