@@ -1,5 +1,3 @@
-//TODO - дописать content c 3 item
-
 export const AccordionItems = [
   {
     title:

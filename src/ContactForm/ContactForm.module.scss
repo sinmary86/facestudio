@@ -53,12 +53,12 @@
 :global(.form-check-label) {
   text-transform: none !important;
   font-family: $font-text !important;
-  font-size: 16px !important;
+  font-size: $font-size-16 !important;
   font-weight: 400 !important;
 }
 
 :global(.form-select) {
-  font-size: 16px;
+  font-size: $font-size-16;
 
   &:focus {
     border-color: rgba($dark-text-color, 0.7);

@@ -1,5 +1,3 @@
 import { lazy } from "react";
 
-export const LazyBusinessesServicesPage = lazy(() =>
-  import("./BusinessesServicesPage")
-);
+export const LazyBusinessesServicesPage = lazy(() => import("./BusinessesServicesPage"));

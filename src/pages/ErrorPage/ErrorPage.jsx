@@ -8,7 +8,6 @@ const ErrorPage = () => {
             <PageBanner
                 background={backgroundImg}
                 title="Il semble que quelque chose se soit mal passé!"
-                size="small"
                 />
             <ErrorContent />
         </div> 

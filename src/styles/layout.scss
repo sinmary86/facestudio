@@ -32,6 +32,13 @@
 .wrapper {
     padding: 80px 0 40px 0;
 
+     @media (max-width: 993px) {
+      row-gap: $gap-32;  
+      column-gap: 0; 
+      padding: 80px 0 0 0;    
+    
+  }
+
   @media (max-width: 768px) {
     padding: 40px 0 20px 0;
   }

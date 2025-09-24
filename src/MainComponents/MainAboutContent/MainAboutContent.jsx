@@ -4,7 +4,6 @@ import womanabout from "../../Assets/face11.jpg";
 import arrow from "../../Assets/arrow-icon.svg";
 import { Link } from "react-router-dom";
 
-//скорректировать текст - дублирующийся p
 
 export const MainAboutContent = () => {
   return (

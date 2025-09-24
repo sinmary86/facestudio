@@ -6,7 +6,6 @@ export const WorkshopServiceCard = () => {
   return (
     <Container className="section-wrapper-first">
       
-
       <h2>ATELIERS</h2>
 
       <div
