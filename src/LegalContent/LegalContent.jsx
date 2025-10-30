@@ -6,6 +6,8 @@ export const LegalContentRenderer = ({ type }) => {
   const legalContent = legalData[type];
 
   return (
-    <Container className={`section-wrapper-last ${styles.legalWrapper}`}>{legalContent.content}</Container>
+    <Container className={`section-wrapper-last ${styles.legalWrapper}`}>
+      {legalContent.content}
+    </Container>
   );
 };

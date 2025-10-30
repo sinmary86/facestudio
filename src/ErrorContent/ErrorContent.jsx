@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import styles from "./ErrorContent.module.scss";
-import BienEtre from "../Assets/BienEtre.svg";
+import BienEtre from "../Assets/bien-etre.svg";
 
 export const ErrorContent = () => {
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ export const ErrorContent = () => {
           <h5 className={`${styles.error} d-flex align-items-center gap-3 m-0`}>
             4
             <span>
-              <img src={BienEtre} alt="BienEtre" />
+              <img src={BienEtre} alt="Symbole de bien-être" />
             </span>
             4
           </h5>
@@ -29,14 +29,11 @@ export const ErrorContent = () => {
             navigation ou revenir à la page d’accueil du site.
           </p>
 
-          <button 
-            className="btn-base btn-dark"
-            onClick={() => navigate('/')}>
-              Retour à l’accueil
+          <button className="btn-base btn-dark" onClick={() => navigate("/")}>
+            Retour à l’accueil
           </button>
-           </Col>
+        </Col>
       </Row>
     </Container>
   );
 };
-

@@ -46,26 +46,58 @@ export const AccordionItems = [
     content:
       "Oui. Je travaille aussi bien avec des femmes jeunes qui veulent prévenir, qu’avec celles qui veulent rajeunir sans artifices. Chaque visage est unique — la méthode s’adapte, pas l’inverse.",
   },
+  // {
+  //   title: "Combien de temps faut-il pour voir les effets ?",
+  //   content: (
+  //     <>
+  //       {" "}
+  //       Les séances de Face Fitness sont un engagement progressif, mais les
+  //       résultats sont visibles dès les premières pratiques.
+  //       <div style={{ marginTop: "1em" }}>
+  //         <li>
+  //           3 à 4 semaines : Premiers signes de légèreté et de détente. Peau
+  //           plus tonique, expressions moins marquées, regard plus ouvert.
+  //         </li>
+  //         <li>
+  //           6 à 8 semaines : Réduction des œdèmes et amélioration de la
+  //           symétrie. Les rides d’expression commencent à se lisser.
+  //         </li>
+  //         <li>
+  //           3 à 6 mois : Transformation visible et durable : peau raffermie,
+  //           rides atténuées, visage équilibré et rajeuni.
+  //         </li>
+  //       </div>
+  //     </>
+  //   ),
+  // },
   {
     title: "Combien de temps faut-il pour voir les effets ?",
     content: (
       <>
-        {" "}
         Les séances de Face Fitness sont un engagement progressif, mais les
         résultats sont visibles dès les premières pratiques.
         <div style={{ marginTop: "1em" }}>
-          <li>
-            3 à 4 semaines : Premiers signes de légèreté et de détente. Peau
-            plus tonique, expressions moins marquées, regard plus ouvert.
-          </li>
-          <li>
-            6 à 8 semaines : Réduction des œdèmes et amélioration de la
-            symétrie. Les rides d’expression commencent à se lisser.
-          </li>
-          <li>
-            3 à 6 mois : Transformation visible et durable : peau raffermie,
-            rides atténuées, visage équilibré et rajeuni."
-          </li>
+          <div style={{ marginBottom: "0.6em" }}>
+            <span style={{ fontWeight: 600, color: "#7a7055" }}>
+              3 à 4 semaines :
+            </span>{" "}
+            Premiers signes de légèreté et de détente. Peau plus tonique,
+            expressions moins marquées, regard plus ouvert.
+          </div>
+          <div style={{ marginBottom: "0.6em" }}>
+            <span style={{ fontWeight: 600, color: "#7a7055" }}>
+              6 à 8 semaines :
+            </span>{" "}
+            Réduction des œdèmes et amélioration de la symétrie. Les rides
+            d’expression commencent à se lisser.
+          </div>
+          <div>
+            <span style={{ fontWeight: 600, color: "#7a7055" }}>
+              3 à 6 mois :
+            </span>{" "}
+            Transformation visible et durable : peau raffermie, rides atténuées,
+            visage équilibré et rajeuni.
+          </div>
         </div>
       </>
     ),

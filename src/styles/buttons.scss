@@ -13,10 +13,10 @@
   justify-content: center;
   position: relative;
 
-   @media (max-width: 768px) {
-      padding: $gap-4 $gap-16;
-      font-size: $font-size-16;
-    }
+  @media (max-width: 768px) {
+    padding: $gap-4 $gap-16;
+    font-size: $font-size-16;
+  }
 
   &:hover,
   &:focus {

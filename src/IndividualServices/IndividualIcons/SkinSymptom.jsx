@@ -2,7 +2,6 @@ import { Row, Col, Container } from "react-bootstrap";
 import { SkinSymptomData } from "./SkinSymptomData";
 
 export const SkinSymptom = () => (
-
   <Container className="section-wrapper-middle">
     <h2>Vous constatez certains de ces signes ?</h2>
 
@@ -15,7 +14,7 @@ export const SkinSymptom = () => (
           className="d-flex flex-column align-items-center text-center icon-linear"
         >
           <img src={icon} alt={title} />
-           <p>{description}</p>
+          <p>{description}</p>
         </Col>
       ))}
     </Row>

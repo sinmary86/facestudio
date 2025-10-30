@@ -1,7 +1,7 @@
 @use "../../styles/vars.scss" as *;
 
- .boldText {
-  font-weight: 600; 
+.boldText {
+  font-weight: 600;
 }
 
 .arrowSpacing {
@@ -11,7 +11,7 @@
 .imgAbout {
   width: 100%;
   max-width: 518px;
-  aspect-ratio: 1 / 1; 
+  aspect-ratio: 1 / 1;
   object-fit: cover;
 
   // Центрирование на моб. экранах

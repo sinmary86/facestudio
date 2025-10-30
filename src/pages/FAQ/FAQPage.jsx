@@ -1,6 +1,6 @@
 import { AccordionList } from "../../Accordion/AccordionList";
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from "../../Assets/junge-schone-sexy-frau-die-somme.jpg";
+import backgroundImg from "../../Assets/femme-visage-soleil.jpg";
 import { FeedbackSlider } from "../../FeedbackSlider/FeedbackSlider";
 import { PageBannerWithButton } from "../../PageBannerWithButton/PageBannerWithButton";
 

@@ -1,13 +1,11 @@
+import gymnastiqueFaciale from "../../Assets/gymnastique-faciale.jpg";
+import drainageLymphatique from "../../Assets/drainage-lymphatique-visage.jpg";
+import massageRelaxantLissant from "../../Assets/massage-relaxant-lissant.jpg";
 
-import gymnastiqueFaciale from '../../Assets/gymnastique-faciale.jpg';
-import gonflements from '../../Assets/woman-with-tablette.jpg';
-import massageRelaxantLissage from '../../Assets/wom_disscuss.jpg';
-
-
-   export const workshopServiceItems = [
- {
+export const workshopServiceItems = [
+  {
     image: gymnastiqueFaciale,
-    alt:'gymnastique faciale ',
+    alt: "Atelier de gymnastique faciale – comprendre les changements du visage",
     title: "Pourquoi le visage change-t-il ?",
     subtitle: "1 heure",
     items: [
@@ -19,8 +17,8 @@ import massageRelaxantLissage from '../../Assets/wom_disscuss.jpg';
     note: "* par participant (ligne ou en présentiel)",
   },
   {
-    image: gonflements,
-    alt:'gonflements',
+    image: drainageLymphatique,
+    alt: "Atelier Stop aux gonflements – drainage lymphatique du visage",
     title: "Stop \naux gonflements ",
     subtitle: "1 heure",
     items: [
@@ -32,8 +30,8 @@ import massageRelaxantLissage from '../../Assets/wom_disscuss.jpg';
     note: "* par participant (ligne ou en présentiel)",
   },
   {
-    image: massageRelaxantLissage,
-    alt:'Massage lissant visage',
+    image: massageRelaxantLissant,
+    alt: "Atelier massage relaxant et lissant – relâcher les tensions du visage",
     title: "Relâcher les tensions et lisser les traits",
     subtitle: "1 heure",
     items: [

@@ -57,7 +57,7 @@ export const FeedbackSlider = () => {
         </Col>
 
         <Col lg={6} className={styles.feedbackWrapper}>
-          <img src={quotes} alt="quotes" className={styles.quotes} />
+          <img src={quotes} alt="Icône de citation" className={styles.quotes} />
 
           <Slider {...settings} ref={sliderRef}>
             {feedbackData.map((feedback, id) => (

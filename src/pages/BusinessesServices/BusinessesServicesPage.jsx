@@ -1,5 +1,5 @@
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from "../../Assets/schone-hellhautige-frauen.jpg";
+import backgroundImg from "../../Assets/femmes-bien-etre-travail.jpg";
 import { BusinessServicesCard } from "../../BusinessService/BusinessCard/BusinessServicesCard";
 import { BusinessBenefits } from "../../BusinessService/BusinessResults/BusinessBenefits";
 import { ProgramModules } from "../../BusinessService/BusinessModules/ProgramModules";

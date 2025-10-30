@@ -10,7 +10,6 @@
   align-items: center;
   justify-content: center;
 
-
   &::after {
     content: "";
     position: absolute;
@@ -30,9 +29,9 @@
     align-items: center;
     gap: $gap-16;
 
-     @media (max-width: 768px) {
-        padding: $gap-16;
-      }
+    @media (max-width: 768px) {
+      padding: $gap-16;
+    }
 
     .title {
       font-size: $font-size-50;
@@ -41,7 +40,7 @@
         font-size: $font-size-40;
       }
 
-       @media (max-width: 468px) {
+      @media (max-width: 468px) {
         font-size: $font-size-30;
       }
     }
