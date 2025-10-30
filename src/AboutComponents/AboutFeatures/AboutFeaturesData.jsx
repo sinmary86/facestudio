@@ -5,61 +5,88 @@ import experience from "../../Assets/experience-icon.svg";
 
 export const AboutFeaturesData = [
   {
-    title:(
-      <>Méthode unique {" "}<span className="d-none d-md-inline"><br /></span>
-      et complète
-       </>
-       ),
-    description:(
-      <>Face Fitness, Yoga, Relaxation {" "}<span className="d-none d-md-inline"><br /></span>
-      pour des résultats optimaux
-       </>
-       ),
+    title: (
+      <>
+        Méthode unique{" "}
+        <span className="d-none d-md-inline">
+          <br />
+        </span>
+        et complète
+      </>
+    ),
+    description: (
+      <>
+        Face Fitness, Yoga, Relaxation{" "}
+        <span className="d-none d-md-inline">
+          <br />
+        </span>
+        pour des résultats optimaux
+      </>
+    ),
     icon: uniqueMethode,
   },
   {
-    title:(
-      <>Approche {" "}<span className="d-none d-md-inline"><br /></span>
-      100% naturelle
-       </>
-       ),
-   description:(
+    title: (
       <>
-      Sans chirurgie, sans injections: {" "}<span className="d-none d-md-inline"><br /></span>
-      des exercices doux et efficaces
-       </>
-       ),
+        Approche{" "}
+        <span className="d-none d-md-inline">
+          <br />
+        </span>
+        100% naturelle
+      </>
+    ),
+    description: (
+      <>
+        Sans chirurgie, sans injections:{" "}
+        <span className="d-none d-md-inline">
+          <br />
+        </span>
+        des exercices doux et efficaces
+      </>
+    ),
     icon: naturelleMethode,
   },
   {
-    title:(
+    title: (
       <>
-      Personnalisation {" "}<span className="d-none d-md-inline"><br /></span>
-      des séances
-       </>
-       ),
-    description:(
+        Personnalisation{" "}
+        <span className="d-none d-md-inline">
+          <br />
+        </span>
+        des séances
+      </>
+    ),
+    description: (
       <>
-      Un accompagnement adapté  {" "}<span className="d-none d-md-inline"><br /></span>
-      à vos besoins et morphologie
-       </>
-       ),
+        Un accompagnement adapté{" "}
+        <span className="d-none d-md-inline">
+          <br />
+        </span>
+        à vos besoins et morphologie
+      </>
+    ),
     icon: personnalisation,
   },
   {
-    title:(
+    title: (
       <>
-      Expérience {" "}<span className="d-none d-md-inline"><br /></span>
-      et formation
+        Expérience{" "}
+        <span className="d-none d-md-inline">
+          <br />
+        </span>
+        et formation
       </>
-       ),
-     
-     description:(
+    ),
+
+    description: (
       <>
-       Formée auprès d'experts en Face {" "}<span className="d-none d-md-inline"><br /></span>
-        Fitness  et bien-être facial      
-       </>
-       ),
+        Formée auprès d'experts en Face{" "}
+        <span className="d-none d-md-inline">
+          <br />
+        </span>
+        Fitness et bien-être facial
+      </>
+    ),
     icon: experience,
   },
 ];

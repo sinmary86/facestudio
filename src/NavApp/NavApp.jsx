@@ -8,7 +8,6 @@ import { Container } from "react-bootstrap";
 import { useState } from "react";
 import burger from "../Assets/burger-icon.svg";
 
-
 export const NavApp = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
   const handleClose = () => setShowOffcanvas(false);

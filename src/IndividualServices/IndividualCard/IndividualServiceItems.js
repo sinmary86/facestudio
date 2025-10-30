@@ -1,11 +1,11 @@
-import individualProgramm from "../../Assets/actualWellBe.jpg";
-import Mimique from "../../Assets/about-method.jpg"; 
-import ParZone from "../../Assets/conditionsCover.jpg";
+import individualProgramm from "../../Assets/bien-etre-individuel.jpg";
+import Mimique from "../../Assets/correction-mimique.jpg";
+import ParZone from "../../Assets/seance-ciblee-zone.jpg";
 
 export const individualServiceItems = [
   {
     image: individualProgramm,
-    alt: "Individuel Programm ",
+    alt: "Programme individuel de transformation du visage",
     title: "TRANSFORMATION \nDU VISAGE",
     subtitle: "10 séances",
     items: [
@@ -14,12 +14,13 @@ export const individualServiceItems = [
       "Vidéos d’exercices entre chaque séance",
       "Suivi par tél / WhatsApp ou mail",
     ],
-    price: "600 €",
-    note: "(paiement possible en 2x ou 3x)",
+    price: "637 €",
+
+    note: "(paiement possible en 2 × 319 € ou 3 × 213 €)",
   },
   {
     image: Mimique,
-    alt: "Mimique",
+    alt: "Correction des mimiques faciales – séance personnalisée",
     title: "CORRECTION \nMIMIQUE",
     subtitle: "4 semaines",
     items: [
@@ -28,12 +29,12 @@ export const individualServiceItems = [
       "Plan d’exercices vidéo personnalisés",
       "Conseils à intégrer au quotidien",
     ],
-    price: "240 €",
+    price: "243 €",
     note: "(par zone)",
   },
   {
     image: ParZone,
-    alt: "Mimique Zpne",
+    alt: "Séance ciblée par zone – corriger une expression spécifique",
     title: "SÉANCE CIBLÉE \nPAR ZONE",
     subtitle: "1 heure",
     items: [
@@ -42,7 +43,7 @@ export const individualServiceItems = [
       "Adopter un exercice simple et efficace",
       "Repartir avec une routine à refaire chez soi",
     ],
-    price: "60 €",
+    price: "63 €",
     note: "(+ Vers “Correction Mimique)",
   },
 ];

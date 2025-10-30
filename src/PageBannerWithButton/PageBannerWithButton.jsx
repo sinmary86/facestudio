@@ -9,11 +9,11 @@ export const PageBannerWithButton = () => {
       style={{ backgroundImage: `url(${bannerBottom})` }}
     >
       <div className={styles.contentBanner}>
-
-        <h5 className={styles.title}>Prête à offrir une nouvelle <br/>
-            vie à votre visage ? </h5>
+        <h5 className={styles.title}>
+          Prête à offrir une nouvelle <br />
+          vie à votre visage ?{" "}
+        </h5>
         <Link to="/contacts" className="btn-base btn-light">
-
           Prendre rendez-vous
         </Link>
       </div>

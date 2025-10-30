@@ -1,34 +1,34 @@
-import serviceGroup from "../../Assets/service-group.jpg";
-import serviceAtelier from "../../Assets/ateliers-formations.jpg";
-import individualMain from "../../Assets/individualMain.jpg";
-import groupService from "../../Assets/group-Services.jpg";
+import offresEntreprises from "../../Assets/offres-entreprises.jpg";
+import ateliersFormations from "../../Assets/ateliers-formations.jpg";
+import accompagnementIndividuel from "../../Assets/accompagnement-individuel.jpg";
+import coursEnGroupe from "../../Assets/cours-en-groupe.jpg";
 
 export const mainServicesData = [
   {
     title: "Accompagnement individuel",
-    alt: "Accompagnement individuel",
-    image: individualMain,
+    alt: "Séances individuelles de Face Fitness personnalisées",
+    image: accompagnementIndividuel,
     link: "/services/accompagnement-individuel",
   },
 
   {
     title: "COURS EN GROUPE",
-    alt: "Cours en Groupe",
-    image: groupService,
+    alt: "Cours collectifs de Face Fitness en ligne ou en présentiel",
+    image: coursEnGroupe,
     link: "/services/cours-en-groupe",
   },
 
   {
     title: "Offres pour les Entreprises",
-    alt: "Offres pour les Entreprises",
-    image: serviceGroup,
+    alt: "Ateliers bien-être et programmes visage pour entreprises",
+    image: offresEntreprises,
     link: "/services/offres-entreprises",
   },
 
   {
     title: "Ateliers et Formations",
-    alt: "Ateliers et Formations",
-    image: serviceAtelier,
+    alt: "Ateliers de Face Yoga et formations pour approfondir la méthode",
+    image: ateliersFormations,
     link: "/services/ateliers-formations",
   },
 ];

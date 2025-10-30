@@ -2,42 +2,41 @@
 
 .icon-linear {
   img {
-    width: 120px; 
+    width: 120px;
     height: 120px;
     object-fit: contain;
     margin-bottom: $gap-16;
 
     @media (max-width: 768px) {
       margin-bottom: $gap-8;
-  }
+    }
   }
 
   h3 {
     margin-bottom: $gap-16;
-    
+
     @media (max-width: 768px) {
       margin-bottom: $gap-8;
-  }
+    }
   }
 
   p {
-      margin: 0 auto;
+    margin: 0 auto;
   }
 }
 
-
 .icon-circle {
-   img {
-     object-fit: contain;
-     margin-bottom: $gap-20;
-   }
+  img {
+    object-fit: contain;
+    margin-bottom: $gap-20;
+  }
 
   h3 {
     margin-bottom: $gap-20;
-    
-     @media (max-width: 992px) {
+
+    @media (max-width: 992px) {
       margin-bottom: $gap-8;
-  }
+    }
   }
 
   p {

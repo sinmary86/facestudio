@@ -1,5 +1,5 @@
 import { PageBanner } from "../../PageBanner/PageBanner";
-import backgroundImg from "../../Assets/lachende-fotografie-portrat-lach.jpg";
+import backgroundImg from "../../Assets/portrait-femme-souriante.jpg";
 import { GroupServicesCard } from "../../GroupServices/GroupCard/GroupServicesCard";
 import { GroupBenefits } from "../../GroupServices/GroupNumbers/GroupBenefits";
 import { WhyGroup } from "../../GroupServices/GroupIcons/WhyGroup";
