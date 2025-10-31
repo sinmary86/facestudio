@@ -29,7 +29,7 @@ export const businessServicesItems = [
   },
   {
     image: VisageConvaincant,
-    alt: "Visage Convaincant",
+    title: "Atelier Posture  & \nVisage Convaincant",
     alt: "Posture et expression confiante – visage convaincant pour la communication",
     subtitle: "1 heure",
     items: [
