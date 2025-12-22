@@ -51,6 +51,10 @@
   box-shadow: none;
 }
 
+:global(.accordion-body) {
+  font-family: $font-text;
+}
+
 @media (max-width: 768px) {
 
   :global(.accordion-button) {

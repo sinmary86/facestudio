@@ -6,7 +6,7 @@ export const GroupServicesCard = () => {
     <Container className="section-wrapper-first">
       <h2>COURS EN GROUPE – Clubs en ligne</h2>
 
-      <div className="d-flex flex-wrap justify-content-between wrapper">
+      <div className="d-flex flex-wrap justify-content-between wrapper group-cards">
         {groupServicesItems.map((item, index) => (
           <div key={index} className="card-wrapper">
             <img src={item.image} alt={item.alt} className="image-card" />
