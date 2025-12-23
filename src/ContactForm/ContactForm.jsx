@@ -7,8 +7,6 @@ import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import { Container } from "react-bootstrap";
 
-//TODO - зарегистрировать клиента на FORMSPREE
-
 export const ContactForm = () => {
   const [state, formspreeSubmit] = useForm("mqabpjpd");
   const [validated, setValidated] = useState(false);
